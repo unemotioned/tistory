@@ -142,3 +142,7 @@ brew outdated
 ```sh
 brew unpin openjdk@17
 ```
+
+---
+
+#### Happy Hacking 🎉

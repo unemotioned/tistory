@@ -33,3 +33,7 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-sp
 ```sh
 defaults delete com.apple.dock; killall Dock
 ```
+
+---
+
+### Happy Hacking 🎉
