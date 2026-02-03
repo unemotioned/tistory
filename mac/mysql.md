@@ -59,19 +59,19 @@ brew services list | grep mysql
 ### Start MySQL
 
 ```sh
-brew services start mysql
+brew services start mysql@8.0
 ```
 
 ### Stop MySQl
 
 ```sh
-brew services stop mysql
+brew services stop mysql@8.0
 ```
 
 ### Restart MySQL
 
 ```sh
-brew services restart mysql
+brew services restart mysql@8.0
 ```
 
 ---
