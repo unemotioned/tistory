@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Install](#install)
-- [Initial Setupl](#initial-setup)
+- [Initial Setup](#initial-setup)
 - [Start Database](#start-database)
 - [Connect to Root](#connect-to-root)
 - [Create User](#create-user)
