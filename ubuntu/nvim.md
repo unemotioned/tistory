@@ -35,7 +35,7 @@ If neovim is already installed with apt, remove before building it.
 Prerequist packages
 
 ```bash
-sudo apt-get install ninja-build gettext cmake curl build-essential git
+sudo apt install ninja-build gettext cmake curl build-essential git
 ```
 
 Clone nvim repo

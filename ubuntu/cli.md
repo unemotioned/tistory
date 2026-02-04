@@ -158,7 +158,7 @@ terminal file explorer
 ### Prerequist
 
 ```sh
-sudo apt install ffmpeg 7zip jq poppler-utils fd-find ripgrep zoxide imagemagick
+sudo apt install ffmpeg 7zip jq poppler-utils fd-find ripgrep zoxide imagemagick build-essential
 ```
 
 ### Setup Cargo
