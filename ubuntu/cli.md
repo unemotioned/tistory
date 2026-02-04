@@ -239,7 +239,7 @@ add the following to `~/.gitconfig` customize `delta`
   navigate = true
   side-by-side = true
   line-numbers = true
-  syntax-theme = GitHub
+  syntax-theme = Visual Studio Dark+
 [merge]
   conflictstyle = zdiff3
 [diff]
