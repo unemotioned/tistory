@@ -50,25 +50,25 @@ mysql_secure_installation
 
 ## Start Database
 
-### Check Brew Services
+Check services:
 
 ```sh
 brew services list | grep mysql
 ```
 
-### Start MySQL
+Start MySQL:
 
 ```sh
 brew services start mysql@8.0
 ```
 
-### Stop MySQl
+Stop MySQL:
 
 ```sh
 brew services stop mysql@8.0
 ```
 
-### Restart MySQL
+Restart MySQL:
 
 ```sh
 brew services restart mysql@8.0
