@@ -32,7 +32,7 @@ brew install tmux
 Tmux Plugin Manager
 
 ```sh
-git clone https://git.github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 ---
