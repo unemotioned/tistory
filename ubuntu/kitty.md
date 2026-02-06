@@ -91,29 +91,12 @@ Reload kitty config with `Ctrl + Shift + F5`
 
 ## Remove
 
-### Binary
-
 ```sh
-rm -rf ~/.local/kitty.app
-```
-
-### Symlinks
-
-```sh
-rm -f ~/.local/bin/kitty ~/.local/bin/kitten
-```
-
-### Desktop Files
-
-```sh
-rm -f ~/.local/share/applications/kitty.desktop
+rm -rf ~/.local/kitty.app # remove binary
+rm -f ~/.local/bin/kitty ~/.local/bin/kitten # remove symlinks
+rm -f ~/.local/share/applications/kitty.desktop # remove desktop files
 rm -f ~/.local/share/applications/kitty-open.desktop
-```
-
-### Undo Terminal Preference
-
-```sh
-rm -f ~/.config/xdg-terminals.list
+rm -f ~/.config/xdg-terminals.list # terminal preference
 ```
 
 ### Confirm Revomal
