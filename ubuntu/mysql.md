@@ -125,6 +125,29 @@ Apply Changes
 FLUSH PRIVILEGES;
 ```
 
+## Root User's PW
+
+After fresh install when there was no prompt to set root PW and now you can't
+use MySQL
+
+Start MySQL with sudo to access root
+
+```sh
+sudo mysql
+```
+
+Change root's PW:
+
+```sh
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '{new_password}';
+```
+
+Make the changes take effect:
+
+```sh
+FLUSH PRIVILEGES;
+```
+
 ---
 
 ### Happy Hacking 🎉
