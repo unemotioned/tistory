@@ -6,6 +6,7 @@
 - [Initial Setup](#initial-setup)
 - [Start Database](#start-database)
 - [Connect to Root](#connect-to-root)
+- [Create Database](#create-database)
 - [Create User](#create-user)
 - [Privilege](#privilege)
 
@@ -18,6 +19,7 @@ Homebrew:
 ```sh
 sudo apt install mysql-server mysql-client mysql-common
 ```
+
 ---
 
 ## Initial Setup
@@ -114,7 +116,7 @@ SELECT user, host FROM mysql.user;
 Grant every privilege on a specific DB
 
 ```sql
-GRANT ALL PRIVILEGES ON {database-name}.* TO '{username}'@'localhost';
+GRANT ALL PRIVILEGES ON {database_name}.* TO '{user_name}'@'localhost';
 ```
 
 Apply Changes
