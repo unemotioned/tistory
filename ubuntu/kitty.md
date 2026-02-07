@@ -62,10 +62,20 @@ echo 'kitty.desktop' > ~/.config/xdg-terminals.list
 
 ## I3WM Keybind
 
-Launch `kitty` with title option
+Launch `kitty` with title option:
+
+```sh
+bindsym $mod+Return exec --no-startup-id kitty --title "Kitty"
+```
+
+if launching with just `kitty` doesn't work find it's path with `which kitty`
+command and pass that instead
 
 ```sh
 bindsym $mod+Return exec --no-startup-id ~/.local/kitty.app/bin/kitty --title "Kitty"
+
+# or
+bindsym $mod+Return exec --no-startup-id ~/.local/bin/kitty --title "Kitty"
 ```
 
 ---
