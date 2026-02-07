@@ -96,6 +96,7 @@ rm -f ~/.local/bin/kitty ~/.local/bin/kitten # remove symlinks
 rm -f ~/.local/share/applications/kitty.desktop # remove desktop files
 rm -f ~/.local/share/applications/kitty-open.desktop
 rm -f ~/.config/xdg-terminals.list # terminal preference
+rm -rf ~/.cache/kitty # remove cache
 ```
 
 ### Confirm Revomal
