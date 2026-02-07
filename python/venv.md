@@ -6,23 +6,31 @@
 - [aliases](#aliases)
 - [freeze](#freeze)
 
+## Install PIP
+
+The python3 package manager
+
+```sh
+sudo apt install python3-pip
+```
+
 ## Create venv
 
 Create to desired location
 
-```bash
+```sh
 python3 -m venv {dir/venv-name}
 ```
 
 Activate venv
 
-```bash
+```sh
 source {venv-path}/bin/activate
 ```
 
 Update `pip` from inside the `venv`
 
-```bash
+```sh
 sudo pip3 install --upgrade pip
 ```
 
@@ -30,13 +38,13 @@ sudo pip3 install --upgrade pip
 
 For example
 
-```bash
+```sh
 pip3 install numpy
 ```
 
 ## Deactivate
 
-```bash
+```sh
 deactivate
 ```
 
@@ -44,7 +52,7 @@ deactivate
 
 ## Aliases
 
-```bash
+```sh
 alias von=". {venv-path}/bin/activate"
 alias voff="deactivate"
 ```
@@ -53,19 +61,19 @@ alias voff="deactivate"
 
 Save environment exactly
 
-```bash
+```sh
 pip freeze > requirements.txt
 ```
 
 Recreate env
 
-```bash
+```sh
 pip install -r requirements.txt
 ```
 
 Refreeze after upgrades for safety
 
-```bash
+```sh
 pip install --upgrade requests
 pip freeze > requirements.txt
 ```
