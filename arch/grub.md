@@ -2,13 +2,21 @@
 
 Customize grub menu to have bigger text and just the items you need
 
-## Remove Unnecessary Items
+- [Hide Unnecessary Items](#hide-unnecessary-items)
+- [Reorder Items](#reorder-items)
+- [Cleaner Menu](#cleaner-menu)
+- [Menu Resolution](#menu-resolution)
+- [Update Config](#update-config)
+
+---
+
+## Hide Unnecessary Items
 
 Location of grub menu entries: `/etc/grub.d/`
 
 ```sh
 cd /etc/grub.d
-ls -l # or ll
+ls -a
 ```
 
 Output is something like this
@@ -20,6 +28,7 @@ Output is something like this
 30_os-prober    # Windows
 
 ...
+
 ```
 
 Remove execute permission from scripts to hide
@@ -36,13 +45,16 @@ Change index from `30_` to `09_` to put it above `10_linux`
 sudo mv 30_os-prober 09_os-prober
 ```
 
-## Cleaner GRUB Menu
+> `os-prober` is `Windows Boot Manager` in grub boot menu
+
+---
+
+## Cleaner Menu
 
 Grub config file: `/etc/default/grub`
 
 ```sh
-cd /etc/default/
-sudo nvim grub
+sudo nvim /etc/default/grub
 ```
 
 For cleaner menu add line
@@ -59,21 +71,9 @@ GRUB_DISABLE_LINUX_UUID=true
 GRUB_DISABLE_RECOVERY="true"
 ```
 
-Optionally set timeout
-
-```conf
-GRUB_TIMEOUT=10
-```
-
-Save and run
-
-```sh
-sudo update-grub
-```
-
 ---
 
-### GRUB Menu Resolution
+## Menu Resolution
 
 from grub menu press c to go into terminal
 
@@ -86,7 +86,7 @@ videoinfo
 - Older BIOS
 
 ```sh
-vbinfo
+vbeinfo
 ```
 
 from the supported resolutions select one
@@ -101,15 +101,17 @@ back into the grub config file `/etc/default/grub`
 GRUB_FGXMODE=640x480
 ```
 
-recreate the grub config
+---
 
-- Arch / Fedora
+## Update Config
+
+### Arch / Fedora
 
 ```sh
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-- Debian/Ubuntu/Mint
+### Debian / Ubuntu
 
 ```sh
 sudo update-grub
