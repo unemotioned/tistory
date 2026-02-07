@@ -9,6 +9,7 @@
 - [Create Database](#create-database)
 - [Create User](#create-user)
 - [Privilege](#privilege)
+- [Drop](#drop)
 
 ---
 
@@ -146,6 +147,22 @@ Make the changes take effect:
 
 ```sh
 FLUSH PRIVILEGES;
+```
+
+---
+
+## Drop
+
+### Drop Database
+
+```sql
+drop database {database-name};
+```
+
+### Drop User
+
+```sql
+drop user '{user-name}'@'localhost';
 ```
 
 ---

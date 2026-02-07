@@ -9,6 +9,7 @@
 - [Create Database](#create-database)
 - [Create User](#create-user)
 - [Privileage](#privileage)
+- [Drop](#drop)
 
 ---
 
@@ -143,4 +144,20 @@ FLUSH PRIVILEGES;
 
 ---
 
-### Happy Hacking 🎉
+## Drop
+
+### Drop Database
+
+```sql
+drop database {database-name};
+```
+
+### Drop User
+
+```sql
+drop user '{user-name}'@'localhost';
+```
+
+---
+
+#### Happy Hacking 🎉
