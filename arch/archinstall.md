@@ -287,7 +287,7 @@ nmcli device wifi list
 connect to wi-fi
 
 ```sh
-nmcli device wifi connect "{wifi list}" password "{password}"
+nmcli device wifi connect "{wifi-name}" password "{password}"
 ```
 
 check connection
