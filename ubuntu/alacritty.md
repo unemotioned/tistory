@@ -4,7 +4,7 @@ Install latest version of alacritty on Ubuntu
 
 - [Install](#install)
   - [Add PPA](#add-ppa)
-  - [UPdate APT](#update-apt)
+  - [Update APT](#update-apt)
   - [Install Alacritty](#install-alacritty)
   - [Check Version](#check-version)
 - [Uninstall](#uninstall)
