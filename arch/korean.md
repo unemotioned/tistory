@@ -24,12 +24,11 @@ yay -S fcitx5-im fcitx5-hangul fcitx5-configtool
 Add the following lines to `~/.profile` and ensure `.bashrc` sources it:
 
 ```sh
-export GTK_IM_MODULE=fcitx
+export GLFW_IM_MODULE=fcitx # Needed for some Wayland applications
+export GTK_IM_MODULE=wayland
 export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
-export INPUT_METHOD=fcitx
 export SDL_IM_MODULE=fcitx
-export GLFW_IM_MODULE=ibus  # Needed for some Wayland applications
+export XMODIFIERS=@im=fcitx
 ```
 
 To apply the changes immediately, run:
