@@ -281,6 +281,12 @@ serve CMakeList.txt has `---` separator to separate data received and sent
 
 Install missing package or Skip when building
 
+### Missing Ament Packages
+
+```sh
+sudo apt install ros-jazzy-ament-cmake ros-jazzy-ament-lint-auto ros-jazzy-ament-lint-common
+```
+
 ### Missing ros_gz
 
 Bridges between `ROS2` and `Gazebo`
