@@ -1,6 +1,7 @@
 # Package & Node
 
 - [Running](#running)
+- [Trouble Shooting](#trouble-shooting)
 
 ## What is Topic
 
@@ -273,6 +274,36 @@ create 2 topics that sub to 1 topic
 ---
 
 serve CMakeList.txt has `---` separator to separate data received and sent
+
+---
+
+## Trouble Shooting
+
+Install missing package or Skip when building
+
+### Missing ros_gz
+
+Bridges between `ROS2` and `Gazebo`
+
+Install with apt:
+
+```sh
+sudo apt install ros_gz
+```
+
+### Missing gz-sim8
+
+Not included in default apt repository
+
+If the simulation is not needed
+
+Skip while building:
+
+```sh
+colcon build --packages-skip pinky_gz_sim
+```
+
+> The `turtlesim` will still work
 
 ---
 
