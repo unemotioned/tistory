@@ -45,7 +45,8 @@ echo 'eval "$(zoxide init --cmd cd bash)"' >> ~/.bashrc && . ~/.bashrc
 
 `echo`: 따옴표 안에 있는 내용을 출력
 `>>`: 결과를 특정 파일에 추가
-`.`: `source`의 단축어
+`&&`: 앞 명령이 성공하면 다음 명령 실행
+`.`: `source`와 같은 POSIX 명령어
 
 ---
 
