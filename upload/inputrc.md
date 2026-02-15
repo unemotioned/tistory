@@ -31,12 +31,6 @@ bind -f ~/.inputrc
 ## 추가 설정
 
 ```sh
-# 대쉬(-)과 언더스코어(_)를 동일하게 취급
-set completion-map-case on
-
-# Tab 한번만 눌러도 가능한 목록 표시
-set show-all-if-ambiguous on
-
 # 아무입력이 없어도 가능한 목록을 즉시 표시
 set show-all-if-unmodified on
 
@@ -73,7 +67,6 @@ cat >> ~/.inputrc << 'EOF'
 #
 
 set completion-ignore-case on
-set completion-map-case on
 set show-all-if-ambiguous on
 set colored-stats on
 EOF
