@@ -165,6 +165,16 @@ drop database {database-name};
 drop user '{user-name}'@'localhost';
 ```
 
+## MySQL Workbench
+
+Install .deb file
+
+[mysql downloads](https://dev.mysql.com/downloads/workbench/)
+
+- Select OS
+- Select version
+- Install `mysql-workbench-community` version(the one with smaller file size)
+
 ---
 
 ### Happy Hacking 🎉
