@@ -20,7 +20,7 @@ How to install/uninstall on Debian/Ubuntu Linux and configure
 
 - [Wezterm Install](https://wezterm.org/install/linux.html)
 
-```bash
+```sh
 curl -fsSL https://apt.fury.io/wez/gpg.key | sudo gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg
 
 echo 'deb [signed-by=/usr/share/keyrings/wezterm-fury.gpg] https://apt.fury.io/wez/ * *' | sudo tee /etc/apt/sources.list.d/wezterm.list
@@ -30,14 +30,20 @@ sudo chmod 644 /usr/share/keyrings/wezterm-fury.gpg
 
 [chmod?](permission.md)
 
-```bash
+```sh
 sudo apt update
 ```
 
 Install `wezterm` or `wezterm-nightly`
 
-```bash
+```sh
 sudo apt install wezterm
+```
+
+Or nightly version:
+
+```sh
+sudo apt install wezterm-nightly
 ```
 
 ---
@@ -67,24 +73,32 @@ enabled = true
 
 ## Uninstall
 
-```bash
+wezterm or wezterm-nightly
+
+```sh
 sudo apt remove wezterm
 ```
 
-```bash
+```sh
 sudo apt purge wezterm
 ```
 
-Remove wezterm apt repo
+Remove wezterm apt repo:
 
-```bash
+```sh
 sudo rm /etc/apt/sources.list.d/wezterm.list
 ```
 
-remove gpg key
+Remove gpg key:
 
-```bash
+```sh
 sudo rm /usr/share/keyrings/wezterm-fury.gpg
+```
+
+Remove cache files:
+
+```sh
+rm -rf ~/.cache/wezterm ~/.local/state/wezterm
 ```
 
 ---
