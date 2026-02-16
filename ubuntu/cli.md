@@ -126,11 +126,11 @@ sudo rm /usr/local/bin/lazygit
 If you keep config file at `~/.config/lazygit/config.yml` and fill it in with
 default config it will freeze when you try to open file inside `lazygit`
 
-Add or edit as follow:
+Border corner 90 degree:
 
 ```yml
-os:
-  edit: "nvim {{filename}}"
+gui:
+  border: single
 ```
 
 ---
