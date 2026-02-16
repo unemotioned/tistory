@@ -1,4 +1,4 @@
-# Check List
+# Gnome Desktop Manager
 
 ## Setting
 
@@ -20,6 +20,7 @@
 
 - mouse & trackpad
   - 10cm from edge to edge horizontally
+  - disable `Mouse Acceleration`
 
 - appearance
   - style: dark
