@@ -58,7 +58,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 ### [ZSH-History-Substring-Search](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
 ```bash
- git clone https://github.com/zsh-users/zsh-history-substring-search ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
+git clone https://github.com/zsh-users/zsh-history-substring-search ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
 ```
 
 ### [Fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting?tab=readme-ov-file#installation)
