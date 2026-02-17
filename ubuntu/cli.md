@@ -15,38 +15,86 @@
 - [lazygit](#lazygit)
 - [delta](#delta)
 - [fastfetch](#fastfetch)
-- [speedtest-cli](#speedtest-cli)
 - pavucontrol
-- speedtest-cli
 
 ---
 
 APT installable packages
 
 ```sh
-sudo apt install git curl stow tmux bat eza zoxide git-delta pavucontrol speedtest-cli
+sudo apt install git curl stow tmux bat eza zoxide git-delta pavucontrol
 ```
+
+---
+
+## TMUX
+
+Terminal Multi Plexer
+
+Clone TPM(tmux plugins manager) for use
+
+`~/.tmux/plugins`: where plugins will be installed
+
+```sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+- Inside tmux session `prefix + I` to install plugins.
+- `prefix + U` to update plugins.
 
 ---
 
 ## Bat
 
-File previewer
+Better file previewer
+
+### Install Bat
 
 ```sh
 sudo apt install bat
 ```
 
-Inside `.bash_aliases` add alias to avoid collision
+### Create Bat Theme Directory
+
+```sh
+mkdir -p "$(bat --config-dir)/themes" # ~/.config/bat/themes
+cd "$(bat --config-dir)/themes"
+```
+
+### Install Bat Theme
+
+From the themes directory download a theme
+
+- `tokyonight_storm` theme for sublime
+
+```sh
+curl -O https://raw.githubusercontent.com/folke/tokyonight.nvim/main/extras/sublime/tokyonight_storm.tmTheme
+```
+
+### Use Bat
+
+Inside `.bashrc` or `.zshrc` set bat to use installed theme
+
+```sh
+export BAT_THEME=tokyonight_storm
+```
+
+Additionally set alias:
 
 ```sh
 alias bat='batcat'
 ```
 
-Stow `bat` theme from my `dotfiles` and build cache to make the theme work
+Create cache to use the theme:
 
 ```sh
 bat cache --build
+```
+
+Test it:
+
+```sh
+bat ~/.bashrc
 ```
 
 ---
@@ -98,7 +146,7 @@ Git TUI(Terminal User Interface) wrapper
 
 [lazygit github/install ubuntu](https://github.com/jesseduffield/lazygit?tab=readme-ov-file#debian-and-ubuntu)
 
-Run the following command in terminal to install:
+### Install LazyGit
 
 ```bash
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
@@ -107,13 +155,13 @@ tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
 ```
 
-After install remove temp files:
+Remove temp files after install:
 
 ```sh
 rm ~/lazygit ~/lazygit.tar.gz
 ```
 
-### Update
+### Update Lazygit
 
 To update remove lazygit at `/usr/local/bin` and run the install scripts again
 
@@ -121,30 +169,15 @@ To update remove lazygit at `/usr/local/bin` and run the install scripts again
 sudo rm /usr/local/bin/lazygit
 ```
 
-### Config
+### Configure
 
-If you keep config file at `~/.config/lazygit/config.yml` and fill it in with
-default config it will freeze when you try to open file inside `lazygit`
+Config file path: `~/.config/lazygit/config.yml`
 
 Border corner 90 degree:
 
 ```yml
 gui:
   border: single
-```
-
----
-
-## TMUX
-
-Terminal Multi Plexer
-
-Clone TPM(tmux plugins manager) for use
-
-`~/.tmux/plugins`: where plugins will be installed
-
-```sh
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
 ---
@@ -269,12 +302,4 @@ sudo add-apt-repository --remove ppa:zhangsongcui3371/fastfetch
 
 ---
 
-## Speedtest-cli
-
-```sh
-speedtest --secure
-```
-
----
-
-### Happy Hacking 🎉
+#### Happy Hacking 🎉
