@@ -16,6 +16,10 @@
   - [경로 또는 파일 검색](#경로-또는-파일-검색)
   - [명령어 기록 검색](#명령어-기록-검색)
   - [경로 이동](#경로-이동)
+- [응용](#응용)
+  - [APT 패키지 검색](#apt-패키지-검색)
+  - [검색 후 설치](#검색-후-설치)
+  - [함수 등록](#함수-등록)
 
 ---
 
@@ -65,9 +69,9 @@ code ~/.bashrc # or ~/.zshrc
 
 다음 스크립트를 추가
 
-- `fd`: 경로와 파일을 검색
+- `fdfind`: 경로와 파일을 검색
 - `eza`: 경로 미리보기
-- `bat`: 파일 미리보기
+- `batcat`: 파일 미리보기
 
 ```sh
 # fd(fdfind) instead of find for better performance
@@ -83,10 +87,10 @@ export FZF_ALT_C_COMMAND='fdfind --type=d --hidden --strip-cwd-prefix --exclude 
 export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
 ```
 
-저장하고 서현재 Shell(터미널)에 적용:
+저장하고서 현재 Shell(터미널)에 적용:
 
 ```sh
-source ~/.bashrc # 또는 source 대신 .(온점)
+source ~/.bashrc # source 대신 .(온점)사용 가능
 ```
 
 ---
@@ -130,3 +134,43 @@ code roscamp-repo-3/TechnicalResearch/server/
 - 단축키를 누른 경로 밑에 있는 경로만 검색
 - 선택한 경로로 바로 이동
 - `ESC` 누른 후 `c`를 눌러도 똑같이 동작
+
+---
+
+## 응용
+
+### APT 패키지 검색
+
+`apt-cache`를 최신화 하기위해서 먼저 `update`를 해준다
+
+```sh
+sudo apt update
+```
+
+```sh
+apt-cache search . | fzf
+```
+
+- `apt-cache`: 로컬에 저장되어 있는 패키지 목록
+- `search .`: 전부 검색
+- `|`(파이프): 왼쪽의 출력을 오른쪽으로 넘겨줌
+
+### 검색 후 설치
+
+```sh
+sudo apt install $(apt-cache search . | fzf --multi | awk '{print $1}')
+```
+
+- `--multi`: Tab키를 이용하여 여러개 선택 가능
+- `awk`: 공백 기준으로 나눈다
+- `$1`: awk에서 나눈 결과에서 첫번째 값
+- `$(..)`: 결과를 apt install에게 넘겨줌
+
+### 함수 등록
+
+```sh
+function aif() { sudo apt install $(apt-cache search . | fzf --multi | awk '{print \$1}') }
+```
+
+- 등록후 `aif`를 입력하면 중괄호 안의 스크립트가 살행됨.
+- Alias로 등록하는것 보다 안전.
