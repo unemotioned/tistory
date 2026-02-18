@@ -59,10 +59,18 @@ sudo apt install {pkg} {pkg} ...
 
 ## Info
 
-`Search` from `APT` repository
+### Search
 
-```bash
-apt search {pkg}
+Update the APT local cache
+
+```sh
+sudo apt update
+```
+
+Search for package interactively
+
+```sh
+apt-cache search . | fzf
 ```
 
 `List` out installed packages
