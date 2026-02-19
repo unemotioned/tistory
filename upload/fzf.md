@@ -169,7 +169,9 @@ sudo apt install $(apt-cache search . | fzf --multi | awk '{print $1}')
 ### 함수 등록
 
 ```sh
-function aif() { sudo apt install $(apt-cache search . | fzf --multi | awk '{print $1}') }
+function aif() {
+  sudo apt install $(apt-cache search . | fzf --multi | awk '{print $1}')
+}
 ```
 
 - 등록후 `aif`를 입력하면 중괄호 안의 스크립트가 살행됨.
