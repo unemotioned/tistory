@@ -1,10 +1,16 @@
-# Install Visual studio code
+# Visual studio code
+
+Install with `yay` and fix scaling
+
+---
+
+## Install
 
 ```sh
 yay -S visual-studio-code-bin
 ```
 
-in `~/.config/hypr/hyprland.conf` to fix the blurriness from vscode
+In `~/.config/hypr/hyprland.conf` to fix the scaling
 
 ```sh
 xwayland {
@@ -14,4 +20,4 @@ xwayland {
 
 ---
 
-## Happy Hacking 🎉
+### Happy Hacking 🎉

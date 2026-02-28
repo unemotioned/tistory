@@ -24,7 +24,7 @@ Output is something like this
 ```console
 00_header
 05_debian_theme
-10_linux        # Ubuntu
+10_linux        # Linux
 30_os-prober    # Windows
 
 ...

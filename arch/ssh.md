@@ -35,12 +35,6 @@ Run the following command:
 eval "$(ssh-agent -s)"
 ```
 
-For **Fish shell**, use:
-
-```sh
-eval (ssh-agent -s)
-```
-
 ---
 
 ## Step 3: Configure SSH to Use the Key

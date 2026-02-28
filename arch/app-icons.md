@@ -1,8 +1,6 @@
 # Application Icons
 
-Change application icons when you open app launcher such as wofi or rofi
-
-Using kitty as example
+Change application icons to show on app-launcher
 
 ---
 

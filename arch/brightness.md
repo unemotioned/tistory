@@ -2,7 +2,7 @@
 
 Human eye friendly brightness control
 
-Changes brightness experientially
+Changes brightness exponentially
 
 - [cameronnemo/brillo](https://gitlab.com/cameronnemo/brillo)
 - [Eric Murphy - You're Probably Doing Screen Brightness in Arch Linux Wrong](https://www.youtube.com/watch?v=pGOaSS8nEQA&t=437s)
@@ -20,8 +20,8 @@ sudo pacman -Syu go-md2man
 ### 2. Build
 
 ```sh
-mkdir ~/Repository
-cd ~/Repository
+mkdir ~/repo
+cd ~/repo
 git clone https://gitlab.com/cameronnemo/brillo.git
 make
 ```

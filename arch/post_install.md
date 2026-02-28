@@ -69,7 +69,7 @@ yay -Sy timeshift
 ## Firewall
 
 - Uncomplicated FireWall
-- Fro protecting your PC from network traffic
+- For protecting your PC from network traffic
 
 ### Install
 
@@ -97,7 +97,7 @@ sudo ufw deny 22/tcp
 
 ## Auto CPU feq
 
-- From the `~/Repository`
+- From the `~/repo`
 - Clone the source code from github
 
 ```sh
