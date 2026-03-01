@@ -97,7 +97,7 @@ sudo ufw deny 22/tcp
 
 ## Auto CPU feq
 
-- From the `~/repo`
+- From the `~/Repository`
 - Clone the source code from github
 
 ```sh

@@ -20,8 +20,8 @@ sudo pacman -Syu go-md2man
 ### 2. Build
 
 ```sh
-mkdir ~/repo
-cd ~/repo
+mkdir ~/Repository
+cd ~/Repository
 git clone https://gitlab.com/cameronnemo/brillo.git
 make
 ```
