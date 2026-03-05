@@ -9,26 +9,32 @@
 - [x] Korean input and fonts
 
 - [x] kitty, tmux and nvim config via gnu stow
-- [x] rice hyprpaper
+
 - [x] rice hyprland
 - [x] rice waybar
+
 - [x] change key repeat and delay for keyboard
 - [x] change mouse sensitivity for each device
-- [ ] change kensington button input
+- [x] change kensington button input
 - [x] enable natural scroll
 - [x] set display resolution and multiplier for 4K TV
 - [x] sound setting (turn off beep when backspace meets dead end)
 - [x] brightness
-- [x] battery, power management
+- [x] power management
 - [x] clipboard(aur:wl-clipboard)
 
 - [x] bat (code preview)
 - [x] sessionizer (create tmux session)
 - [x] yazi (terminal file explorer)
+- [x] lazygit
 
-- [x] fd
+- [x] omz
+- [x] p10k
+- [x] zsh-autosuggestion
+- [x] zsh-history-substring-search
+- [x] zsh-fast-syntax-highlighting
+
 - [x] fzf
-- [ ] delta
 - [x] eza
 - [x] zoxide
 
@@ -36,97 +42,6 @@
 - [x] set up for python development
 - [ ] set up for database development
 - [x] set up for react development
-
----
-
-## How to search for packages
-
-```sh
-pacman -Ss {Package Name}
-```
-
-```sh
-yay -Ss {Package Name}
-```
-
----
-
-## Install fonts
-
-Install it with pacman
-
-`noto-fonts-emoji` for neovim devicon and mini.icons
-
-```sh
-sudo pacman -S ttf-meslo-nerd
-```
-
-Check installed
-
-```sh
-fc-list | grep "MesloLGS"
-```
-
-Update font cache
-
-```sh
-fc-cache -fv
-```
-
----
-
-## Set node.js, npm PATH
-
-inside `~/.bashrc`
-
-```sh
-export PATH=$PATH:/usr/bin
-```
-
----
-
-## ricing hypr
-
-At `~/.config/hypr/hyprland.conf`
-
-- remove border radius
-
-```sh
-decoration {
-    rounding = 0
-    ...
-}
-```
-
-- enable natural scrolling
-
-```sh
-touchpad {
-    natural_scroll = true
-}
-```
-
-- change key repeat rate
-  - add the following fields inside input
-
-```sh
-input {
-    ...
-    repeat_delay = 300
-    repeat_rate = 50
-    ...
-}
-```
-
-under input
-
-```sh
-input {
-    ...
-    accel_profile = flat # for no ecceleration
-    ...
-}
-```
 
 ---
 
@@ -182,7 +97,6 @@ wl-clipboard
 
 ### Installed Fonts
 
-ttf-jetbrinas-mono-nerd
 oft-font-awesome
 ttf-iosevka-nerd
 noto-fonts-cjk
