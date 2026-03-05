@@ -1,52 +1,40 @@
 # Xremap
 
-## Xremap for Hyprland
-
-Install with `cargo`
-
-```sh
-cargo install xremap --features hypr
-```
-
-Stow xremap config from dotfiles
+Software-level key remapper.
 
 ---
 
-## Xremap Without Sudo
-
-Create `udev` rule
+## Installation (Hyprland)
 
 ```sh
-echo 'KERNEL=="uinput", GROUP="uinput", MODE="0660", OPTIONS+="static_node=uinput"' | sudo tee /etc/udev/rules.d/99-uinput.rules
-```
-
-Add user to `input` and `uinput` group
-
-```sh
-sudo groupadd -f uinput
-sudo usermod -aG uinput,input $USER
-```
-
-Reload `udev` rules
-
-```sh
-sudo udevadm control --reload-rules && sudo udevadm trigger
-```
-
-Load `uinput` at boot
-
-```sh
-echo "uinput" | sudo tee /etc/modules-load.d/uinput.conf
+yay -S xremap-wlroots-bin
 ```
 
 ---
 
-## Launch On Login
+## Systemd Service
 
-Start `xremap` with it's config
+Create `~/.config/systemd/user/xremap.service`:
+
+```systemd
+[Unit]
+Description=xremap key remapper
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/xremap %h/.config/xremap/config.yml
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+```
+
+---
+
+## Enable and Start
 
 ```sh
-exec-once = xremap ~/.config/xremap/config.yml
+systemctl --user enable --now xremap
 ```
 
 ---
