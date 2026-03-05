@@ -93,7 +93,7 @@ At `~/.config/hypr/hyprland.conf`
 
 ```sh
 decoration {
-    founding = 0
+    rounding = 0
     ...
 }
 ```
@@ -137,8 +137,7 @@ input {
 firefox
 
 bluez
-bulez-utils
-blueman
+overskride
 
 brightnessctl (just install it and you're good to go)
 go-md2man
@@ -146,9 +145,8 @@ brillo
 
 pipewire
 pipewire-pulse
-pipewire-audio
-pipewire-alsa
 wireplumber
+pavucontrol
 
 fcitx5-im
 fcitx5-hangul
@@ -156,15 +154,16 @@ fcitx5-configtool
 
 ### terminal && dev
 
-kitty
+foot (foobar terminal)
 stow
 tmux
 tpm
 neovim (to install LSP node.js and npm needs to be installed and set to path)
-unzip (to unzip some LSP)
+unzip (unzip clangd)
+lsof (for opencode.nvim)
 
 git
-nodejs (in pacman there is no "node")
+nodejs
 npm
 yarn
 python3
@@ -173,18 +172,21 @@ python3
 
 waybar
 hyprpaper
+hyprlock
+hypridle
+hyprshot
+hyprpicker
+wl-clipboard
 
 ---
 
 ### Installed Fonts
 
-ttf-meslo-nerd
-firacode
-ttf-d2coding
-
-adobe-source-han-sans-kr-fonts
-adobe-source-han-serif-kr-fonts
-ttf-nanum (from AUR w/ yay)
+ttf-jetbrinas-mono-nerd
+oft-font-awesome
+ttf-iosevka-nerd
+noto-fonts-cjk
+noto-fonts-emoji
 
 ---
 
