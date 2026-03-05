@@ -129,11 +129,13 @@ cfdisk /dev/nvme0n1
 
 1. select `free space` then `new`
 
-2. allocate `1g` and change `type` to `efi`
+2. allocate `1G` and change `type` to `efi`
 
-3. allocate every `free space` left and set to `linux filesystem`
+3. allocate every `free space` as `linux filesystem`
 
 4. select `write` and type `yes`
+
+5. Quit
 
 ---
 
@@ -191,17 +193,16 @@ use arrow or `hjkl` to navigate
 
 - bootloader: `Grub`
 
-- set the root password
+- Authentication
+  - Root password
 
-- user account
-  - add a user and set it up as superuser then confirm and exit
+  - user account
+    - Add a user and set it up as superuser then confirm and exit
 
 - profile &rarr; type &rarr; desktop
   select `Hyprland`
-
-- select graphics driver
-
-- audio: `pipewire`
+  - Seat access: `polkit`
+  - select graphics driver
 
 - Network configuration: `Use NetworkManager`
 
@@ -211,7 +212,7 @@ use arrow or `hjkl` to navigate
   - `stow`: to use my dotfiles
   - `otf-font-awesome`: used by waybar
 
-```python
+```text
 brightnessctl git neovim stow hyprpaper waybar ttf-meslo-nerd otf-font-awesome
 ```
 
