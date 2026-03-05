@@ -16,13 +16,14 @@ yay -S xremap-wlroots-bin
 
 Create `~/.config/systemd/user/xremap.service`:
 
-```systemd
+```ini
 [Unit]
 Description=xremap key remapper
 After=graphical-session.target
 
 [Service]
-ExecStart=/usr/bin/xremap %h/.config/xremap/config.yml
+# --device: explicitly include pointer devices (auto-detection only picks keyboards)
+ExecStart=/usr/bin/xremap --device "Kensington Slimblade Trackball" %h/.config/xremap/config.yml
 Restart=on-failure
 
 [Install]
