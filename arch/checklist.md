@@ -58,10 +58,10 @@ brightnessctl (just install it and you're good to go)
 go-md2man
 brillo
 
-pipewire
-pipewire-pulse
-wireplumber
+pipewire-audio (includes: pipewire pipewire-pulse wireplumber)
 pavucontrol
+sof-firmware
+bolt
 
 fcitx5-im
 fcitx5-hangul
