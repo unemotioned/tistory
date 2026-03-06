@@ -69,6 +69,10 @@ wofi --show drun
 1. Move to the **Global Options** tab.
 2. Set **Trigger Input Method** to **Right Alt (R_Alt)** for easy switching.
 
+- uncheck `Show Input Method Information when switch input method`
+
+![fcitx-config-global-options](./archive/fcitx-config-global-options.png)
+
 ## 6. Verify Installation
 
 To confirm Fcitx5 is working correctly, restart your session or run:
