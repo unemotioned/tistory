@@ -146,7 +146,7 @@ check created partitions with `lsblk`
 `efi` partition to `fat`
 
 ```sh
-mkfs.fat -F 32 /dev/nvme0n1p5
+mkfs.fat -F32 /dev/nvme0n1p5
 ```
 
 `root` partition to `ext4`
