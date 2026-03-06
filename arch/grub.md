@@ -7,6 +7,7 @@ Customize grub menu to have bigger text and just the items you need
 - [Cleaner Menu](#cleaner-menu)
 - [Menu Resolution](#menu-resolution)
 - [Update Config](#update-config)
+- [Reboot to Last OS](#reboot-to-last-os)
 
 ---
 
@@ -26,9 +27,6 @@ Output is something like this
 05_debian_theme
 10_linux        # Linux
 30_os-prober    # Windows
-
-...
-
 ```
 
 Remove execute permission from scripts to hide
@@ -95,10 +93,21 @@ from the supported resolutions select one
 
 back into the grub config file `/etc/default/grub`
 
-- from auto to desired option
+- from auto to desired option:
 
 ```console
 GRUB_FGXMODE=640x480
+```
+
+---
+
+## Reboot to Last OS
+
+```conf
+GRUB_DEFAULT=saved
+
+
+GRUB_SAVEDEFAULT=true
 ```
 
 ---
