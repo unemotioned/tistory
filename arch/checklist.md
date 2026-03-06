@@ -99,8 +99,11 @@ wl-clipboard
 
 oft-font-awesome
 ttf-iosevka-nerd
+
+noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+noto-fonts-extra
 
 ---
 
