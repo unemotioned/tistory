@@ -96,6 +96,10 @@ wl-clipboard
 
 pacman-contrib
 
+<!-- TODO: document how to use this -->
+
+kanshi(automatic monitor profile manager)
+
 ---
 
 ### Installed Fonts
