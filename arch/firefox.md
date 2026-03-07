@@ -23,3 +23,13 @@ Turn off full screen notification
 1. Search `full-screen-api.warning.timeout`
 
 2. set it to `0`
+
+---
+
+## Disable Menubar
+
+Disable `Alt` key from toggling menubar
+
+1. Search `ui.key.menuAccessKeyFocuses`
+
+2. Set it to `false`
