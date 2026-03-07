@@ -105,3 +105,6 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+
+adobe-source-han-sans-kr-fonts
+adobe-source-han-serif-kr-fonts
