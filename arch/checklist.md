@@ -37,6 +37,7 @@
 - [x] fzf
 - [x] eza
 - [x] zoxide
+- [x] git-delta
 
 - [x] set up for java development
 - [x] set up for python development
