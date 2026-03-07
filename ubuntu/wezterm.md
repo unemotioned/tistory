@@ -100,7 +100,3 @@ Remove cache files:
 ```sh
 rm -rf ~/.cache/wezterm ~/.local/state/wezterm
 ```
-
----
-
-### Happy Hacking 🎉

@@ -132,7 +132,3 @@ to uninstall the package build from source locally you have to do
 ```sh
 sudo pacman -Rs pfetch
 ```
-
----
-
-### Happy Hacking 🎉

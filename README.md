@@ -117,7 +117,3 @@ inside `~/.gitconfig`
 [core]
   editor = nvim
 ```
-
----
-
-### Happy Hacking 🎉

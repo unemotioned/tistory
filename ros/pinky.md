@@ -247,7 +247,3 @@ from `~/pinky_pro` directory:
 ```sh
 jupyter notebook
 ```
-
----
-
-#### Happy Hacking 🎉

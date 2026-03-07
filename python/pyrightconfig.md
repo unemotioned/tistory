@@ -52,5 +52,3 @@ reportMissingTypeStubs = false
 pythonVersion = "3.12"
 typeCheckingMode = "basic"
 ```
-
-#### Happy Hacking 🎉

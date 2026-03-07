@@ -162,7 +162,3 @@ keep last 2 versions
 ```sh
 paccahce -rk2
 ```
-
----
-
-#### Happy Hacking 🎉

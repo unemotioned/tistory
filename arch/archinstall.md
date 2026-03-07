@@ -413,7 +413,3 @@ exit
   - select: `sel`
   - delete: `del`
   - partition: `part`
-
----
-
-#### Happy Hacking 🎉

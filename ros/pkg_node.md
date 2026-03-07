@@ -310,7 +310,3 @@ colcon build --packages-skip pinky_gz_sim
 ```
 
 > The `turtlesim` will still work
-
----
-
-#### Happy Hacking 🎉

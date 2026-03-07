@@ -64,7 +64,3 @@ More cleaner:
 ```sh
 fc-list : family | grep -i iosevkatermslab
 ```
-
----
-
-#### Happy Hacking 🎉

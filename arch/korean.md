@@ -8,7 +8,6 @@ To ensure proper font rendering, install the following packages:
 
 ```sh
 sudo pacman -S adobe-source-han-sans-kr-fonts adobe-source-han-serif-kr-fonts
-yay -S ttf-nanum  # AUR package
 ```
 
 ## 2. Install Fcitx5 Input Method
@@ -82,7 +81,3 @@ fcitx5-diagnose
 ```
 
 If everything is set up correctly, you should be able to type in Korean by pressing the **Right Alt** key to switch input methods.
-
----
-
-### Happy Hacking 🎉

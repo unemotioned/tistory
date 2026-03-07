@@ -104,7 +104,3 @@ rm -rf ~/.cache/kitty # remove cache
 ```sh
 which kitty
 ```
-
----
-
-#### Happy Hacking 🎉

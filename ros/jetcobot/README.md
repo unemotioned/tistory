@@ -35,7 +35,3 @@ To use webcam service
 ```sh
 pip install flask flask-socketio opencv-python python-socketio
 ```
-
----
-
-#### Happy Hacking 🎉

@@ -47,7 +47,3 @@ Icon=/home/unemotioned/.icons/kitty-icon.png
 ```sh
 update-desktop-database ~/.local/share/applications
 ```
-
----
-
-### Happy Hacking 🎉

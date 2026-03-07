@@ -37,7 +37,3 @@ WantedBy=default.target
 ```sh
 systemctl --user enable --now xremap
 ```
-
----
-
-### Happy Hacking 🎉

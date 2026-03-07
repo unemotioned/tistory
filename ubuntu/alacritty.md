@@ -62,7 +62,3 @@ Check uninstalled
 ```sh
 which alacritty
 ```
-
----
-
-#### Happy Hacking 🎉

@@ -53,7 +53,3 @@ brillo -q -u 1000 -U 5  # brightness down
 ## Notes
 
 - since installed with `setgid` reboot for brillo to work
-
----
-
-### Happy Hacking 🎉

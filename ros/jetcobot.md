@@ -94,7 +94,3 @@ from local machine's browser enter
 ```sh
 192.168.5.1:8888/tree
 ```
-
----
-
-### Happy Hacking 🎉

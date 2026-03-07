@@ -111,7 +111,3 @@ Hi {user name}! You've successfully ...
 ```
 
 If you see a permission error, ensure your SSH key is correctly added and try again.
-
----
-
-### Happy Hacking 🎉

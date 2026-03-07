@@ -53,7 +53,3 @@ and update the pacman again
 ```sh
 sudo pacman -S linux-lts linux-lts-headers
 ```
-
----
-
-### Happy Hacking 🎉

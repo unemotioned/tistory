@@ -130,7 +130,3 @@ You may install the package separated
 ```sh
 sudo apt full-upgrade -y
 ```
-
----
-
-#### Happy Hacking 🎉

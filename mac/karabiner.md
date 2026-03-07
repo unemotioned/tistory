@@ -184,7 +184,3 @@ Karabiner Complex Rules
   ]
 }
 ```
-
----
-
-### Happy Hacking 🎉

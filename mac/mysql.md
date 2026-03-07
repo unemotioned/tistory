@@ -157,7 +157,3 @@ drop database {database-name};
 ```sql
 drop user '{user-name}'@'localhost';
 ```
-
----
-
-#### Happy Hacking 🎉

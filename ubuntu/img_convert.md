@@ -94,7 +94,3 @@ convert foo.jpg -quality 85 bar.jpg
 ```sh
 convert foo.jpg -strip bar.jpg
 ```
-
----
-
-### Happy Hacking 🎉

@@ -68,7 +68,3 @@ Or by device name:
 ```sh
 sudo umount /dev/sdb1
 ```
-
----
-
-### Happy hacking 🎉

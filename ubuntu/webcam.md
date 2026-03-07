@@ -17,7 +17,3 @@ sudo apt install cheese
 ### Use
 
 Open `Cheese` with dmenu
-
----
-
-#### Happy Hacking 🎉

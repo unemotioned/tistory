@@ -79,7 +79,3 @@ Copy paste with no configs
 
 "+p
 ```
-
----
-
-### Happy Hacking 🎉

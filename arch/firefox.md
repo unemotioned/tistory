@@ -23,7 +23,3 @@ Turn off full screen notification
 1. Search `full-screen-api.warning.timeout`
 
 2. set it to `0`
-
----
-
-### Happy Browsing 🔥🦊

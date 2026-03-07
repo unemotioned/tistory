@@ -125,7 +125,3 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```sh
 sudo update-grub
 ```
-
----
-
-#### Happy Hacking 🎉

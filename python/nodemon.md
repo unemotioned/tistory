@@ -39,7 +39,3 @@ Just run:
 ```bash
 nodemon
 ```
-
----
-
-### Happy Hacking 🎉

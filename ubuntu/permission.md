@@ -37,7 +37,3 @@ Do `ls -l` it will look like this:
 ```bash
 -rwx-rw-rw-
 ```
-
----
-
-## Happy Hacking 🎉

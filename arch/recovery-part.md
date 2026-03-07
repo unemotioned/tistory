@@ -83,7 +83,3 @@ copy past not working in cmd prompt
 
 right click the title bar
 check the use ctrl shift c/v for copy past
-
----
-
-#### Happy Hacking 🎉

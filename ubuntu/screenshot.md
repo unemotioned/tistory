@@ -25,7 +25,3 @@ bindsym Mod1+shift+j exec --no-startup-id flameshot gui    --clipboard --path ~/
 bindsym Mod1+shift+k exec --no-startup-id flameshot screen --clipboard --path ~/Pictures/screenshots
 bindsym Mod1+shift+l exec --no-startup-id flameshot full   --clipboard --path ~/Pictures/screenshots
 ```
-
----
-
-### Happy Hacking 🎉

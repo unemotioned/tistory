@@ -161,7 +161,3 @@ sudo apt install python3-colcon-common-extensions # to build pkg
 For pink pro guide check out
 
 - [pinky.md](./pinky.md)
-
----
-
-#### Happy Hacking 🎉

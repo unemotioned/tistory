@@ -56,7 +56,3 @@ EndSection
 ## Reboot
 
 restart the laptop for the config to take effect
-
----
-
-### Happy Hacking 🎉

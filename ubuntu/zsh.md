@@ -95,7 +95,3 @@ git clone https://github.com/junegunn/fzf-git.sh.git
 ```
 
 Source it from `~/.zshrc`
-
----
-
-#### Happy Hacking 🎉

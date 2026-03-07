@@ -174,7 +174,3 @@ Install .deb file
 - Select OS
 - Select version
 - Install `mysql-workbench-community` version(the one with smaller file size)
-
----
-
-### Happy Hacking 🎉

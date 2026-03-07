@@ -299,7 +299,3 @@ sudo apt install fastfetch
 sudo apt remove fastfetch
 sudo add-apt-repository --remove ppa:zhangsongcui3371/fastfetch
 ```
-
----
-
-#### Happy Hacking 🎉

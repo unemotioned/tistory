@@ -57,7 +57,3 @@ sudo update-alternatives --config javac
 ```sh
 java --version
 ```
-
----
-
-### Happy Hacking 🎉

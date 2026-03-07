@@ -29,7 +29,3 @@ Launch `fcitx5-config-qt`
 
 Search `hangul` from right side of window and move it to left side.
 From `global option` tab use right alt to change input source.
-
----
-
-### Happy Hacking 🎉

@@ -89,7 +89,3 @@ Update every modules inside venv
 ```sh
 pip list --outdated --format=freeze | cut -d= -f1 | xargs pip install -U
 ```
-
----
-
-### Happy Hacking 🎉

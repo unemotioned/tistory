@@ -132,7 +132,3 @@ sudo apt install python3-pip python3-ipykernel
 sudo systemctl enable bluetooth  # turn bt on
 sudo systemctl start bluetooth   # start bt every login
 ```
-
----
-
-### Happy Hacking 🎉
