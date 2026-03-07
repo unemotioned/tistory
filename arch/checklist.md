@@ -94,6 +94,8 @@ hyprshot
 hyprpicker
 wl-clipboard
 
+pacman-contrib
+
 ---
 
 ### Installed Fonts
