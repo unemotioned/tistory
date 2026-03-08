@@ -7,7 +7,7 @@ Software-level key remapper.
 ## Installation (Hyprland)
 
 ```sh
-yay -S xremap-wlroots-bin
+yay -S xremap-hypr-bin
 ```
 
 ---
