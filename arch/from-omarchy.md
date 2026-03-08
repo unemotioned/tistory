@@ -93,3 +93,21 @@ modern screenshot tool
 ```sh
 sudo pacman -S satty
 ```
+
+- `slurp`: selection ui
+- `grim`: get image from slurp
+- `satty`: annotation tool
+
+```hyprlang
+bind = ALT SHIFT, J, exec, grim -g "$(slurp)" - | satty --filename - --early-exit
+```
+
+<!-- TODO: -->
+
+- save to `~/Pictures/Screenshots`
+- name automatically
+- close on copy or save
+
+- screenshot selected
+- screenshot selected window
+- screenshot selected output
