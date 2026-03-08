@@ -4,15 +4,15 @@
 
 - candy dark
 
-```bash
+```sh
 yay -S sddm-sugar-dark
 ```
 
-```bash
+```sh
 cd /
 ```
 
-```bash
+```sh
 sudo nvim lib/sddm/sddm.conf.d/default.conf
 ```
 
@@ -26,7 +26,7 @@ add `sugar-dark` next to `Currnet=`
 
 download img first
 
-```bash
+```sh
 yay -S hyprpaper
 ```
 
@@ -38,7 +38,7 @@ To find out the name of monitors
 hyprctl monitors
 ```
 
-```sh
+```hyprlang
 preload = {path-to-wallpaper}
 wallpaper = eDP-1, {path-to-wallpaper}
 

@@ -19,7 +19,7 @@
 
 Make sure you have `git` installed
 
-```bash
+```sh
 sudo pacman -S git
 ```
 
@@ -29,15 +29,15 @@ Now clone the yay repository
 
 ## Download, build and install
 
-```bash
+```sh
 git clone https://aur.archlinux.org/yay.git
 ```
 
-```bash
+```sh
 cd yay
 ```
 
-```bash
+```sh
 makepkg -si
 ```
 
@@ -45,7 +45,7 @@ This way will install `Go language` and build it from source
 
 When you're done use `cd` to go to home directory and use
 
-```bash
+```sh
 yay
 ```
 
