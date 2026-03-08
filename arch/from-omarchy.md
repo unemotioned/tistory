@@ -85,3 +85,11 @@ gh repo clone https://github.com/UnEmotioneD/tistory
 ```sh
 gh auth status
 ```
+
+## satty
+
+modern screenshot tool
+
+```sh
+sudo pacman -S satty
+```
