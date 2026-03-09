@@ -48,8 +48,14 @@ and update the pacman again
 
 ## Additional kernels
 
-- Install LTS as a backup
+Install LTS as backup:
 
 ```sh
 sudo pacman -S linux-lts linux-lts-headers
+```
+
+Update GURB config:
+
+```sh
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
