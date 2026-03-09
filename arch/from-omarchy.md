@@ -1,6 +1,6 @@
 # From Omarchy
 
-## impla
+## impala
 
 dependencies: iwd
 
@@ -8,6 +8,11 @@ TUI network manager
 
 ```sh
 sudo pacman -S impala iwd
+```
+
+```sh
+systemctl --user stop --now NetworkManager
+sudo systemctl enable --now iwd
 ```
 
 ```sh
