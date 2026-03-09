@@ -21,6 +21,7 @@
 - font-jetbrains-mono-nerd-font
 - font-symbols-only-nerd-font
 - fzf
+- gh(github-cli)
 - ghostty
 - git
 - git-delta
