@@ -204,6 +204,8 @@ use arrow or `hjkl` to navigate
   - Seat access: `polkit`
   - select graphics driver
 
+- Audio: `pipewire`
+
 - Network configuration: `Use NetworkManager`
 
 - additional packages:
