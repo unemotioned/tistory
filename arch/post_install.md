@@ -1,6 +1,16 @@
 # After installing Arch linux
 
-- [10 things you must do after installing arch linux by Ksk Royal](https://www.youtube.com/watch?v=odgD_RdJjCU)
+[10 things you must do after installing arch linux by Ksk Royal](https://www.youtube.com/watch?v=odgD_RdJjCU)
+
+## Table of Contents
+
+- [Pacman](#pacman)
+  - [Configure](#configure)
+  - [Increaase Download Speed](#increase-download-speed)
+- [Additional Kernel](#additional-kernel)
+- [Timeshift](#timeshift)
+
+---
 
 ## Pacman
 
@@ -22,7 +32,7 @@ and update the pacman
 sudo pacman -Sy
 ```
 
-### Increase download speed
+### Increase Download Speed
 
 Install `reflector` with pacman
 
@@ -46,7 +56,7 @@ and update the pacman again
 
 ---
 
-## Additional kernels
+## Additional Kernel
 
 Install LTS as backup:
 
@@ -59,3 +69,19 @@ Update GURB config:
 ```sh
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
+---
+
+## Timeshift
+
+linux backup system
+
+```sh
+sudo pacman -S timeshit
+```
+
+```sh
+sudo timeshift --check
+```
+
+this will create snapshot
