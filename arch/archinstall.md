@@ -7,7 +7,7 @@
 
 ## Referenced YouTube
 
-- [Ksk Royal - How to Udal Boot Arch Linxu and Windows 11](https://www.youtube.com/watch?v=BB_SnWBQ6xw)
+- [Ksk Royal - How to Dual Boot Arch Linux and Windows 11](https://www.youtube.com/watch?v=BB_SnWBQ6xw)
 
 ## List of Contents
 
@@ -36,7 +36,7 @@
 
 ### Create Diskspace
 
-use windows `disk mamanger` to create at least 40gb of free space
+use windows `disk manager` to create at least 40gb of free space
 
 ### Enter Bios
 
@@ -88,7 +88,7 @@ station wlan0 get-networks
 connect to wi-fi
 
 ```sh
-station wlan0 connect "{name of wi-if}"
+station wlan0 connect "{name of wi-fi}"
 ```
 
 exit `iwd` check connection with `ping`
@@ -97,19 +97,13 @@ exit `iwd` check connection with `ping`
 
 ### Sync to DB
 
-update pacman
+Install and update `archlinux-keyring` and `archinstall` script
 
 ```sh
-pacman -Syu
+pacman -Sy archlinux-keyring archinstall
 ```
 
-install `archlinux-keyring` and `archinstall` script
-
-```sh
-pacman -S archlinux-keyring archinstall
-```
-
-to proceed type `y` or just press `enter`
+To proceed type `y` or just press `enter`
 
 ---
 
@@ -204,34 +198,29 @@ use arrow or `hjkl` to navigate
   - Seat access: `polkit`
   - select graphics driver
 
-- Audio: `pipewire`
+- Applications
+  - Bluetooth: Enabled
+  - Audio: `pipewire`
+  - Print service: Enabled
+  - Power management: `power-profiles-daemon`
 
-- Network configuration: `Use NetworkManager`
+- Network configuration: `Use Network Manager (default ...)`
 
-- additional packages:
-  - `brightnessctl`: how come this is not installed by default
-  - `git`: to clone from github
-  - `stow`: to use my dotfiles
-  - `otf-font-awesome`: used by waybar
-
-```text
-brightnessctl git neovim stow hyprpaper waybar ttf-meslo-nerd otf-font-awesome
-```
-
-- Timezon: `Asia/Seoul`
+- Timezone: `Asia/Seoul`
 
 leave other options as is and select `Install`
+
+After installation is complete choose the following option:
+`chroot into installation for post-installation configurations`
 
 ---
 
 ### GRUB
 
-after `archinstall` is done
-
-since the install script may have not installed grub properly
+Because the install script may have not installed grub properly
 
 ```sh
-pacman -Syu GRUB efibootmgr dosfstools mtools
+pacman -Syu grub efibootmgr dosfstools mtools
 ```
 
 install grub into /boot partition
@@ -248,21 +237,13 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 `exit` the chroot environment
 
-and shutdown the system
-
-```sh
-shutdown now
-```
-
-the archlinux is installed
-
 now you can exit root session shutdown with `shutdown now` and remove the usb drive
 
 ---
 
 ## Login to Hyprland
 
-from the login window change the sessin from `Hyprland(uwsm-managed)` which is
+from the login window change the session from `Hyprland(uwsm-managed)` which is
 selected by default to just
 `Hyprland`
 
@@ -278,7 +259,6 @@ start and enable to start it every time
 
 ```sh
 sudo systemctl enable --now NetworkManager
-sudo systemctl start --now NetworkManager
 ```
 
 check searched wi-fi
@@ -326,7 +306,7 @@ pacman -Sy os-prober
 update the grub configurations
 
 ```sh
-grub-mkconfig -o /boot/grub/gurb.cfg
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 you should see:
