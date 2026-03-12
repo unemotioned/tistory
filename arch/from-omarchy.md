@@ -7,12 +7,13 @@ dependencies: iwd
 TUI network manager
 
 ```sh
-sudo pacman -S impala iwd
+sudo pacman -S impala iwd dhcpcd
 ```
 
 ```sh
 systemctl --user stop --now NetworkManager
 sudo systemctl enable --now iwd
+sudo systemctl enable --now dhcpcd
 ```
 
 ```sh
