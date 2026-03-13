@@ -111,7 +111,7 @@ Ambient mode: off
 - Hide Shorts: on
 - Hide Comments: on
 - Hide Mixes: on
-- Hide Explore, Trending: on
+- Hide Explore, Trending: off
 
 - Disable Autoplay: off
 - Disable Annotations: off
