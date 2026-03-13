@@ -2,7 +2,7 @@
 
 A web browser built for speed, simplicity and security
 
-> You cannot login to `chromium`
+> You cannot even login to `chromium`
 
 ## Chromium VS Firefox
 
@@ -10,6 +10,8 @@ A web browser built for speed, simplicity and security
    monkeytype or YouTbue. While firefox won't.
 
 2. Chromium renders image faster then firefox.
+
+3. Chromium has better GitHub markdown inline code fonts. (Thicker then firefox)
 
 ## Table of Contents
 
@@ -29,6 +31,7 @@ A web browser built for speed, simplicity and security
 
 - [Extensions](#extensions)
   - [AdGuard AdBlocker](#adguard-adblocker)
+  - [Auto Quality for YouTube](#auto-quality-for-youtube)
   - [Unhook](#unhook)
   - [Vimium](#vimium)
   - [YouTube Auto Liker](#youtbue-auto-liker)
@@ -94,6 +97,8 @@ Ambient mode: off
 ## Extensions
 
 ### AdGuard AdBlocker
+
+### Auto Quality for YouTube
 
 ### Unhook
 
