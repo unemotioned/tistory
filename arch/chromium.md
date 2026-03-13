@@ -2,6 +2,8 @@
 
 A web browser built for speed, simplicity and security
 
+> You cannot login to `chromium`
+
 ## Chromium VS Firefox
 
 1. Chromium hides cursor automatically if needed when focus is changed to
@@ -30,6 +32,8 @@ A web browser built for speed, simplicity and security
   - [Unhook](#unhook)
   - [Vimium](#vimium)
   - [YouTube Auto Liker](#youtbue-auto-liker)
+
+- [Remove Firefox](#remove-firefox)
 
 ---
 
@@ -114,3 +118,16 @@ Ambient mode: off
 - Enabled: on
 - Subscribed Only: on
 - Wait for Ads: off
+
+---
+
+## Remove Firefox
+
+```sh
+sudo pacman -Rns firefox
+```
+
+```sh
+rm -rf ~/.cache/mozilla
+rm -rf ~/.config/mozilla
+```
