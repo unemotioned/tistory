@@ -6,6 +6,18 @@
 grep -r "<string>" .
 ```
 
+| Option                         | Description                |
+| ------------------------------ | -------------------------- |
+| `-r`                           | Recursive search           |
+| `-i`                           | Case-insensitive           |
+| `-n`                           | Show line numbers          |
+| `-l`                           | Show only filenames        |
+| `--binary-files=without-match` | Exclude binary files       |
+| `--include="*.txt"`            | Search specific file types |
+| `--exclude-dir=node_modules`   | Exclude a directory        |
+
+### Examples
+
 ```sh
 # Case-insensitive search
 grep -ri "<string>" .
