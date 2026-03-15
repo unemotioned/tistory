@@ -50,6 +50,12 @@
 
 ### general usage
 
+<!-- TODO: control extrnal monitor brightness -->
+
+ddcutil
+ddcui
+brightness
+
 firefox
 
 bluez
