@@ -35,7 +35,6 @@ A web browser built for speed, simplicity and security
   - [Vimium](#vimium)
   - [YouTube Auto HD + FPS](#youtube-auto-hd-fps)
   - [YouTube Auto Liker](#youtbue-auto-liker)
-  - [YouTube Speed Controls](#youtube-speed-controls)
 
 - [Remove Firefox](#remove-firefox)
 
@@ -117,8 +116,6 @@ Ambient mode: off
 
 ### Vimium
 
-Disable `tilde` key for `youtube.com` to be used for `YouTube Speed Controls`
-
 ### YouTube Auto HD + FPS
 
 - Extension is on: on
@@ -134,10 +131,6 @@ Disable `tilde` key for `youtube.com` to be used for `YouTube Speed Controls`
 - Enabled: on
 - Subscribed Only: on
 - Wait for Ads: off
-
-### YouTube Speed Controls
-
-- Use `tilde` key to toggle between 1x and 2x speed
 
 ---
 
