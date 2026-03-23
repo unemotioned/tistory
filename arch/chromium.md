@@ -98,6 +98,9 @@ Ambient mode: off
 
 ### AdGuard AdBlocker
 
+- Allowlist
+  - youtube.com
+
 ### Unhook
 
 - Hide Home Feed: off
