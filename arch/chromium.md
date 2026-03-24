@@ -119,6 +119,9 @@ Ambient mode: off
 
 ### Vimium
 
+- Advanced Options
+  - Scroll stop size: `1000px`
+
 ### YouTube Auto HD + FPS
 
 - Extension is on: on
