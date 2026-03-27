@@ -87,14 +87,34 @@ codium -r <file-name>
 
 ## Extensions
 
+### Node.js
+
 - Auto Close Tag
 - Auto Rename Tag
-- Code Runner
-- Code Spell Checker
+- CSS Peek
 - ESLint
 - JavaScript(ES6) code snippets
-- npm Intellisense
+- Live Server (Five Server)
 - Prettier - Code formatter
+- npm Intellisense
+- Quokka.js
+
+### General
+
+- Bracket Pair Color DLW
+- Code Runner
+- Code Spell Checker
+- Markdown Preview Enhanced
+- markdownlint
+- Tabout
+
+### ETC
+
+- Material Icon Theme
+- One Dark Pro (One Dark Pro Mix)
+
+### I Use Neovim BTW
+
 - Neovim
 
 ---
