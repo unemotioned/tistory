@@ -121,6 +121,7 @@ Ambient mode: off
 
 - Advanced Options
   - Scroll stop size: `1000px`
+  - Use smooth scrolling: `off`
 
 ### YouTube Auto HD + FPS
 
@@ -137,6 +138,7 @@ Ambient mode: off
 - Enabled: on
 - Subscribed Only: on
 - Wait for Ads: off
+- Delay (in seconds): 5
 
 ---
 
