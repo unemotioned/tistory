@@ -1,5 +1,9 @@
 # Visual Studio Code
 
+Microsoft에서 [Typescript](https://www.typescriptlang.org/)로 만든 무료 텍스트 편집기
+
+[GitHub](https://github.com/) 계정을 연동해서 설정, 확장프로그램 등을 연동할 수 있음
+
 ## Table of Contents
 
 - [터미널 명령어](#터미널-명령어)
@@ -17,11 +21,17 @@ VSCode 터미널에서 폴더/파일 만들고 열기
 
 ### 폴더 아이템 보기
 
+List
+
 ```sh
 ls
 ```
 
 ### 폴더로 이동
+
+Change Directory
+
+> Directory: 경로
 
 ```sh
 cd <폴더이름>
@@ -31,6 +41,8 @@ cd basic/ch01
 ```
 
 ### 폴더 생성
+
+Make Directory
 
 ```sh
 mkdir <폴더이름>
@@ -79,7 +91,7 @@ code -r hello.js
 ### 탭 관리
 
 - 탭 닫기: `ctrl + w`
-- 모든 탭 닫기: `ctrl + k, w`
+- 모든 탭 닫기: `ctrl + shift + w` / `ctrl + k, w`
 - 닫은 탭 다시 열기: `ctrl + shift + t`
 - 탭을 여러 패인으로 나누기: `ctrl + alt + left/right arrow`
 - 현재 탭을 좌우로 복사: `ctrl + \`
