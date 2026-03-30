@@ -50,18 +50,9 @@
 
 ### general usage
 
-<!-- TODO: control extrnal monitor brightness -->
-
-ddcutil
-ddcui
-brightness
-
-firefox
-
 bluez
-overskride
+bluetui
 
-brightnessctl (just install it and you're good to go)
 go-md2man
 brillo
 

@@ -1,8 +1,8 @@
-# wifi-bluetooth
-
-## Fix bluetooth
+# Bluetooth
 
 [Eric Murphy](https://www.youtube.com/watch?v=rOL-T31l0lQ&list=WL&index=3)
+
+## Fix bluetooth
 
 Install `bluez`(bluetooth) and `bluez-utils`(command line utilities ...)
 

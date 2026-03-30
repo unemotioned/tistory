@@ -1,4 +1,4 @@
-# Terminal Keybindings
+# Shell Keybindings
 
 `Bash` keybindings on Linux.
 Most of them will work with `ZSH` or `FISH`.
