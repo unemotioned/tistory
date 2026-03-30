@@ -17,7 +17,8 @@ The output will be like following:
 ```sh
 N: Name="{device-name}"
 
-N: Name="MSNB0001:00 06CB:7E7E Touchpad"  # example
+# example
+N: Name="MSNB0001:00 06CB:7E7E Touchpad"
 ```
 
 ---
@@ -25,7 +26,7 @@ N: Name="MSNB0001:00 06CB:7E7E Touchpad"  # example
 ## Create Libinput Config
 
 ```sh
-sudo nano /etc/X11/xorg.conf.d/30-touchpad.conf
+sudo -E nvim /etc/X11/xorg.conf.d/30-touchpad.conf
 ```
 
 ---
@@ -51,8 +52,4 @@ Section "InputClass"
 EndSection
 ```
 
----
-
-## Reboot
-
-restart the laptop for the config to take effect
+Restart the laptop for the config to take effect

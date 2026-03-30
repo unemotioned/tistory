@@ -1,6 +1,6 @@
-# SSH Move File
+# SCP
 
-## Move with SCP
+Move files between SSH machines
 
 from remote do `pwd` and use that output
 
