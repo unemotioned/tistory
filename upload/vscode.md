@@ -25,6 +25,9 @@ ls
 
 ```sh
 cd <폴더이름>
+
+# 예시)
+cd basic/ch01
 ```
 
 ### 폴더 생성
@@ -40,9 +43,6 @@ New-Item -Path "<파일이름>" -ItemType File
 
 # 또는
 ni <파일이름>
-
-# 예시
-ni hello.js
 ```
 
 ### VSCode로 열기
@@ -141,7 +141,7 @@ workspace에서 검색: `ctrl + t`
 ### 좋은거
 
 - 모든 단축키 보기: `ctrl + k, s`
-- Zen Mode: `ctrl + k, z`
+- 에디터 창만 보기: `ctrl + k, z`
 - Editor 창 중앙 정렬: Command Palette &rarr; `View: Toggle Centered Layout`
 - 새로고침: Command Palette &rarr; `Developer: Reload Window`
 
