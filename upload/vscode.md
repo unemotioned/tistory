@@ -77,8 +77,8 @@ code -r hello.js
 - close folder: `ctrl + k, f`
 
 - command palette: `ctrl + shift + p`
-- terminal: `ctrl + backtick(tilde)`
-- new terminal: `ctrl + ~`
+- terminal: `ctrl + backtick(grave)`
+- new terminal: `ctrl + ~(tilde)`
 - problems: `ctrl + shift + m`
 - toggle file explorer: `ctrl + shift + e`
 - search file: `ctrl + p`
@@ -187,7 +187,7 @@ inline으로 결과를 보여줌
 
 ### 폰트
 
-[nerdfonts](nerdfonts.com)에서 다운로드 후 설치
+[nerdfonts](https://www.nerdfonts.com/)에서 다운로드 후 설치
 
 Nerd font icons( 이런거), Ligature 지원
 
