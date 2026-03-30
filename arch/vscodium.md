@@ -44,7 +44,7 @@ codium -r <file-name>
 - open folder: `ctrl + k, o`
 - close folder: `ctrl + k, f`
 
-- command prompt: `ctrl + shift + p`
+- command palette: `ctrl + shift + p`
 - terminal: `ctrl + backtick(tilde)`
 - new terminal: `ctrl + ~`
 - problems: `ctrl + shift + m`
@@ -62,7 +62,6 @@ codium -r <file-name>
 - file search replace: `ctrl + f`
 - workspace search replace: `ctrl + shift + f`
 
-- format: `ctrl + shift + i`
 - quick fix: `ctrl + .`
 - comment: `ctrl + /`
 - move line: `alt + arrow keys`
@@ -74,8 +73,6 @@ codium -r <file-name>
 
 - multi cursor: `ctrl + left click`
 - multi cursor vertical: `ctrl + shift + up/down`
-
-- run code: `ctrl + alt + n`
 
 - split window: `ctrl + \`
 - change focus: `ctrl + 1`
@@ -96,13 +93,15 @@ codium -r <file-name>
 - JavaScript(ES6) code snippets
 - Live Server (Five Server)
 - Prettier - Code formatter
+  - format: `alt + shift + f`
 - npm Intellisense
 - Quokka.js
 
 ### General
 
-- Bracket Pair Color DLW
 - Code Runner
+  - run code: `ctrl + alt + n`
+
 - Code Spell Checker
 - Markdown Preview Enhanced
 - markdownlint
@@ -111,11 +110,26 @@ codium -r <file-name>
 ### ETC
 
 - Material Icon Theme
-- One Dark Pro (One Dark Pro Mix)
 
-### I Use Neovim BTW
+### Theme
 
-- Neovim
+- Choose one of the theme
+
+Catppuccin for VSCode (+ Catppuccin Icons for VSCode)
+GitHub Theme
+Nord
+One Dark Pro
+Rose Pine
+tokyo-night
+Vague Theme (Windsuf)
+
+### Fonts
+
+Download and install from [nerdfonts](nerdfonts.com)
+
+- D2CodingLigature Nerd Font
+- JetBrainsMono Nerd Font
+- Iosevka Font
 
 ---
 
