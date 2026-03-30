@@ -18,18 +18,9 @@ execute following command in terminal
 
 add homebrew to path (change the user name to yours)
 
-- for apple silicon mac:
-
-```bash
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/unemotioned/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
-
-- intell cpu mac:
-
 ```sh
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/unemotioned/.zprofile
-eval "$(/usr/local/bin/brew shellenv)"
+&& eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 or copy it from the installation prompt
