@@ -10,7 +10,6 @@ disable =
     missing-docstring,
     too-few-public-methods,
     wrong-import-order,
-    broad-except,
 ```
 
 `missing-docstring` includes

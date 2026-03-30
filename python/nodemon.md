@@ -2,6 +2,8 @@
 
 Watch files for change and execute a command
 
+---
+
 ## Installation
 
 Install with npm
@@ -9,6 +11,8 @@ Install with npm
 ```bash
 sudo npm install --global nodemon
 ```
+
+---
 
 ## Configuration
 
@@ -31,6 +35,8 @@ Create `nodemon.json` at where you will run `nodemon` command
   }
 }
 ```
+
+---
 
 ## Use
 

@@ -4,7 +4,7 @@
 
 ---
 
-## Setup
+## pyrightconfig
 
 Too fix auto import issue, create `pyrightconfig.json` file at the project root:
 
@@ -37,7 +37,7 @@ Too fix auto import issue, create `pyrightconfig.json` file at the project root:
 
 ---
 
-### Alternative
+## pyproject
 
 `pyproject.toml` for unified configuration file
 

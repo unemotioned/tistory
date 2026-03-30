@@ -1,10 +1,15 @@
 # Python Virtual Environment
 
-- [create venv](#create-venv)
-- [install modules](#install-modules)
-- [deactivate](#deactivate)
-- [aliases](#aliases)
-- [freeze](#freeze)
+## Table of Contents
+
+- [Install PIP](#install-pip)
+- [Create venv](#create-venv)
+- [Activate venv](#activate-venv)
+- [Install Modules](#install-modules)
+- [Deactivate](#deactivate)
+- [Freeze](#freeze)
+
+---
 
 ## Install PIP
 
@@ -14,18 +19,30 @@ The python3 package manager
 sudo apt install python3-pip
 ```
 
+---
+
 ## Create venv
 
 Create to desired location
 
 ```sh
-python3 -m venv {dir/venv-name}
+python3 -m venv <dir/venv-name>
 ```
 
-Activate venv
+---
+
+## Activate venv
+
+For `bash` and `zsh`
 
 ```sh
-source {venv-path}/bin/activate
+source ~/venv/bin/activate
+```
+
+For `fish`
+
+```sh
+source ~/venv/bin/activate.fish
 ```
 
 Update `pip` from inside the `venv`
@@ -33,6 +50,8 @@ Update `pip` from inside the `venv`
 ```sh
 sudo pip3 install --upgrade pip
 ```
+
+---
 
 ## Install Modules
 
@@ -42,6 +61,8 @@ For example
 pip3 install numpy
 ```
 
+---
+
 ## Deactivate
 
 ```sh
@@ -49,13 +70,6 @@ deactivate
 ```
 
 ---
-
-## Aliases
-
-```sh
-alias von=". {venv-path}/bin/activate"
-alias voff="deactivate"
-```
 
 ## Freeze
 
@@ -76,16 +90,4 @@ Refreeze after upgrades for safety
 ```sh
 pip install --upgrade requests
 pip freeze > requirements.txt
-```
-
-## Update
-
-Update every modules inside venv
-
-1. find outdated modules in freeze format
-2. get the name only
-3. update each one
-
-```sh
-pip list --outdated --format=freeze | cut -d= -f1 | xargs pip install -U
 ```
