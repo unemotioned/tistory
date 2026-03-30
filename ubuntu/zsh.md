@@ -10,7 +10,7 @@ Larger ecosystem and better customizability then BASH
 
 For cloning plugins
 
-```bash
+```sh
 sudo apt install git
 git --version
 ```
@@ -21,13 +21,13 @@ git --version
 
 ### Install ZSH
 
-```bash
+```sh
 sudo apt install zsh
 ```
 
 ### Change Shell
 
-```bash
+```sh
 chsh -s $(which zsh)
 ```
 
@@ -39,31 +39,31 @@ Reboot needed
 
 ### [Oh My ZSH](https://ohmyz.sh/#install)
 
-```bash
+```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ### [Powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual)
 
-```bash
+```sh
 git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 ```
 
 ### [ZSH-Autosuggestions](https://github.com/zsh-users/zsh-history-substring-search)
 
-```bash
+```sh
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 ```
 
 ### [ZSH-History-Substring-Search](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
-```bash
+```sh
 git clone https://github.com/zsh-users/zsh-history-substring-search ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
 ```
 
 ### [Fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting?tab=readme-ov-file#installation)
 
-```bash
+```sh
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
 ```
 
@@ -75,7 +75,7 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.o
 
 Download and install from source instead of using `apt`
 
-```bash
+```sh
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
@@ -90,7 +90,7 @@ sudo apt install fdfind
 
 Used by `nvim` but sourced from `~/.zshrc`
 
-```bash
+```sh
 git clone https://github.com/junegunn/fzf-git.sh.git
 ```
 

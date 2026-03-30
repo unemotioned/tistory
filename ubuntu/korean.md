@@ -4,19 +4,19 @@ How to setup korean(hangul) input on i3 with fcitx5
 
 ## Install Required
 
-```bash
+```sh
 sudo apt install fcitx5 fcitx5-hangul fcitx5-configtool
 ```
 
 Recommended fonts
 
-```bash
+```sh
 sudo apt install fonts-noto-cjk
 ```
 
 Inside `.profile`(bash) or `.zprofile`(zsh)
 
-```bash
+```sh
 export XMODIFIERS=@im=fcitx
 export INPUT_METHOD=fcitx
 export GTK_IM_MODULE=fcitx

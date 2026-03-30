@@ -2,7 +2,7 @@
 
 what is `chmod` with numbers
 
-```bash
+```sh
 sudo chmod 644 /usr/share/keyrings/wezterm-fury.gpg
 ```
 
@@ -28,12 +28,12 @@ sudo chmod 644 /usr/share/keyrings/wezterm-fury.gpg
 
 Do `ls -l` it will look like this:
 
-```bash
+```sh
 -rw-r--r--
 ```
 
 744 is also common
 
-```bash
+```sh
 -rwx-rw-rw-
 ```

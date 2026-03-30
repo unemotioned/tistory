@@ -16,13 +16,13 @@
 - openjdk-17-jdk
   - nvim-java
 
-```bash
+```sh
 sudo apt install ripgrep nodejs npm python3-full openjdk-17-jdk
 ```
 
 For the markdown-preview install `yarn` with `npm`
 
-```bash
+```sh
 sudo npm i -g yarn
 ```
 
@@ -34,20 +34,20 @@ If neovim is already installed with apt, remove before building it.
 
 Prerequist packages
 
-```bash
+```sh
 sudo apt install ninja-build gettext cmake curl build-essential git
 ```
 
 Clone nvim repo
 
-```bash
+```sh
 git clone https://github.com/neovim/neovim
 cd neovim
 ```
 
 Checkout stable branch for stable version
 
-```bash
+```sh
 git checkout stable
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
@@ -59,7 +59,7 @@ Gets installed to `/usr/local`
 
 ## Update Neovim Built From Source
 
-```bash
+```sh
 cd neovim
 git pull
 make distclean  # recommended after major updates

@@ -4,7 +4,7 @@
 
 From `gnome-desktop` if the bluetooth does not toggle enable
 
-```bash
+```sh
 systemctl start bluetooth  # start bt service
 systemctl enable bluetooth # start on every log in
 ```
@@ -13,6 +13,6 @@ systemctl enable bluetooth # start on every log in
 - bluez: tool + daemon
 - blueman: gui manager
 
-```bash
+```sh
 sudo apt install bluetooth bluez blueman
 ```

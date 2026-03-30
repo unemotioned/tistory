@@ -38,13 +38,13 @@
 
 From `gnome-terminal`
 
-```bash
+```sh
 sudo apt update && sudo apt upgrade -y
 ```
 
 Do not enable `ufw` to connect to `pinky` later
 
-```bash
+```sh
 sudo ufw disable
 ```
 
@@ -54,7 +54,7 @@ sudo ufw disable
 - curl
 - build-essential
 
-```bash
+```sh
 sudo apt install git curl build-essential
 ```
 
@@ -64,7 +64,7 @@ sudo apt install git curl build-essential
 
 From `gnome-terminal`
 
-```bash
+```sh
 sudo apt install ibus-hangul
 ```
 
@@ -104,13 +104,13 @@ Download files with `.deb` which is for debian/ubuntu
 
 cd into downloads directory from terminal
 
-```bash
+```sh
 cd Downloads/
 ```
 
 Install with dpkg(debian package) command
 
-```bash
+```sh
 sudo dpkg -i {name of the .deb file}
 ```
 
@@ -120,7 +120,7 @@ You can pass multiple file names as arguments for `dpkg` command
   - `ipykernel`: to run from locally from vscode
   - `jupyter`: to run from venv
 
-```bash
+```sh
 sudo apt install python3-pip python3-ipykernel
 ```
 
@@ -128,7 +128,7 @@ sudo apt install python3-pip python3-ipykernel
 
 ## Fix Bluetooth
 
-```bash
+```sh
 sudo systemctl enable bluetooth  # turn bt on
 sudo systemctl start bluetooth   # start bt every login
 ```

@@ -21,25 +21,25 @@
 
 Update apt
 
-```bash
+```sh
 sudo apt update
 ```
 
 Checkout outdated packages first
 
-```bash
+```sh
 apt list --upgradeable
 ```
 
 Update outdated pkg
 
-```bash
+```sh
 sudo apt upgrade
 ```
 
 Keep pkg from automatically updated
 
-```bash
+```sh
 sudo apt-mark hold openjdk-17-jdk
 ```
 
@@ -51,7 +51,7 @@ Use `unhold` to undo mark
 
 You can pass more then one argument
 
-```bash
+```sh
 sudo apt install {pkg} {pkg} ...
 ```
 
@@ -75,7 +75,7 @@ apt-cache search . | fzf
 
 `List` out installed packages
 
-```bash
+```sh
 apt list --installed
 ```
 
@@ -102,7 +102,7 @@ Use `show` flag to show package details
 - `autoremove`: remove unused dependencies
 - `clean`: clear download cache
 
-```bash
+```sh
 sudo apt autoremove
 sudo apt clean
 ```
