@@ -88,6 +88,12 @@ code -r hello.js
 
 ## 키보드 단축키
 
+- [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+- [macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+
+윈도우 용 단축키 정리
+
 - 모든 단축키 보기: `ctrl + k, s`
 
 ### 폴더/파일 열기/닫기
@@ -129,6 +135,7 @@ code -r hello.js
 - 줄아래 새로운 줄: `ctrl + enter`
 - 줄위에 새로운 줄: `ctrl + shift + enter`
 - 줄 이동: `alt + up/down arrow`
+- 줄 복사: `alt + shift up/down arrow`
 - quickfix: `ctrl + .(온점)`
 - 파일 포멧: `alt + shift + f`
 
@@ -252,11 +259,11 @@ Nerd font icons( 이런거), Ligature 지원
 
 #### JetBrainsMono Nerd Font
 
-- 네모 반듯한 폰트
+- 네모 반듯
 
 #### Iosevka Nerd Font
 
-- 세로로 길쭉한 폰트
+- 세로로 길쭉
 
 ---
 
