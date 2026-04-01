@@ -1,6 +1,18 @@
 # Neovim
 
-## Packages
+Build [neovim](https://github.com/neovim/neovim) from source to use the latest
+version on Debian/Ubuntu linux
+
+## Table of Contents
+
+- [Dependencies](#dependencies)
+- [Build](#build)
+- [Update](#update)
+- [Uninstall](#uninstall)
+
+---
+
+## Dependencies
 
 - nerd fonts
 - ripgrep
@@ -28,27 +40,31 @@ sudo npm i -g yarn
 
 ---
 
-## Build From Source
+## Build
 
 If neovim is already installed with apt, remove before building it.
 
-Prerequist packages
+```sh
+sudo apt remove neovim
+```
+
+### Prerequisite
 
 ```sh
 sudo apt install ninja-build gettext cmake curl build-essential git
 ```
 
-Clone nvim repo
+### Clone
 
 ```sh
 git clone https://github.com/neovim/neovim
 cd neovim
 ```
 
-Checkout stable branch for stable version
+### Install
 
 ```sh
-git checkout stable
+git checkout stable # or nightly
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 ```
@@ -57,7 +73,7 @@ Gets installed to `/usr/local`
 
 ---
 
-## Update Neovim Built From Source
+## Update
 
 ```sh
 cd neovim
@@ -67,15 +83,15 @@ make CMAKE_BUILD_TYPE=Release
 sudo make install
 ```
 
-## Copy & Paste
+---
 
-Copy paste with no configs
+## Uninstall
 
-- Yank
-- Paste
+```sh
+cd neovim
 
-```vim
-"+y
-
-"+p
+sudo rm -rf /usr/local/bin/nvim
+sudo rm -rf /usr/local/lib/nvim
+sudo rm -rf /usr/local/share/nvim
+sudo rm -rf /usr/local/lib/cmake/nvim
 ```
