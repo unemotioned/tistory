@@ -178,6 +178,8 @@ workspace에서 검색: `ctrl + t`
 
 ## 확장 프로그램
 
+확장프로그램 사이드바 단축키: `ctrl + shift + x`
+
 ### Auto Close Tag
 
 - HTML, XML 태그를 자동으로 닫아줌
