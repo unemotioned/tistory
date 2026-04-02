@@ -253,7 +253,7 @@ inline으로 결과를 보여줌
 
 [nerdfonts.com](https://www.nerdfonts.com/)에서 다운로드 후 설치
 
-Nerd font icons( 이런거), Ligature 지원
+Nerd font icons, Ligature 지원
 
 #### D2CodingLigature Nerd Font
 
