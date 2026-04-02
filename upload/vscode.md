@@ -265,6 +265,8 @@ Nerd font icons( 이런거), Ligature 지원
 
 #### Iosevka Nerd Font
 
+발음: `요쎄브카`
+
 - 세로로 길쭉
 
 ---
