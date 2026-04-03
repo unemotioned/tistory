@@ -68,6 +68,11 @@ sudo pacman -Rns code
 
 list orphaned
 
+- `Q`: query
+- `t`: unrequired packages
+- `d`: dependencies only
+- `q`: quiet output
+
 ```sh
 pacman -Qtdq
 ```
