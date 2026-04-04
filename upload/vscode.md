@@ -94,85 +94,91 @@ code -r hello.js
 
 윈도우 용 단축키 정리
 
-- 모든 단축키 보기: `ctrl + k, s`
-
 ### 폴더/파일 열기/닫기
 
-- 파일 열기: `ctrl + o`
-- 폴더 열기: `ctrl + k, o`
-- 최근 폴더/파일 열기: `ctrl + r`
-- 폴더 닫기: `ctrl + k, f`
+| Shortcut    | Action              |
+| ----------- | ------------------- |
+| Ctrl + O    | 파일 열기           |
+| Ctrl + K, O | 폴더 열기           |
+| Ctrl + R    | 최근 폴더/파일 열기 |
+| Ctrl + K, F | 폴더 닫기           |
 
 ### 탭 관리
 
-- 탭 닫기: `ctrl + w`
-- 모든 탭 닫기: `ctrl + shift + w` / `ctrl + k, w`
-- 닫은 탭 다시 열기: `ctrl + shift + t`
-- 탭을 여러 패인으로 나누기: `ctrl + alt + left/right arrow`
-- 현재 탭을 좌우로 복사: `ctrl + \`
-- 열린 탭에서 이동: `ctrl + tab`
-- 패널 선택: `ctrl + 1/2/3 ...`
+| Shortcut                | Action                    |
+| ----------------------- | ------------------------- |
+| Ctrl + W                | 탭 닫기                   |
+| Ctrl + Shift + W        | 모든 탭 닫기              |
+| Ctrl + Shift + T        | 닫은 탭 다시 열기         |
+| Ctrl + Alt + Left/Right | 탭을 여러 패인으로 나누기 |
+| Ctrl + \                | 현재 탭을 좌우로 복사     |
+| Ctrl + Tab              | 열린 탭에서 이동          |
+| Ctrl + 1/2/3...         | 패널 선택                 |
 
 ### 패널 관리
 
-- 터미널: `ctrl + backtick(grave)`
-- 새 터미널: `ctrl + ~ (tilde)`
-- 파일 검색: `ctrl + p`
-- Command Palette: `ctrl + shift + p`
-- 사이드바 토글: `ctrl + b`
-- 파일 트리: `ctrl + shift + e`
-- problems 패널: `ctrl + shift + m`
-- output 패널 : `ctrl + shift + u`
+| Shortcut         | Action          |
+| ---------------- | --------------- |
+| Ctrl + `(grave)  | 터미널          |
+| Ctrl + ~(tilde)  | 새 터미널       |
+| Ctrl + P         | 파일 검색       |
+| Ctrl + Shift + P | Command Palette |
+| Ctrl + B         | 사이드바 토글   |
+| Ctrl + Shift + E | 파일 트리       |
+| Ctrl + Shift + M | Problems 패널   |
+| Ctrl + Shift + U | Output 패널     |
 
 ### 텍스트 편집
 
-- 주석 처리: `ctrl + /`
-- 뒤로가기 취소: `ctrl + shift + z` / `ctrl + y`
-- 커서의 문자와 일치하는 모든 문자 선택: `ctrl + d`
-- 들어쓰기 + : `]` / (줄의 가장 앞에서)`tab`
-- 들여쓰기 - : `[` / (줄의 가장 앞에서)`shift + tab`
-- 현재 줄 삭제: `ctrl + shift + k`
-- 줄아래 새로운 줄: `ctrl + enter`
-- 줄위에 새로운 줄: `ctrl + shift + enter`
-- 줄 이동: `alt + up/down arrow`
-- 줄 복사: `alt + shift up/down arrow`
-- quickfix: `ctrl + .(온점)`
-- 파일 포멧: `alt + shift + f`
-
-- 문자열 찾기: `ctrl + f`
-- 찾은 문자열 바꾸기: `ctrl + h`
-
-- 워크스패이스에서 문자열 찾기: `ctrl + shift + f`
-- 워크스패이스에서 찾은 문자열 바꾸기: `ctrl + shift + h`
+| Shortcut                       | Action                                |
+| ------------------------------ | ------------------------------------- |
+| Ctrl + /                       | 주석 처리                             |
+| Ctrl + Shift + Z 또는 Ctrl + Y | 뒤로가기 취소                         |
+| Ctrl + D                       | 커서의 문자와 일치하는 모든 문자 선택 |
+| Tab                            | 들어쓰기 + (줄의 가장 앞에서)         |
+| Shift + Tab                    | 들여쓰기 - (줄의 가장 앞에서)         |
+| Ctrl + Shift + K               | 현재 줄 삭제                          |
+| Ctrl + Enter                   | 줄 아래 새로운 줄                     |
+| Ctrl + Shift + Enter           | 줄 위에 새로운 줄                     |
+| Alt + Up/Down                  | 줄 이동                               |
+| Alt + Shift + Up/Down          | 줄 복사                               |
+| Ctrl + .(dot)                  | Quickfix                              |
+| Alt + Shift + F                | 파일 포맷                             |
+| Ctrl + F                       | 문자열 찾기                           |
+| Ctrl + H                       | 찾은 문자열 바꾸기                    |
+| Ctrl + Shift + F               | 워크스페이스에서 문자열 찾기          |
+| Ctrl + Shift + H               | 워크스페이스에서 찾은 문자열 바꾸기   |
 
 ### 커서
 
-- 줄 가장 앞으로: `home`
-- 줄 가장 뒤로: `end`
-- 단어 단위로 이동: `ctrl + left/right arrow`
-- 단어 단위로 이동 + 선택: `ctrl + shift + left/right arrow`
-- 위/아래 커서 추가: `ctrl + alt + up/down arrow`
-- 커서 추가: `alt + left click`
+| Shortcut                  | Action                  |
+| ------------------------- | ----------------------- |
+| Home                      | 줄 가장 앞으로          |
+| End                       | 줄 가장 뒤로            |
+| Ctrl + Left/Right         | 단어 단위로 이동        |
+| Ctrl + Shift + Left/Right | 단어 단위로 이동 + 선택 |
+| Ctrl + Alt + Up/Down      | 위/아래 커서 추가       |
+| Alt + Left Click          | 커서 추가               |
 
 ### 심볼
 
-Symbol: 변수/함수 이름
-
-이름 변경: `f2`
-현재 파일에서 검색: `ctrl + shift + o`
-workspace에서 검색: `ctrl + t`
-
-선언된 위치로 가기: `f12` / `ctrl + left click`
-선언된 부분 훔쳐보기: `alt + f12`
-
-변수/함수 사용된 곳으로 이동: `shift + f12`
-변수/함수 사용된 곳 전부 표시: `alt + shift + f12`
+| Shortcut          | Action                        |
+| ----------------- | ----------------------------- |
+| F2                | 이름 변경                     |
+| Ctrl + Shift + O  | 현재 파일에서 검색            |
+| Ctrl + T          | Workspace에서 검색            |
+| F12               | 선언된 위치로 가기            |
+| Alt + F12         | 선언된 부분 훔쳐보기          |
+| Shift + F12       | 변수/함수 사용된 곳으로 이동  |
+| Alt + Shift + F12 | 변수/함수 사용된 곳 전부 표시 |
 
 ### 좋은거
 
-- 에디터 창만 보기: `ctrl + k, z`
-- Editor 창 중앙 정렬: Command Palette &rarr; `View: Toggle Centered Layout`
-- 새로고침: Command Palette &rarr; `Developer: Reload Window`
+| Shortcut                                       | Action              |
+| ---------------------------------------------- | ------------------- |
+| Ctrl + K, Z                                    | 에디터 창만 보기    |
+| Command Palette → View: Toggle Centered Layout | Editor 창 중앙 정렬 |
+| Command Palette → Developer: Reload Window     | 새로고침            |
 
 ---
 
