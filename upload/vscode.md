@@ -186,14 +186,6 @@ code -r hello.js
 
 확장프로그램 사이드바 단축키: `ctrl + shift + x`
 
-### Auto Close Tag
-
-- HTML, XML 태그를 자동으로 닫아줌
-
-### Auto Rename Tag
-
-- 한쪽 태그 이름을 바꾸면 다른쪽도 바뀜
-
 ### CSS Peek
 
 - HTML에서 정의 되어 있는 CSS를 확인 할 수 있음
