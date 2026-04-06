@@ -279,7 +279,10 @@ Command palette에서 설정 이름을 검색해서 설정하거나
   // HTML, CSS, JS 파일에서의 기본 들여쓰기 크기
   "editor.tabSize": 2,
 
-  // Enter키로 자동완성 선택 비활성화
+  /* Tab키 만으로 자동완성 */
+  // .(온점) 자동완선 선택 비활성화
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  // Enter키 자동완성 선택 비활성화
   "editor.acceptSuggestionOnEnter": "off",
 
   // != <= >= ==> 등을 더 재밋게 보여줌
