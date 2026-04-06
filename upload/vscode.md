@@ -198,10 +198,6 @@ code -r hello.js
 
 - 오타 검사
 
-### ESLint
-
-- JavaScript 에러를 `problems` 창에 표시
-
 ### JavaScript(ES6) code snippets
 
 - JavaScript 추가 자동완성 제공
