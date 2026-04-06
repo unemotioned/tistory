@@ -6,9 +6,11 @@ Microsoft VSCode with no telementary feature
 
 ## Keybindings.json
 
-- Select suggestions with ctrl + j, k
-- Accept with ctrl + y
-- Disable up/down arrow keys
+Command palette: `Preferences: Open Keyboard Shortcuts (JSON)`
+
+- Select suggestions with `ctrl + j, k`
+- Accept with `ctrl + y`
+- Disable `up/down arrow` keys
 
 ```jsonc
 // Place your key bindings in this file to override the defaults
