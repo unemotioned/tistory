@@ -1,0 +1,122 @@
+# ESLint
+
+- [ESLint Quickstart - find errors automatically](https://www.youtube.com/watch?v=qhuFviJn-es&list=TLPQMDcwNDIwMjaHVBBIOLl2CQ&index=2)
+- [The Common Coder - How to Setup ESLint in 2026! (Beginner's Guide)](https://www.youtube.com/watch?v=eieTlMwCwWU&list=TLPQMDcwNDIwMjaHVBBIOLl2CQ&index=3)
+
+## Table of Contents
+
+- [Create Project](#create-project)
+- [Install](#install)
+- [Initialize](#initialize)
+- [Add Scripts](#add-script)
+- [Lint it](#lint-it)
+- [Configure Rules](#configure-rules)
+  - [No Unused Vars](#no-unused-vars)
+  - [Arrow Body Function](#arrow-body-function)
+
+---
+
+## Create Project
+
+initialize new node project
+
+```sh
+mkdir node-project
+cd node-project
+npm init # or with -y flag
+```
+
+## Install
+
+```sh
+npm install --save-dev eslint
+```
+
+---
+
+## Initialize
+
+```sh
+./node_modules/.bin/eslint --init
+
+# or with npm
+npm init @eslint/config@latest
+```
+
+> Answer `Where des your code run?` with `node` only which will not error on `console.log`
+
+---
+
+## Lint it
+
+```sh
+npx eslint
+```
+
+---
+
+## Add Script
+
+inside `package.json` add `lint` inside `scripts` block
+
+```json
+{
+  "scripts": {
+    "lint": "eslint"
+  }
+}
+```
+
+> Add ,(comma) at the end of line above.
+
+now you can use:
+
+```sh
+npm run lint
+```
+
+---
+
+## Configure Rules
+
+inside `eslint.config.mjs` after the file {} block
+
+[no-unused-vars options](https://eslint.org/docs/latest/rules/no-unused-vars#options)
+
+### No Unused Vars
+
+[configure rules](https://eslint.org/docs/latest/use/configure/rules)
+
+- `off`: turn off the rule
+- `warn`: do not trigger exit code 1
+- `error`: exit code 1 on build / runtime
+
+```json
+[
+  {
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  }
+]
+```
+
+### Arrow Body Function
+
+can be fixed with `--fix` flag
+
+```sh
+npx eslint --fix
+```
+
+[rules reference](https://eslint.org/docs/latest/rules/)
+
+```json
+[
+  {
+    "rules": {
+      "arrow-body-style": ["warn", "as-needed"]
+    }
+  }
+]
+```
