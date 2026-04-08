@@ -74,6 +74,8 @@ open fugitive window
 - `ca`: amend last commit
 - `cs`: create squash! commit for the commit under the cursor
 
+write commit and `:wq`
+
 ### Checkout
 
 ```vim
@@ -86,13 +88,13 @@ open fugitive window
 ### Pull
 
 ```vim
-:Gpull
+:G pull
 ```
 
 ### Rebase
 
 ```vim
-:Grebase
+:G rebase <branch-name>
 ```
 
 - `r<Space>`: pouplate cmd with `:Git rebase`
@@ -100,11 +102,11 @@ open fugitive window
 ### Merge
 
 ```vim
-:Gmerge
+:G merge <branch-name>
 ```
 
 ### Push
 
 ```vim
-:Gpush
+:G push
 ```
