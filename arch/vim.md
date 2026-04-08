@@ -110,3 +110,40 @@ write commit and `:wq`
 ```vim
 :G push
 ```
+
+---
+
+### Blame
+
+commit hash, author, date on split
+
+```vim
+:Git blame
+```
+
+### Conflict
+
+```vim
+:Gvdiff!
+```
+
+#### Diff Get
+
+```vim
+" accept from left (LOCAL)
+:diffget //2
+
+" accept from right (REMOTE)
+:diffget //3
+```
+
+- `d2o`: accept local
+- `d3o`: accept remote
+
+#### Diff Put
+
+from left or right window to push it to center window
+
+```vim
+:Gput <file-name>
+```
