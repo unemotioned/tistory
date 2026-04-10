@@ -13,10 +13,12 @@ built-in plugin manager
 
 ### Install
 
+install vim-plug at `~/.vim/autoload/plug.vim`
+
 ```sh
 curl -fLo \
-  ~/.vim/autoload/plug.vim \
-  --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 ### Usage
@@ -142,8 +144,8 @@ commit hash, author, date on split
 
 #### Diff Put
 
-from left or right window to push it to center window
+from left or right window to push it to working tree buffer
 
 ```vim
-:Gput <file-name>
+:diffput <file-name>
 ```
