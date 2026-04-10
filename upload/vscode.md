@@ -198,6 +198,47 @@ code -r hello.js
 
 - 오타 검사
 
+### ESLint
+
+- JavaScript, TypeScript 등 문법 검사
+
+#### 설치
+
+프로젝트 root 경로(VSCode를 여는 위치)에서
+
+```sh
+# 노드 프로젝트 생성
+npm init -y
+```
+
+```sh
+# ESLinst 설치
+npm install --save-dev eslint
+```
+
+```sh
+# ESLinst 기본 설정 생성
+npm init @eslint/config@latest
+```
+
+화살표로 움직이고 스페이스로 선택
+
+- What do you want to lint? `javascript`
+- how would you like to use ESlint?
+- What type of modules does your project use?
+- Which framework does your project use? `none`
+- Does your project use TypeScript? `No`
+- Where does your code run? `node`
+- Would you like to instal them now? `Yes`
+- Which package manager do you want to use? `npm`
+
+> `Where des your code run?`에서 `node`를 선택해야
+> `console.log`를 에러라고 하지 않음
+
+더 자세한거는
+[nodejs/eslint.md](https://github.com/unemotioned/tistory/blob/main/nodejs/eslint.md)
+참고
+
 ### JavaScript(ES6) code snippets
 
 - JavaScript 추가 자동완성 제공
