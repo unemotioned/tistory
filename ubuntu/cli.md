@@ -99,6 +99,10 @@ add the following to `~/.gitconfig` customize `delta`
 ```gitconfig
 [core]
   pager = delta
+[merge]
+  conflictstyle = zdiff3
+[diff]
+  colorMoved = default
 [interactive]
   diffFilter = delta --color-only
 [delta]
@@ -106,9 +110,5 @@ add the following to `~/.gitconfig` customize `delta`
   navigate = true
   side-by-side = true
   line-numbers = true
-  syntax-theme = Visual Studio Dark+
-[merge]
-  conflictstyle = zdiff3
-[diff]
-  colorMoved = default
+  syntax-theme = tokyonight_storm
 ```
