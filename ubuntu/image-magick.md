@@ -9,6 +9,7 @@ Edit images with [ImageMagick](https://github.com/ImageMagick/ImageMagick)
 - [Convert](#convert)
 - [Rotate](#rotate)
 - [Resizel](#resize)
+- [Quality](#quality)
 
 ---
 
@@ -54,4 +55,14 @@ Resize only if larger then target
 
 ```sh
 magick input.png -resize 512x512\> output.png
+```
+
+---
+
+## Quality
+
+Change image quality
+
+```sh
+magick input.png -quality 85 input.png
 ```
