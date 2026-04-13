@@ -7,6 +7,8 @@
 - [Install Homebrew](#install-homebrew)
 - [Use Homebrew](#use-homebrew)
   - [Pin Package Version](#pin-package-version)
+  - [Unpin Package](#unpin-package)
+- [Save Installed Packages](#save-installed-packages)
 
 ## Install Homebrew
 
@@ -128,8 +130,26 @@ or list outdated packages before `upgrade`
 brew outdated
 ```
 
-### Unping Package
+### Unpin Package
 
 ```sh
 brew unpin openjdk@17
 ```
+
+---
+
+## Save Installed Packages
+
+```sh
+brew bundle dump
+```
+
+this will create `Brewfile` where the cmd was executed
+
+install from `Brewfile`:
+
+```sh
+brew bundle install
+```
+
+> from the directory where the `Brewfile` is at
