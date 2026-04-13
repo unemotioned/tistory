@@ -253,7 +253,29 @@ npm init @eslint/config@latest
 
 ### Prettier
 
-- HTML, CSS, JS, MD, Json ... 파일 포멧
+- HTML, CSS, JavaScript, MD, JSON ... 파일 포멧
+
+기본 들여쓰기 크기: `2 스페이스`
+
+#### .prettierrc
+
+JavaScript 파일들만 `4 스페이스` 들여쓰기로 포멧하기
+
+프로젝트 root 경로에 `.prettierrc` 파일을 생성
+
+```jsonc
+{
+  "overrides": [
+    {
+      "files": ["*.js", "*.mjs", ".cjs"],
+      "options": {
+        "tabWidth": 4,
+        "singleQuote": true, // 쌍따옴표 대신 작은 따옴표로 포멧
+      },
+    },
+  ],
+}
+```
 
 ### Quokka.js
 
