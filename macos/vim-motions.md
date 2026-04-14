@@ -4,19 +4,17 @@ some mesmerizing vim commands worth memorizing
 
 ## Table of Contents
 
-- [Stream Editor](#stream-editor)
+- [Stubstitute](#substitute)
+- [Global command](#global-command)
 
 ---
 
-## Stream Editor
-
-> same as `sed` terminal tools
+## Substitute
 
 original:
 
-i3 config
-
-```i3
+```sh
+# i3wm config
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec pactl set-sink-volume @DEFAULT_SINK@ toggle
@@ -24,25 +22,67 @@ bindsym XF86AudioMute exec pactl set-sink-volume @DEFAULT_SINK@ toggle
 
 converted:
 
-hyprland
-
 ```hyprlang
-bind = , XF86AudioRaiseVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ +5%
-bind = , XF86AudioLowerVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ -5%
-bind = , XF86AudioMute, exec, pactl set-sink-volume @DEFAULT_SINK@ toggle
+# hyprland config
+bind = ,XF86AudioRaiseVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ +5%
+bind = ,XF86AudioLowerVolume, exec, pactl set-sink-volume @DEFAULT_SINK@ -5%
+bind = ,XF86AudioMute, exec, pactl set-sink-volume @DEFAULT_SINK@ toggle
 ```
 
 the command:
 
 ```vim
-:s/bindsym \(.*\) exec \(.*\)/bind = , \1, exec, \2/
+:s/bindsym \(.*\) exec \(.*\)/bind = ,\1, exec,\2/
 ```
 
-- `:s`: substitute
-- `/`: start of search pattern
-- `bind = \(.*\) exec`: grab between "bindsym" and "exec" into capture group `\1`
-- `\(.*\)`: grab every strings after "exec" to the second capture group `\2`
-- `/`: start of replacement
-- `bind = , \1`: get the grabbed strings after `bind = ,`
-- `, exec, \2`: second grabbed strings after `, exec,`
-- `/`: end of command
+| Elements             | Explanation                                           |
+| -------------------- | ----------------------------------------------------- |
+| `:s`                 | substitute                                            |
+| `/`                  | start of search pattern                               |
+| `bind = \(.*\) exec` | between "bindsym" and "exec" into capture group `\1`  |
+| `\(.*\)`             | strings after "exec" to the second capture group `\2` |
+| `/`                  | start of replacement                                  |
+| `bind = , \1`        | capture group 1 after `bind = ,`                      |
+| `, exec, \2`         | capture group 2 after `, exec,`                       |
+| `/`                  | end of command                                        |
+
+---
+
+## Global Command
+
+```vim
+:g/<pattern>/<cmd>
+```
+
+### Print
+
+`p` at cmd or nothing will print by default
+
+### Delete
+
+delete every lines with matching pattern
+
+```vim
+:g/vscode/d
+
+" case insensitive with "i" option
+:g/vscode/id
+```
+
+### Normal
+
+you can use `normal` command with `global`
+
+```vim
+:g/neovim/norm A is awesome
+```
+
+> add `A is Awesome` string at the end of line contains "neovim"
+
+### V reVerse of Global
+
+delete every line that does not contain string "vim"
+
+```vim
+:v/vim/d
+```
