@@ -339,7 +339,7 @@ Command palette에서 설정 이름을 검색해서 설정하거나
   "editor.tabSize": 2,
 
   /* Tab키 만으로 자동완성 */
-  // .(온점) 자동완선 선택 비활성화
+  // .(온점) 자동완성 선택 비활성화
   "editor.acceptSuggestionOnCommitCharacter": false,
   // Enter키 자동완성 선택 비활성화
   "editor.acceptSuggestionOnEnter": "off",
