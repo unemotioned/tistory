@@ -326,6 +326,10 @@ Nerd font icons, Ligature 지원
 
 - 세로로 길쭉
 
+#### MesloLG Nerd Font
+
+- 약간 부드러운 동글
+
 ---
 
 ## 유용한 설정
