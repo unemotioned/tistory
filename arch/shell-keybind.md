@@ -32,6 +32,7 @@ Keybindings are same as `emacs` keybindings since they're both `GNU` program.
 
 - `alt + b` : move cursor backward by word
 - `alt + f` : move cursor forward by word
+  > `command` for macOS
 
 ### Edit
 
