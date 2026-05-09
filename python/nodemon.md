@@ -8,8 +8,14 @@ Watch files for change and execute a command
 
 Install with npm
 
-```bash
+```sh
 sudo npm install --global nodemon
+```
+
+### Update
+
+```sh
+npm update nodemon
 ```
 
 ---
@@ -42,6 +48,6 @@ Create `nodemon.json` at where you will run `nodemon` command
 
 Just run:
 
-```bash
+```sh
 nodemon
 ```
