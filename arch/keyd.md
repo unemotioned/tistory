@@ -12,8 +12,12 @@ systemctl enable --now keyd
 get device id and input
 
 ```sh
-keyd monitor
+sudo keyd monitor
 ```
+
+> **_Important:_** Get the device ID fro the same line as `device add:` not from the `keyd virtual keyboard` when you type the keys.
+
+> **_NOTE:_** The device ID might change after kernel update
 
 keep each conf files per `[ids]`
 
@@ -33,7 +37,7 @@ rightalt = f16
 [ids]
 
 # AT Translated Set 2 keyboard
-0001:0001:09b4e68d
+0001:0001:3cf016cc
 
 [main]
 
@@ -46,7 +50,7 @@ esc = capslock
 
 [ids]
 
-# splitkb.com Aurora Sofle v2 rev1
+# Kensington Slimblade Trackball
 047d:2041:14bbedc4
 
 [main]
