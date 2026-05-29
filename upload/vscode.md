@@ -314,7 +314,7 @@ Nerd font icons, Ligature 지원
 
 #### D2CodingLigature Nerd Font
 
-- Naver에서 만듬, 한글 영어 특수문자간의 구별에 용이
+- 네이버에서 만듬. 한글, 영어, 특수문자간의 구별에 용이
 
 #### JetBrainsMono Nerd Font
 
@@ -326,9 +326,15 @@ Nerd font icons, Ligature 지원
 
 - 세로로 길쭉
 
-#### MesloLG Nerd Font
+##### ETC
 
-- 약간 부드러운 동글
+- [Fira Code](https://github.com/tonsky/FiraCode)
+- [GeistMono](https://github.com/vercel/geist-font)
+- [Hack](https://github.com/source-foundry/Hack)
+- [Input](https://input.djr.com/)
+- [Monaspace](https://monaspace.githubnext.com/)
+- [RobotMono](https://github.com/powerline/fonts/tree/master/RobotoMono)
+- [ZedMono](https://github.com/zed-industries/zed-fonts)
 
 ---
 
