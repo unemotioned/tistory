@@ -123,6 +123,10 @@ Ambient mode: off
   - Scroll stop size: `1000px`
   - Use smooth scrolling: `off`
 
+- Characters used for link hints
+  - Ignore keyboard layout: `on` (to make it compatible with other input source
+  then English on macOS)
+
 ### YouTube Auto HD + FPS
 
 - Extension is on: on
