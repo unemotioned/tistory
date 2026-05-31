@@ -34,7 +34,7 @@ just for javascript files
 {
   "overrides": [
     {
-      "files": ["*.js", "*.mjs"],
+      "files": ["*.js", "*.mjs", "*.cjs"],
       "options": {
         "tabWidth": 4,
         "singleQuote": true,
