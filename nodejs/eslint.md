@@ -79,7 +79,7 @@ npm run lint
 
 ## Configure Rules
 
-inside `eslint.config.mjs` after the file {} block
+Inside `eslint.config.mjs` after the files {} block inside `defineConfig([])`
 
 [no-unused-vars options](https://eslint.org/docs/latest/rules/no-unused-vars#options)
 
