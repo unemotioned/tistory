@@ -8,8 +8,8 @@ And prefer `single quotes` to `double quotes` if possible.
 - [Editorconfig](#editorconfig)
 - [C, CPP](#c-cpp)
 - [Java](#java)
-- [JavaScript](#javascript)
 - [Python](#python)
+- [JavaScript](#javascript)
 - [Lua](#lua)
 - [SH, BASH](#sh-bash)
 
@@ -97,15 +97,14 @@ indent-style = "space"
 docstring-code-format = true
 ```
 
----
+### Black, Blue, Ruff Command
 
-## Lua
+```sh
+black .
 
-Formatter: [StyLua](https://github.com/JohnnyMorganz/StyLua)
+blue .
 
-```toml
-indent_type = "Spaces"
-quote_style = "AutoPreferSingle"
+ruff format .
 ```
 
 ---
@@ -141,6 +140,31 @@ Create `.prettierrc` file at project root
     },
   ],
 }
+```
+
+### Prettier Command
+
+Format all supported files from current directory including every sub directories
+
+```sh
+npx prettier --write .
+```
+
+---
+
+## Lua
+
+Formatter: [StyLua](https://github.com/JohnnyMorganz/StyLua)
+
+```toml
+indent_type = "Spaces"
+quote_style = "AutoPreferSingle"
+```
+
+### Stylua Command
+
+```sh
+stylua .
 ```
 
 ---
