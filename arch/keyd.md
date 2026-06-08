@@ -21,7 +21,7 @@ sudo keyd monitor
 
 keep each conf files per `[ids]`
 
-`/etc/keyd/default.conf`
+`/etc/keyd/builtin.conf`
 
 ```conf
 [ids]
