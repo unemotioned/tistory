@@ -21,7 +21,7 @@ sudo keyd monitor
 
 keep each conf files per `[ids]`
 
-`/etc/keyd/builtin.conf`
+- `/etc/keyd/all.conf`
 
 ```conf
 [ids]
@@ -31,20 +31,11 @@ keep each conf files per `[ids]`
 [main]
 
 rightalt = f16
-```
-
-```conf
-[ids]
-
-# AT Translated Set 2 keyboard
-0001:0001:3cf016cc
-
-[main]
-
-rightalt = f16
 capslock = overload(control, esc)
 esc = capslock
 ```
+
+- `/etc/keyd/ball.conf`
 
 ```conf
 
