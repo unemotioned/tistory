@@ -63,10 +63,17 @@ git push -u origin main
 ### Reset Commit History
 
 ```sh
-git checkout --orphan temp_branch # new branch with no commit history
+git checkout --orphan tmp  # new branch with no commit history
 git add -A
-git commit -m "Initial commit"
-git branch -D main # remove main branch
-git branch -m main # rename current branch to main
-git push -f origin main # force push
+git commit -m "first commit"
+git branch -D main       # remove main branch
+git branch -m main       # rename current branch to main
+git push -f origin main  # force push
+```
+
+### Pull Remote Branch
+
+```sh
+git fetch origin                # downloads remotes changes without effecting locals
+git checkout -b dev origin/dev  # create `dev` branch which tracks `origin/dev` and checkout to `dev`
 ```
