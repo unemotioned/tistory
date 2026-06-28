@@ -77,3 +77,12 @@ git push -f origin main  # force push
 git fetch origin                # downloads remotes changes without effecting locals
 git checkout -b dev origin/dev  # create `dev` branch which tracks `origin/dev` and checkout to `dev`
 ```
+
+### Remove Ignored But Already Tracked
+
+```sh
+git rm --cached .
+git rm -r --cached .
+git commit -m "Untrack ignored file"
+git push
+```
