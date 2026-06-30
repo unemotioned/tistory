@@ -22,14 +22,14 @@ And prefer `single quotes` to `double quotes` if possible.
 Create `.editorconfig` file at project root.
 
 ```editorconfig
-fileroot = true
+root = true
 
 [*]
 indent_style = space
 indent_size = 4
 end_of_line = lf
 charset = utf-8
-insert_final_new_line = true
+insert_final_newline = true
 trim_trailing_whitespace = true
 
 [*.{js,cjs,mjs}]
