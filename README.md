@@ -1,20 +1,13 @@
-# Machine-Setup
+# Tistory
 
-How to setup my machines
+How to setup my machines.
 
-- Mac OS
-  - Aerospace
-
-- Arch Linux
-  - Hyprland
-
-- Ubuntu
-  - i3
-
-- Neovim
-- ZSH
-
----
+| OS      | Window Manager                                        |
+| ------- | ----------------------------------------------------- |
+| macOS   | [Aerospace](https://github.com/nikitabobko/AeroSpace) |
+| Arch    | [Hypr](https://hypr.land/)                            |
+| Ubuntu  | [i3](https://i3wm.org/)                               |
+| Windows | [GlazeWM](https://glazewm.com/)                       |
 
 ## TODOs
 
