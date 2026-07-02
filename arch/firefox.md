@@ -14,8 +14,6 @@ Middle clicking items in the book mark while staying in current tab
 
 2. set it to `true`
 
----
-
 ## Disable Fullscreen Notification
 
 Turn off full screen notification
@@ -24,8 +22,6 @@ Turn off full screen notification
 
 2. set it to `0`
 
----
-
 ## Disable Menubar
 
 Disable `Alt` key from toggling menubar
@@ -33,3 +29,17 @@ Disable `Alt` key from toggling menubar
 1. Search `ui.key.menuAccessKeyFocuses`
 
 2. Set it to `false`
+
+---
+
+## Default Browser
+
+```sh
+xdg-settings get default-web-browser
+```
+
+output might be: `chromium.desktop`
+
+```sh
+xdg-settings set default-web-browser firefox.desktop
+```
