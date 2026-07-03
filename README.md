@@ -73,9 +73,11 @@ git checkout -b dev origin/dev  # create `dev` branch which tracks `origin/dev` 
 
 ### Remove Ignored But Already Tracked
 
+from `main` branch
+
 ```sh
-git rm --cached .
 git rm -r --cached .
-git commit -m "Untrack ignored file"
+git add -A
+git commit -m "Untrack ignored files"
 git push
 ```
