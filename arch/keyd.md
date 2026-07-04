@@ -15,8 +15,8 @@ get device id and input
 sudo keyd monitor
 ```
 
-> **_Important:_** Get the device ID fro the same line as `device add:` not from the `keyd virtual keyboard` when you type the keys.
-
+> **_Important:_** Get the device ID from the same line as `device add:` not from the `keyd virtual keyboard` when you type the keys.
+>
 > **_NOTE:_** The device ID might change after kernel update
 
 keep each conf files per `[ids]`

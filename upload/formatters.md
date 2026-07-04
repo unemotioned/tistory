@@ -1,6 +1,6 @@
 # Formatters
 
-Formatters to use `Space` instead of `Tab` for indention, and the size to `4 spaces`.
+Formatters to use `Space` instead of `Tab` for indentation, and the size to `4 spaces`.
 And prefer `single quotes` to `double quotes` if possible.
 
 ## Table of Contents

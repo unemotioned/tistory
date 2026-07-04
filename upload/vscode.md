@@ -231,7 +231,7 @@ npm init @eslint/config@latest
 - Which framework does your project use? `none`
 - Does your project use TypeScript? `No`
 - Where does your code run? `node`
-- Would you like to instal them now? `Yes`
+- Would you like to install them now? `Yes`
 - Which package manager do you want to use? `npm`
 
 > `Where des your code run?`에서 `node`를 선택해야
