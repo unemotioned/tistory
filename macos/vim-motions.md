@@ -4,8 +4,9 @@ some mesmerizing vim commands worth memorizing
 
 ## Table of Contents
 
-- [Stubstitute](#substitute)
+- [Substitute](#substitute)
 - [Global command](#global-command)
+- [Refactoring](#refactoring)
 
 ---
 
@@ -85,4 +86,28 @@ delete every line that does not contain string "vim"
 
 ```vim
 :v/vim/d
+```
+
+---
+
+## Refactoring
+
+- [typecraft - 3 Levels of Vim Refactoring](https://www.youtube.com/watch?v=oQB8lYUZtrY)
+
+### Find RegEx from File Types
+
+```sh
+:vimgrep /kr.or.iei/ `find . -type f`
+```
+
+### Open Quick-fix List
+
+```sh
+:copen
+```
+
+### Edit Quick-fix List with Substitute
+
+```sh
+:cdo %s/kr.or.iei/com.unemotioned/gc
 ```
