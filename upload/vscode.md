@@ -161,6 +161,8 @@ code -r hello.js
 | Ctrl + Shift + Left/Right | 단어 단위로 이동 + 선택 |
 | Ctrl + Alt + Up/Down      | 위/아래 커서 추가       |
 | Alt + Left Click          | 커서 추가               |
+| Alt + F8                  | 코드에서 다음 문제 위치 |
+| Alt + Shift + F8          | 코드에서 이전 문제 위치 |
 
 ### 심볼
 
@@ -199,6 +201,14 @@ code -r hello.js
 ### Code Spell Checker
 
 - 오타 검사
+
+```jsonc
+// Preference: Open User Settings (JSON)
+{
+  // 문제 창에 뜨지 않게
+  "cSpell.diagnosticLevel": "Hint",
+}
+```
 
 ### ESLint
 
