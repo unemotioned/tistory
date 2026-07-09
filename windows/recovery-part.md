@@ -15,7 +15,7 @@ How to remove `recovery` and "recover" the recovery partition
 
 ## Delete
 
-open `cmd prompt` with admin priviliege
+open `cmd prompt` with admin privilege
 
 ```cmd
 reagentc /disable
@@ -50,7 +50,7 @@ from disk part select the create partition
 ### Set ID
 
 ```cmd
-set id={copid-id-value}
+set id={copied-id-value}
 ```
 
 ### Set Attrib

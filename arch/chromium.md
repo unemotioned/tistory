@@ -7,7 +7,7 @@ A web browser built for speed, simplicity and security
 ## Chromium VS Firefox
 
 1. Chromium hides cursor automatically if needed when focus is changed to
-   monkeytype or YouTbue. While firefox won't.
+   monkeytype or YouTube. While firefox won't.
 
 2. Chromium renders image faster then firefox.
 
@@ -140,7 +140,7 @@ Ambient mode: off
 
 - Run on YouTube Music: off
 
-### YouTbue Auto Liker
+### YouTube Auto Liker
 
 - Enabled: on
 - Subscribed Only: on

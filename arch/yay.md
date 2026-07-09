@@ -11,7 +11,7 @@
 - [Download, Build and Install](#download-build-and-install)
 - [Update Yay](#update-yay)
 - [Yay Upgrade](#yay-upgrade)
-- [Whay do yay or paru do](#what-does-yay-or-paru-do)
+- [What does yay or paru do](#what-does-yay-or-paru-do)
 
 ---
 
@@ -87,7 +87,7 @@ What is `cleanBuild` and `diffs to show`
 ### Clean Build
 
 Delete old build files rebuild from scratch.
-Prevents issues by leftover fies or outdated librariesa.
+Prevents issues by leftover files or outdated libraries.
 
 ### Diffs to Show
 
@@ -105,7 +105,7 @@ You can review:
 
 ## What does yay or paru do
 
-- [before using ARU helpr - Eric Murphy](https://www.youtube.com/watch?v=goOrF8zAkqU)
+- [before using ARU helper - Eric Murphy](https://www.youtube.com/watch?v=goOrF8zAkqU)
 
 - sometimes aur helpers do break
 

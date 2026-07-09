@@ -1,4 +1,4 @@
-# Karaniber
+# Karabiner
 
 Karabiner Complex Rules
 

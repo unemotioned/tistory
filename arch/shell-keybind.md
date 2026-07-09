@@ -6,7 +6,7 @@ Some of them will not work on `macOS`.
 
 Keybindings are same as `emacs` keybindings since they're both `GNU` program.
 
-## Table of Centents
+## Table of Contents
 
 - [Keybindings](#keybindings)
   - [Navigation](#navigation)
@@ -91,7 +91,7 @@ set keyseq-timeout 1
 
 ### ZSH
 
-In `~/.zhsrc`:
+In `~/.zshrc`:
 
 ```sh
 bindkey -v

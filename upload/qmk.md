@@ -5,7 +5,7 @@
 - [1. Install](#1-install)
 - [2. Setup](#2-setup)
 - [3. Find Keyboard](#3-find-keyboard)
-- [4. Create Keymap](#4-create-keymamp)
+- [4. Create Keymap](#4-create-keymap)
 - [5. Flash](#5-flash)
 - [Troubleshooting](#troubleshooting)
   - [MODE Sonnet](#mode-sonnet)
@@ -42,7 +42,7 @@ qmk list-keyboards | grep -i "mode/m75h"
 
 ---
 
-## 4. Create Keymamp
+## 4. Create Keymap
 
 - `mode/m75h`: Result of `list-keyboards` command.
 - `sonnet`: Name your choice. Which will the the final directory.
@@ -111,6 +111,6 @@ VIA_ENABLE = yes
 
 1. Select compiled `.bin` file at `~/qmk_firmware`
 2. Select `ATmega32U2` for the `Sonnet`
-3. Go into bootloader mode by pressint the `reset` key
-4. Click the `Flah` button. (or check the `Auto-Flash` check box which will flah
+3. Go into bootloader mode by pressing the `reset` key
+4. Click the `Flash` button. (or check the `Auto-Flash` check box which will flash
    automatically when the keyboard goes into bootloader mode)

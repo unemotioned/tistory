@@ -57,13 +57,13 @@ UseTab: Never
 
 Formatter: [google-java-format](https://github.com/google/google-java-format)
 
-- Format every `Java` with 4 space indent with `--asop` flag
+- Format every `Java` with 4 space indent with `--aosp` flag
 
 ```sh
-google-java-format --asop -i $(find . -name '*.java')
+google-java-format --aosp -i $(find . -name '*.java')
 
 # for directories
-google-java-format --asop -r --replace .
+google-java-format --aosp -r --replace .
 ```
 
 ---

@@ -1,6 +1,6 @@
 # Visual Studio Codium
 
-Microsoft VSCode with no telementary feature
+Microsoft VSCode with no telemetry feature
 
 ---
 

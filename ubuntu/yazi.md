@@ -6,7 +6,7 @@ terminal file explorer
 
 ## Table of Contents
 
-- [Prerequist](#prerequist)
+- [Prerequisite](#prerequisite)
 - [Build](#build)
 - [Theme](#theme)
 - [Update](#update)
@@ -14,7 +14,7 @@ terminal file explorer
 
 ---
 
-## Prerequist
+## Prerequisite
 
 ### Dependencies
 

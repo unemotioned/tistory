@@ -99,7 +99,7 @@ write commit and `:wq`
 :G rebase <branch-name>
 ```
 
-- `r<Space>`: pouplate cmd with `:Git rebase`
+- `r<Space>`: populate cmd with `:Git rebase`
 
 ### Merge
 

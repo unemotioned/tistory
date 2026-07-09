@@ -10,7 +10,7 @@ sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 
 [Pacman Mirrorlist Generator](https://archlinux.org/mirrorlist/)
 
-On my case geenerating new mirrorlist caused error and the original list works
+On my case generating new mirrorlist caused error and the original list works
 just fine without it
 
 ## 3. Re-generate Keys

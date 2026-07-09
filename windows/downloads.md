@@ -33,21 +33,10 @@
 - sts4
 
 - [nerdfonts](https://www.nerdfonts.com/font-downloads)
-  - d2coding ligature
-  - iosevka
-  - jetbrainsmono
-  - meslogls nerd font
+  - D2coding ligature
+  - Iosevka
+  - JetBrainsMono
+  - MesloLGS Nerd Font
 
 - [glazewm](https://github.com/glzr-io/glazewm/releases)
 - [autohotkey](https://www.autohotkey.com/)
-
----
-
-## Code Searcher
-
-- [javafx](https://gluonhq.com/products/javafx/)
-  - 21
-  - windows
-  - x64
-  - sdk
-- [scene builder](https://github.com/gluonhq/scenebuilder/releases/tag/21.0.1)

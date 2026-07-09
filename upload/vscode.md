@@ -321,7 +321,7 @@ inline으로 결과를 보여줌
 - One Dark Pro
 - Rose Pine
 - tokyo-night
-- Vague Theme (Windsuf)
+- Vague Theme (Windsurf)
 
 ### 폰트
 

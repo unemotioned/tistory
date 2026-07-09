@@ -4,7 +4,7 @@ Larger ecosystem and better customizability then BASH
 
 ---
 
-## Prerequist
+## Prerequisite
 
 ### Install Git
 

@@ -8,7 +8,7 @@ Edit images with [ImageMagick](https://github.com/ImageMagick/ImageMagick)
 
 - [Convert](#convert)
 - [Rotate](#rotate)
-- [Resizel](#resize)
+- [Resize](#resize)
 - [Quality](#quality)
 
 ---

@@ -12,7 +12,7 @@ sudo chmod 644 /usr/share/keyrings/wezterm-fury.gpg
 | write      | 2     |
 | execute    | 1     |
 
-| Digit | Applise to |
+| Digit | Applies to |
 | ----- | ---------- |
 | 1st   | Owner      |
 | 2dn   | Group      |

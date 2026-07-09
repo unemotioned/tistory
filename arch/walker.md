@@ -1,6 +1,6 @@
 # Walker
 
-A modern application lancher
+A modern application launcher
 
 - [GitHub Repository](https://github.com/abenz1267/walker)
 - [Official Website](https://walkerlauncher.com/)

@@ -1,4 +1,4 @@
-# Vim Motinos
+# Vim Motions
 
 some mesmerizing vim commands worth memorizing
 
