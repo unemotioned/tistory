@@ -12,7 +12,7 @@
 ## List of Contents
 
 - [Before Install](#before-install)
-  - [Create Diskspace](#create-diskspace)
+  - [Create Disk Space](#create-disk-space)
   - [Enter BIOS](#enter-bios)
 - [Live Environment](#live-environment)
   - [Set Font](#set-font)
@@ -34,7 +34,7 @@
 
 ## Before Install
 
-### Create Diskspace
+### Create Disk Space
 
 use windows `disk manager` to create at least 40gb of free space
 
