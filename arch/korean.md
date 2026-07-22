@@ -70,7 +70,7 @@ wofi --show drun
 
 - uncheck `Show Input Method Information when switch input method`
 
-![fcitx-config-global-options](./archive/fcitx-config-global-options.png)
+![fcitx-config-global-options](../assets/fcitx-config-global-options.png)
 
 ## 6. Verify Installation
 
