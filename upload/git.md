@@ -17,3 +17,9 @@ full work flow with sourcetree
 vscode git extensions
 
 ---
+
+<div align="center">
+  <h2>Flow Chart</h2>
+
+  <img src="../assets/git-flow.png" alt="git flowchart" height="1000px">
+</div>
