@@ -1,25 +1,23 @@
 # Git
 
-How to use [Git](https://git-scm.com/) with terminal commands or with [Sourcetree](https://www.sourcetreeapp.com/)
+How to use [Git](https://git-scm.com/).
 
 ## Table of Contents
 
-<!-- TODO: just do it -->
+- [Flowchart](#flowchart)
 
-install git, sourcetree
+## TODO
 
-git terminal commands
+<!-- TODO: document the following -->
 
-simple work flow
-
-full work flow with sourcetree
-
-vscode git extensions
+- How to use main and dev branch.
+- Checkout vs switch.
+- Rebase vs merge.
+- How to resolve conflicts.
+- How to use worktree.
 
 ---
 
-<div align="center">
-  <h2>Flow Chart</h2>
+## Flowchart
 
-  <img src="../assets/git-flow.png" alt="git flowchart" height="1000px">
-</div>
+![git flow](../assets/git-flow.png)
