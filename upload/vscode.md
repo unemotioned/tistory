@@ -350,7 +350,7 @@ Nerd font icons, Ligature 지원
 - [Hack](https://github.com/source-foundry/Hack)
 - [Input](https://input.djr.com/)
 - [Monaspace](https://monaspace.githubnext.com/)
-- [RobotMono](https://github.com/powerline/fonts/tree/master/RobotoMono)
+- [RobotoMono](https://github.com/powerline/fonts/tree/master/RobotoMono)
 - [ZedMono](https://github.com/zed-industries/zed-fonts)
 
 ---
@@ -390,7 +390,3 @@ Command palette에서 설정 이름을 검색해서 설정하거나
   "workbench.tree.indent": 16,
 }
 ```
-
----
-
-### Happy Hacking 🎉
