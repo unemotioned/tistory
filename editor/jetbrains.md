@@ -15,6 +15,7 @@
   - [Sticky Lines](#sticky-lines)
   - [Palantir Java Format](#palantir-java-format)
   - [Open with Single Click](#open-with-single-click)
+  - [Memory Settings](#memory-settings)
 - [Keymap](#keymap)
   - [Lookup](#lookup)
 
@@ -101,6 +102,10 @@ Project window > 3 dot > Behavior > Open Files with Single Click, Open Directori
 
 > [!TIP]
 > Try [Quick File Preview](https://plugins.jetbrains.com/plugin/12778-quick-file-preview) plugin for VSCode like behavior
+
+### Memory Settings
+
+Search `Change Memory Settings` from Actions (`Ctrl + Shift + A`) and change `Maximum Heap Size` to larger size to make IDE faster.
 
 ---
 
