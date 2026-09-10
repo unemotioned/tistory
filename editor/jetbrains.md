@@ -55,6 +55,7 @@
 - [AceJump](https://github.com/acejump/AceJump)
 - [Catppuccin Theme](https://plugins.jetbrains.com/plugin/18682-catppuccin-theme)
 - [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)
+- [Insepection Lens](https://plugins.jetbrains.com/plugin/19678-inspection-lens)
 
 ---
 
