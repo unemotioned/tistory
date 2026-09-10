@@ -8,6 +8,7 @@ Version control system developed by [Linus Torvalds](https://github.com/torvalds
 - [Reset Commit History](#reset-commit-history)
 - [Pull Remote Branch](#pull-remote-branch)
 - [Stop Tracking Ignored](#stop-tracking-ignored)
+- [Worktree](#worktree)
 
 ---
 
@@ -61,4 +62,46 @@ git rm -r --cached .
 git add -A
 git commit -m "untrack ignored"
 git push
+```
+
+--
+
+## Worktree
+
+When you have uncommitted changes but have to work on something else.
+
+### List
+
+```sh
+git worktree list
+```
+
+### Create
+
+Create `foo` project that have `feature/<bar>` branch checked out.
+
+```sh
+git worktree add ../<foo> -b feature/<bar>
+
+git worktree add ../<foo> feature/<bazz> # use existing branch
+```
+
+Edit and commit normally from new worktree.
+
+### Remove
+
+```sh
+git worktree remove ../<foo>
+
+git branch -d feature/<bar> # remove merged
+
+git branch -D feature/<bar> # or remove unmerged
+```
+
+### Prune
+
+Clean up stale worktree metadata.
+
+```sh
+git worktree prune
 ```
