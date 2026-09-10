@@ -16,6 +16,7 @@
   - [Palantir Java Format](#palantir-java-format)
   - [Open with Single Click](#open-with-single-click)
   - [Memory Settings](#memory-settings)
+  - [Markdown Smart Enter](#markdown-smart-enter)
 - [Keymap](#keymap)
   - [Lookup](#lookup)
 
@@ -108,6 +109,12 @@ Project window > 3 dot > Behavior > Open Files with Single Click, Open Directori
 ### Memory Settings
 
 Search `Change Memory Settings` from Actions (`Ctrl + Shift + A`) and change `Maximum Heap Size` to larger size to make IDE faster.
+
+### Markdown Smart Enter
+
+Autocompleting list item with `dash(-)` on new line.
+
+Settings > Editor > General > **Smart Keys** > Markdown > _Lists_ > `Use Smart Enter and Backspace`
 
 ---
 
