@@ -23,23 +23,24 @@
 
 ## Shortcuts
 
-| Action               | Windows / Linux        | macOS                 |
-| -------------------- | ---------------------- | --------------------- |
-| Search Everywhere    | Shift + Shift          | -                     |
-| Search File          | Ctrl + Shift + N       | Cmd + Shift + O       |
-| Search Symbol        | Ctrl + Alt + Shift + N | Opt + Cmd + O         |
-| Search Text          | Ctrl + Alt + Shift + E | Opt + Cmd + Shift + E |
-| Run Everything       | Shift + F10            | Ctrl + Opt + R        |
-| Project              | Alt + 1                | Cmd + 1               |
-| Run                  | Alt + 4                | Cmd + 4               |
-| Problem              | Alt + 6                | Cmd + 6               |
-| Find Usage           | Alt + F7               | Opt + F7              |
-| Rename               | Shift + F6             | -                     |
-| Format               | Ctrl + Alt + L         | Opt + Cmd + L         |
-| Generate Code        | Alt + Insert           | Cmd + N               |
-| Next Error           | F2                     | -                     |
-| Prev Error           | Shift + F2             | -                     |
-| Show Context Actions | Alt + Enter            | Opt + Enter           |
+| No. | Action                     | Windows / Linux        | macOS                 |
+| --- | -------------------------- | ---------------------- | --------------------- |
+| 1   | Search Everywhere          | Shift + Shift          | -                     |
+| 2   | Search File                | Ctrl + Shift + N       | Cmd + Shift + O       |
+| 3   | Search Symbol              | Ctrl + Alt + Shift + N | Opt + Cmd + O         |
+| 4   | Search Text                | Ctrl + Alt + Shift + E | Opt + Cmd + Shift + E |
+| 5   | Run Everything             | Shift + F10            | Ctrl + Opt + R        |
+| 6   | Project                    | Alt + 1                | Cmd + 1               |
+| 7   | Run                        | Alt + 4                | Cmd + 4               |
+| 8   | Problem                    | Alt + 6                | Cmd + 6               |
+| 9   | Go to declaration or Usage | Ctrl + B               |                       |
+| 10  | Go to implementations      | Ctrl + Alt + B         |                       |
+| 11  | Rename                     | Shift + F6             | -                     |
+| 12  | Format                     | Ctrl + Alt + L         | Opt + Cmd + L         |
+| 13  | Generate Code              | Alt + Insert           | Cmd + N               |
+| 14  | Next Error                 | F2                     | -                     |
+| 15  | Prev Error                 | Shift + F2             | -                     |
+| 16  | Show Context Actions       | Alt + Enter            | Opt + Enter           |
 
 > [!NOTE]
 > `-` means same.
