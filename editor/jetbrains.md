@@ -17,6 +17,7 @@
   - [Open with Single Click](#open-with-single-click)
   - [Memory Settings](#memory-settings)
   - [Markdown Smart Enter](#markdown-smart-enter)
+  - [Completion Match Case](#completion-match-case)
 - [Keymap](#keymap)
   - [Lookup](#lookup)
 
@@ -115,6 +116,12 @@ Search `Change Memory Settings` from Actions (`Ctrl + Shift + A`) and change `Ma
 Autocompleting list item with `dash(-)` on new line.
 
 Settings > Editor > General > **Smart Keys** > Markdown > _Lists_ > `Use Smart Enter and Backspace`
+
+### Completion Match Case
+
+Show suggestions even when case of letter doesn't match.
+
+Settings > Editor > General > Code Completion > **Popup** > `Match case`
 
 ---
 
