@@ -1,6 +1,6 @@
 # GitHub CLI
 
-How to use the `gh` commands.
+Interact with GitHub from terminal.
 
 ## Table of Contents
 
