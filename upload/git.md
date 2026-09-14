@@ -14,14 +14,14 @@ Version control system developed by [Linus Torvalds](https://github.com/torvalds
 
 ## Flowchart
 
-Commit, pull and push flow with one tracking branch (`main`) and one local branch (`dev`).
+Commit, pull and push workflow using a tracking (main) and local (dev) branch.
 
 Drawn with [Draw.io](https://www.drawio.com/).
 
 ![git flow](../assets/git-flow.png)
 
 > [!NOTE]
-> Not necessarily have to pull again right after checking that there was no
+> Not necessarily have to pull again right after confirming that there was no
 > conflict with the `dev` branch. If there was no conflict, just push it right away.
 
 ---
@@ -64,7 +64,7 @@ git commit -m "untrack ignored"
 git push
 ```
 
---
+---
 
 ## Worktree
 
