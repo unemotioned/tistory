@@ -9,6 +9,7 @@ Package manager for macOS.
 - [Pin Package Version](#pin-package-version)
   - [Unpin Package](#unpin-package)
 - [Save Installed Packages](#save-installed-packages)
+- [Tap](#tap)
 
 ---
 
@@ -112,4 +113,34 @@ To install with a `Brewfile`, run from the `Brewfile` file path:
 
 ```sh
 brew bundle install
+```
+
+---
+
+## Tap
+
+Commands for third-party taps.
+
+### List All Taps
+
+```sh
+brew tap
+```
+
+### Add Tap
+
+```sh
+brew tap <username>/<repository>
+```
+
+### Remove Tap
+
+```sh
+brew untap <username>/<repository>
+```
+
+### Trust Tap
+
+```sh
+brew trust <username>/<repository>
 ```
