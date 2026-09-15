@@ -133,6 +133,7 @@ Same as auto suggestion or completion.
 
 1. Settings > **Keymap** > Search `Lookup`
 2. Remap `Choose Lookup Item Replace`, `Select Next Completion Option` and `Select Previous Completion Option` &rarr; `Ctrl` + `Y`, `J` and `K`
+3. Remove `Tab` from `Choose Lookup Item Replace` (tab to work normally even when suggestion is opened)
 
 > [!NOTE]
-> For some reason `Ctrl + Y` remap is not working.
+> For some reason `Ctrl + K` remap is not working.
