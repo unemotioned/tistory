@@ -9,6 +9,7 @@ Version control system developed by [Linus Torvalds](https://github.com/torvalds
 - [Pull Remote Branch](#pull-remote-branch)
 - [Stop Tracking Ignored](#stop-tracking-ignored)
 - [Worktree](#worktree)
+- [Ignore](#ignore)
 
 ---
 
@@ -104,4 +105,34 @@ Clean up stale worktree metadata.
 
 ```sh
 git worktree prune
+```
+
+---
+
+## Ignore
+
+### Itself and Everything
+
+Cannot re-include file or directory under it.
+
+```gitignore
+.vscode/
+```
+
+### Directly Under
+
+Can re-include file and directory under it.
+
+```gitignore
+.idea/*
+!.idea/dictionaries/project.xml
+```
+
+### Recursively
+
+Can re-include file under it but not directory.
+
+```gitignore
+.vscode/**
+!.vscode/settings.json
 ```
