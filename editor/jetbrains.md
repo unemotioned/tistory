@@ -105,7 +105,7 @@ Settings > Editor > **General** > _Sticky Lines_ > `Show sticky lines while scro
 Project window > 3 dot > Behavior > Open Files with Single Click, Open Directories with Single Click
 
 > [!TIP]
-> Try [Quick File Preview](https://plugins.jetbrains.com/plugin/12778-quick-file-preview) plugin for VSCode like behavior
+> Try `Enable Preview Tab` option for VSCode like behavior
 
 ### Memory Settings
 
