@@ -4,12 +4,19 @@ Mount and unmount external drives from terminal.
 
 ## Table of Contents
 
+- [Prerequisite](#prerequisite)
 - [Find External Drive](#find-external-drive)
 - [Create Mount Directory](#create-mount-directory)
 - [Mount](#mount)
 - [Unmount](#unmount)
 
 ---
+
+## Prerequisite
+
+```sh
+sudo pacman -Syu linux-headers
+```
 
 ## Find External Drive
 
