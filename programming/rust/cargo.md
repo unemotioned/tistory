@@ -60,8 +60,13 @@ cargo run
 ```sh
 cargo build
 
+# run the executable (.exe on Windows)
+./target/debug/<project-name>
+
 # more optimized
 cargo build --release
+
+./target/release/<project-name>
 ```
 
 Checkout [unemotioned/guessing-game.rs](https://github.com/unemotioned/guessing-game.rs#guessing-game) for `Compile vs Build`.
