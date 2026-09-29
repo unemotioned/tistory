@@ -18,6 +18,7 @@
   - [Memory Settings](#memory-settings)
   - [Markdown Smart Enter](#markdown-smart-enter)
   - [Completion Match Case](#completion-match-case)
+  - [Light Bulb](#light-bulb)
 - [Keymap](#keymap)
   - [Lookup](#lookup)
 
@@ -124,6 +125,10 @@ Settings > Editor > General > **Smart Keys** > Markdown > _Lists_ > `Use Smart E
 Show suggestions even when case of letter doesn't match.
 
 Settings > Editor > General > Code Completion > **Popup** > `Match case`
+
+### Light Bulb
+
+Settings > Editor > General > Appearance > _Code Assistance_ > `Show intension bulb`
 
 ---
 
