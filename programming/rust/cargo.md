@@ -4,10 +4,12 @@ How to use cargo with rust project.
 
 ## Table of Contents
 
-- [Install](#install)
+- [Download](#download)
 - [Create Project](#create-project)
 - [Run](#run)
 - [Build](#build)
+- [Install](#install)
+- [Uninstall](#uninstall)
 - [Clean](#clean)
 - [Check](#check)
 - [Test](#test)
@@ -21,7 +23,7 @@ How to use cargo with rust project.
 
 ---
 
-## Install
+## Download
 
 Download from [rust-lang.org/install-rust](https://rust-lang.org/tools/install/) if using Windows.
 
@@ -70,6 +72,38 @@ cargo build --release
 ```
 
 Checkout [unemotioned/guessing-game.rs](https://github.com/unemotioned/guessing-game.rs#guessing-game) for `Compile vs Build`.
+
+---
+
+## Install
+
+Inside `Cargo.toml`:
+
+```toml
+[[bin]]
+name = "foo"
+path = "src/main.rs"
+```
+
+After building it.
+
+```sh
+# add binary to `~/.cargo/bin`
+cargo install --path .
+```
+
+Now you can run the project with `foo` command from terminal. If `~/.cargo/bin`
+path is added to environment variable.
+
+---
+
+## Uninstall
+
+Remove binary from `~/.cargo/bin`:
+
+```sh
+cargo uninstall foo
+```
 
 ---
 
