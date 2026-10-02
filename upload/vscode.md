@@ -30,40 +30,7 @@ Microsoft에서 [Typescript](https://www.typescriptlang.org/)로 만든 무료 �
 
 ## 터미널 명령어
 
-VSCode 터미널 또는 `PowerShell` 명령어.
-
-### 폴더 보기
-
-```powershell
-# list
-ls
-```
-
-### 폴더 이동
-
-```powershell
-# change directory(경로)
-cd <폴더이름>
-
-# 예시
-cd basic/ch01
-```
-
-### 폴더 생성
-
-```powershell
-# make directory
-mkdir <폴더이름>
-```
-
-### 파일 생성
-
-```powershell
-New-Item -Path "<파일이름>" -ItemType File
-
-# 또는
-ni <파일이름>
-```
+더 많은 윈도우 터미널 명령어: [windows/powershell](../windows/powershell.md)
 
 ### VSCode로 열기
 
