@@ -5,20 +5,20 @@
 - [Shortcuts](#shortcuts)
 - [Plugins](#plugins)
 - [Settings](#settings)
-  - [Tree Indent Guides](#tree-indent-guides)
-  - [Inlay Usage & Code Author](#inlay-usage--code-author)
-  - [Fold One-line Methods](#fold-one-line-methods)
-  - [Caret Blink](#caret-blink)
-  - [Open New Tab](#open-new-tab)
-  - [Scroll Pass BOF](#scroll-pass-bof)
-  - [Smooth Scrolling](#smooth-scrolling)
-  - [Sticky Lines](#sticky-lines)
-  - [Palantir Java Format](#palantir-java-format)
-  - [Open with Single Click](#open-with-single-click)
-  - [Memory Settings](#memory-settings)
-  - [Markdown Smart Enter](#markdown-smart-enter)
-  - [Completion Match Case](#completion-match-case)
-  - [Light Bulb](#light-bulb)
+  - [1. Tree Indent Guides](#1-tree-indent-guides)
+  - [2. Inlay Usage & Code Author](#2-inlay-usage--code-author)
+  - [3. Fold One-line Methods](#3-fold-one-line-methods)
+  - [4. Caret Blink](#4-caret-blink)
+  - [5. Open New Tab](#5-open-new-tab)
+  - [6. Scroll Pass BOF](#6-scroll-pass-bof)
+  - [7. Smooth Scrolling](#7-smooth-scrolling)
+  - [8. Sticky Lines](#8-sticky-lines)
+  - [9. Markdown Smart Enter](#9-markdown-smart-enter)
+  - [10. Completion](#10-completion)
+  - [11. Light Bulb](#11-light-bulb)
+  - [12. Open with Single Click](#12-open-with-single-click)
+  - [13. Memory Settings](#13-memory-settings)
+  - [14. Palantir Java Format](#14-palantir-java-format)
 - [Keymap](#keymap)
   - [Lookup](#lookup)
 
@@ -54,81 +54,117 @@
 
 ## Plugins
 
-- [IdeaVim](https://github.com/jetbrains/ideavim)
-- [IdeaVim-Quickscope](https://plugins.jetbrains.com/plugin/19417-ideavim-quickscope)
-- [IdeaVim-EasyMotion](https://plugins.jetbrains.com/plugin/13360-ideavim-easymotion/versions)
-- [AceJump](https://github.com/acejump/AceJump)
-- [Catppuccin Theme](https://plugins.jetbrains.com/plugin/18682-catppuccin-theme)
-- [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)
-- [Inspection Lens](https://plugins.jetbrains.com/plugin/19678-inspection-lens)
+- [1. AceJump](https://github.com/acejump/AceJump)
+- [2. Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)
+- [3. Catppuccin Icons](https://plugins.jetbrains.com/plugin/23029-catppuccin-icons)
+- [4. Catppuccin Theme](https://plugins.jetbrains.com/plugin/18682-catppuccin-theme)
+- [5. IdeaVim](https://github.com/jetbrains/ideavim)
+- [6. IdeaVim-EasyMotion](https://plugins.jetbrains.com/plugin/13360-ideavim-easymotion/versions)
+- [7. IdeaVim-Quickscope](https://plugins.jetbrains.com/plugin/19417-ideavim-quickscope)
+- [8. Inspection Lens](https://plugins.jetbrains.com/plugin/19678-inspection-lens)
+- [9. palantir-java-format](https://plugins.jetbrains.com/plugin/13180-palantir-java-format)
 
 ---
 
 ## Settings
 
-### Tree Indent Guides
+### 1. Tree Indent Guides
 
-Settings > Appearance & Behavior > **Appearance** > _Tree Views_ > `Show indent guides`
+Settings > Appearance & Behavior > **Appearance** > _Tree Views_ > enable `Show indent guides`
 
-### Inlay Usage & Code Author
+---
+
+### 2. Inlay Usage & Code Author
 
 Settings > Editor > **Inlay Hints** > _Code vision_ > `Usages`, `Code author`
 
-### Fold One-line Methods
+---
 
-Settings > Editor > General > **Code Folding** > Fold by default: > _Java_ > `One-line methods`
+### 3. Fold One-line Methods
 
-### Caret Blink
+Settings > Editor > General > **Code Folding** > Fold by default: > _Languages_ > disable `One-line methods`
 
-Settings > Editor > General > **Appearance** > `Caret blinking (ms):`
+---
 
-### Open New Tab
+### 4. Caret Blink
 
-Settings > Editor > General > **Editor Tabs** > _Tab Order_ > `Open new tabs at the end`
+Settings > Editor > General > **Appearance** > disable `Caret blinking (ms):`
 
-### Scroll Pass BOF
+---
 
-Settings > Editor > **General** > _Virtual Space_ > `Show virtual space at the bottom of the file`
+### 5. Open New Tab
 
-### Smooth Scrolling
+Settings > Editor > General > **Editor Tabs** > _Tab Order_ > enable `Open new tabs at the end`
 
-Settings > Editor > **General** > _Scrolling_ > `Enable smooth scrolling`
+---
 
-### Sticky Lines
+### 6. Scroll Pass BOF
 
-Settings > Editor > **General** > _Sticky Lines_ > `Show sticky lines while scrolling`
+Settings > Editor > **General** > _Virtual Space_ > enable `Show virtual space at the bottom of the file`
 
-### Palantir Java Format
+---
 
-1. Install the `palantir-java-format` plugin.
-2. Settings > **Other Settings** > `Enable palantir-java-format Settings`
+### 7. Smooth Scrolling
 
-### Open with Single Click
+- `Scroll wheel`: Settings > Appearance & Behavior > Appearance > _UI Options_ > disable `Smooth scrolling`
+- `Arrow keys`: Settings > Editor > **General** > _Scrolling_ > disable `Enable smooth scrolling`
+
+---
+
+### 8. Sticky Lines
+
+Settings > Editor > **General** > _Sticky Lines_ > disable `Show sticky lines while scrolling`
+
+---
+
+### 9. Markdown Smart Enter
+
+Autocompleting list item with `dash(-)` on new line.
+
+Settings > Editor > General > **Smart Keys** > Markdown > _Lists_ > disable `Use Smart Enter and Backspace`
+
+---
+
+### 10. Completion
+
+- Show suggestions even when case of letter doesn't match.
+
+Settings > Editor > General > Code Completion > **Popup** > disable `Match case`
+
+- Always show type-matching completion
+
+Settings > Editor > General > Code Completion > **Popup**
+
+1. disable `Basic Completion`
+2. remap `Type-Matching Completion` to **Ctrl+Space**
+
+---
+
+### 11. Light Bulb
+
+Settings > Editor > General > Appearance > _Code Assistance_ > disable `Show intension bulb`
+
+---
+
+### 12. Open with Single Click
 
 Project window > 3 dot > Behavior > Open Files with Single Click, Open Directories with Single Click
 
 > [!TIP]
 > Try `Enable Preview Tab` option for VSCode like behavior
 
-### Memory Settings
+---
+
+### 13. Memory Settings
 
 Search `Change Memory Settings` from Actions (`Ctrl + Shift + A`) and change `Maximum Heap Size` to larger size to make IDE faster.
 
-### Markdown Smart Enter
+---
 
-Autocompleting list item with `dash(-)` on new line.
+### 14. Palantir Java Format
 
-Settings > Editor > General > **Smart Keys** > Markdown > _Lists_ > `Use Smart Enter and Backspace`
-
-### Completion Match Case
-
-Show suggestions even when case of letter doesn't match.
-
-Settings > Editor > General > Code Completion > **Popup** > `Match case`
-
-### Light Bulb
-
-Settings > Editor > General > Appearance > _Code Assistance_ > `Show intension bulb`
+1. Install the `palantir-java-format` plugin.
+2. Settings > **Other Settings** > `Enable palantir-java-format Settings`
 
 ---
 
@@ -142,5 +178,6 @@ Same as auto suggestion or completion.
 2. Remap `Choose Lookup Item Replace`, `Select Next Completion Option` and `Select Previous Completion Option` &rarr; `Ctrl` + `Y`, `J` and `K`
 3. Remove `Tab` from `Choose Lookup Item Replace` (tab to work normally even when suggestion is opened)
 
-> [!NOTE]
-> For some reason `Ctrl + K` remap is not working.
+If `Ctrl + K` for lookup is not working:
+
+Settings > Editor > Vim > Find **Ctrl+K** from `Shortcuts` and change the `Handler` to **IDE**
