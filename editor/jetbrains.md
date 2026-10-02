@@ -61,8 +61,9 @@
 - [5. IdeaVim](https://github.com/jetbrains/ideavim)
 - [6. IdeaVim-EasyMotion](https://plugins.jetbrains.com/plugin/13360-ideavim-easymotion/versions)
 - [7. IdeaVim-Quickscope](https://plugins.jetbrains.com/plugin/19417-ideavim-quickscope)
-- [8. Inspection Lens](https://plugins.jetbrains.com/plugin/19678-inspection-lens)
-- [9. palantir-java-format](https://plugins.jetbrains.com/plugin/13180-palantir-java-format)
+- [8. IdeaVimExtension](https://plugins.jetbrains.com/plugin/9615-ideavimextension)
+- [9. Inspection Lens](https://plugins.jetbrains.com/plugin/19678-inspection-lens)
+- [10. palantir-java-format](https://plugins.jetbrains.com/plugin/13180-palantir-java-format)
 
 ---
 
