@@ -105,6 +105,9 @@ Remove binary from `~/.cargo/bin`:
 cargo uninstall foo
 ```
 
+> [!NOTE]
+> Does not remove binary installed with `cargo install --path .`
+
 ---
 
 ## Clean
