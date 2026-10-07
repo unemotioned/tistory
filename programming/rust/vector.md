@@ -9,7 +9,6 @@ If number of elements is fixed at compiled time then consider using array.
 - [Access](#access)
 - [Iterate](#iterate)
 - [Array to Vec](#array-to-vec)
-  - [T: CLone](#t-clone)
 
 ---
 
@@ -44,7 +43,7 @@ let third = &v[20];
 ```
 
 > [!WARNING]
-> Panic at runtime if index is out of bounds.
+> Panic at **runtime** if index is out of bounds.
 
 This won't.
 
@@ -63,9 +62,8 @@ match v.get(20) {
 for i in &v {
     println!("{}", i);
 }
-```
 
-```rust
+// iterate and mutate
 for i in &mut v {
     // dereference
     *i += 50;
@@ -88,19 +86,4 @@ let v = Vec::from(arr);
 ```
 
 - **to_vec()**: clone each element into new Vec (which can be expensive)
-- **Vec::from()*: transfer ownership (move)
-
-### T: Clone
-
-`T: Clone`: generic type `T` must implement the Clone Trait.
-allows Rust to create explicit duplication with `.clone()`.
-
-```rust
-fn duplicate<T: Clone>(value: T) -> T {
-    value.clone()
-}
-```
-
-- `T`: any type
-- `T: Clone`: any typed that can be cloned
-- `.clone()`: create another owned value
+- **Vec::from()**: transfer ownership (move)
