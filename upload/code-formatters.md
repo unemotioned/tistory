@@ -45,9 +45,11 @@ Formatter: [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html)
 `.clang-format`:
 
 ```yaml
+---
 BasedOnStyle: LLVM
 IndentWidth: 4
 UseTab: Never
+BreakTemplateDeclarations: Yes # clang-format@19 +
 ```
 
 ---
