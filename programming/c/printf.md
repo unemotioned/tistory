@@ -39,8 +39,7 @@
 
 ## Others
 
-| Type                | Printf |
-| ------------------- | ------ |
-| Hexadecimal (lower) | `%x`   |
-| Hexadecimal (upper) | `%X`   |
-| Octal               | `%o`   |
+| Type        | Printf       |
+| ----------- | ------------ |
+| Hexadecimal | `%x` or `%X` |
+| Octal       | `%0`         |
