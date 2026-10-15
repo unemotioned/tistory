@@ -1,5 +1,7 @@
 # C Programming Language
 
+Let's go low level.
+
 ## Reference
 
 - [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html)
@@ -44,4 +46,7 @@
 
 ---
 
+## Documentations
+
+- [Float](./float.md)
 - [String](./string.md)
