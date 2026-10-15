@@ -18,10 +18,6 @@
 | size_t      | `%zu`        |
 | pointer     | `%p`         |
 
-> [!IMPORTANT]
-> if `float` is not initialized with **f** at the end of literal it will implicitly
-> converted to `double`
-
 ---
 
 ## Unsigned
@@ -41,5 +37,9 @@
 
 | Type        | Printf       |
 | ----------- | ------------ |
-| Hexadecimal | `%x` or `%X` |
+| Binary      | `%b`         |
 | Octal       | `%0`         |
+| Hexadecimal | `%x` or `%X` |
+
+> [!NOTE]
+> Binary specifier is only supported on newer C libraries
