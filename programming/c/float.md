@@ -1,12 +1,28 @@
-# Float to Binary
+# Float in Binary
 
-convert floating point number from decimal to binary
+C stores floating-point numbers using the **IEEE 754** standard.
 
 ## Reference
 
 [Geeks For Geeks - C Float and Double](https://www.geeksforgeeks.org/c/c-float-and-double/)
 
-Binary fraction into decimal:
+## Table of Contents
+
+- [Binary Fraction to Decimal](#binary-fraction-to-decimal)
+- [Float Type](#float-type)
+- [Double Type](#double-type)
+- [Decimal to Binary](#decimal-to-binary)
+  - [Fraction to Binary](#fraction-to-binary)
+  - [1. Sign](#1-sign)
+  - [2. Mantissa](#2-mantissa)
+  - [3. Exponent](#3-exponent)
+  - [Result](#result)
+
+---
+
+## Binary Fraction to Decimal
+
+The equation:
 
 ```math
 (-1)^S \times M \times 2^E
@@ -18,6 +34,8 @@ Binary fraction into decimal:
   - `Significand`: 유효숫자부
 - `Exponent`: 지수
 
+Float and double types in memory is separated into parts of **Sign**, **Fraction** and **Exponent**.
+
 ---
 
 ## Float Type
@@ -27,12 +45,12 @@ float f = 3.14f;  // suffix `f`
 
 // %f
 scanf("%f", &f);
-printf("%f", f);
+printf("%f", f); // when printing float automatically gets promoted to double
 ```
 
 4 Bytes / 32 Bits
 
-Sign: 1 bits
+Sign: 1 bit
 Exponent: 8 bits
 Fraction: 23 bits
 
@@ -52,12 +70,12 @@ double d = 3.14;
 
 // %lf
 scanf("%lf", &d);
-printf("%lf", d); // printf will round the 7th digit
+printf("%f", d); // used %f specifier even when printing double
 ```
 
 8 Bytes / 64 Bits
 
-- Sign: 1 bits
+- Sign: 1 bit
 - Exponent: 11 bits
 - Fraction: 52 bits
 
@@ -74,49 +92,90 @@ printf("%lf", d); // printf will round the 7th digit
 
 ```txt
 65.125
-65 = 1000001
-0.125 = 001
+65    (10) = 1000001 (2)
+0.125 (10) = 0.001   (2)
 
-65.125 = 1000001.001
-       = 1.000001001 * 10^6 // normalization(정규화)
+65.125 (10) = 1000001.001       (2)
+            = 1.000001001 * 2^6 (2)  // normalization(정규화)
+```
+
+### Fraction to Binary
+
+In Decimal fraction is `1/10`, `1/10^2`, `1/10^3`, ... so on. Same stuff for the
+binary:
+
+```txt
+0 . 1   2   5
+    |   |   |
+   1/2 1/4 1/8
+```
+
+To convert it to binary, we multiply it and check the integer part:
+
+```txt
+0.125 * 2 = 0.250
+Integer part: 0 -> Binary digit: 0
+
+0.250 * 2 = 0.500 -> 0
+0.500 * 2 = 1.000 -> 1
+
+Fraction part is all 0. We're done.
+==> 001
 ```
 
 ### 1. Sign
 
-**-1** powered by `0` == **1** == `positive`
-**-1** powered by `1` == **-1** == `negative`
+- **-1** powered by `0` = **1** ==> `Positive`
+- **-1** powered by `1` = **-1** ==> `Negative`
+
+Sign: `0`
 
 ### 2. Mantissa
 
-`1000001001` is 10 bits long
+Or fraction.
 
-but since after normalization leftmost bit will always be 1
-so c will omit it and just save the last 9 bits
+After normalization leftmost bit will always be 1. So **IEEE 754** will not store
+it and just save the last 9 bits.
 
-left over 14 bits will be filled with 0s
+Left over 14 bits will be filled with 0s.
+
+Fraction: `00000100100000000000000`
 
 ### 3. Exponent
 
-since exponent can be negative number use `bias` to store them
+```math
+Exponent = Bias + Real Exponent
+```
 
-exponent bit size in float type is 8
+- **Real Exponent**: The number you get after normalization.
+- **Bias**: Exponent can be a negative number so we use bias to store them
 
-10000000 (2) = 127 (10) and 127 is called `bias`
+```math
+Bias = 2^{k-1}-1
+```
+
+Exponent bit size in float is **8**. And after normalization we got **6**.
+
+```txt
+
+2 ^ (8 - 1) -1 = 127
 
 127 + 6 = 133
 
-finally 133 (10) == 10000101 (2) will be stored
-
-```math
-Real Exponent = Exponent - Bias
+133 (10) = 10000101 (2)
 ```
 
-> [!NOTE]
-> The size of `Bias` varies by type.
+Exponent: `10000101`
+
+> [!IMPORTANT]
+> The exponent from binary to decimal equation actually uses **Real Exponent**
+> which is `Exponent - Bias`.
+
+### Result
+
+`65.125` in raw bits as **float type**:
 
 ```txt
-65.125 in raw bits
-
 0              10000101           00000100100000000000000
 
 31             30              23 22                    0
@@ -124,3 +183,5 @@ Real Exponent = Exponent - Bias
 | sign: 1 bit | exponent: 8 bits | fraction: 23 bits    |
 +-------------+------------------+----------------------+
 ```
+
+Result: `01000010100000100100000000000000`
