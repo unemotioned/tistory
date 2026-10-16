@@ -1,6 +1,6 @@
 # Boolean
 
-`0` equals **false** and anything else equals **true** but `1` conventionally
+`0` equals **false** and anything else equals **true** but uses `1` conventionally
 
 ```c
 #include <stdbool.h>
@@ -14,7 +14,7 @@
 
 int main() {
     if (1) {
-        printf("yay\n");
+        printf("Yay!\n");
     }
 
     bool im_ready = true;
