@@ -1,5 +1,7 @@
 # Compile
 
+## Command
+
 [gcc(1) - Linux manual page](https://man7.org/linux/man-pages/man1/gcc.1.html)
 
 ```sh
@@ -22,3 +24,24 @@ gcc -std=c23 -Wall -Wextra -pedantic -O2 main.c -o a
 
 > [!NOTE]
 > Same flags work exactly the same with `clang`.
+
+---
+
+## Clangd
+
+### Troubleshooting
+
+**Warning**: LSP is treating header file as Objective-C++
+
+```txt
+Invalid argument '-std=c11' not allowed with 'Objective-C++'
+```
+
+Inside `.clangd`:
+
+- `-x`: parse files as `c`
+
+```yaml
+CompileFlags:
+  Add: [-xc, -std=c11]
+```
