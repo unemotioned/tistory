@@ -1,6 +1,6 @@
 # Float in Binary
 
-C stores floating-point numbers using the **IEEE 754** standard.
+C stores floating-point numbers using the [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) standard.
 
 ## Reference
 
@@ -8,7 +8,7 @@ C stores floating-point numbers using the **IEEE 754** standard.
 
 ## Table of Contents
 
-- [Binary Fraction to Decimal](#binary-fraction-to-decimal)
+- [The Equation](#the-equation)
 - [Float Type](#float-type)
 - [Double Type](#double-type)
 - [Decimal to Binary](#decimal-to-binary)
@@ -20,9 +20,9 @@ C stores floating-point numbers using the **IEEE 754** standard.
 
 ---
 
-## Binary Fraction to Decimal
+## The Equation
 
-The equation:
+Float and double types in memory is separated into parts of **Sign**, **Fraction** and **Exponent**.
 
 ```math
 (-1)^S \times M \times 2^E
@@ -33,8 +33,6 @@ The equation:
   - `Fraction`: 소수부
   - `Significand`: 유효숫자부
 - `Exponent`: 지수
-
-Float and double types in memory is separated into parts of **Sign**, **Fraction** and **Exponent**.
 
 ---
 
