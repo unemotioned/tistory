@@ -215,7 +215,7 @@ npm init @eslint/config@latest
 > [!TIP]
 > `Where des your code run?`에서 `node`를 선택해야 `console.log`를 에러라고 하지 않음
 
-더 자세한거는 [nodejs/eslint.md](../nodejs/eslint.md) 참고.
+더 자세한거는 [programming/nodejs/eslint.md](/programming/node/eslint.md) 참고.
 
 ### JavaScript(ES6) code snippets
 
@@ -254,7 +254,7 @@ HTML, CSS, JavaScript, MD, JSON ... 파일 포멧
 - 4 스페이스 들여쓰기
 - 쌍따옴표 대신 작은 따옴표
 
-더 자세한거는 [nodejs/prettier.md](../nodejs/prettier.md) 참고.
+더 자세한거는 [programming/node/prettier.md](../programming/node/prettier.md) 참고.
 
 ### Quokka.js
 
