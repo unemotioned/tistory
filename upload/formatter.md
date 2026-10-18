@@ -52,6 +52,16 @@ UseTab: Never
 BreakTemplateDeclarations: Yes # clang-format@19 +
 ```
 
+- `-i` (inplace): format the file directly
+
+```sh
+# format every c files
+clang-format -i *.c
+
+# format using nearest `.clang-format` file
+clang-format -i -style=file *.cpp
+```
+
 ---
 
 ## Lua
