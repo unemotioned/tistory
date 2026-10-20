@@ -75,7 +75,7 @@ export QT_IM_MODULE=fcitx
 - Set `Trigger Input Method` to **Right Alt (R_Alt)**
 - Disable `Show Input Method Information when switch input method`.
 
-![fcitx-config](../assets/fcitx-config.png)
+![fcitx-config](../../assets/fcitx-config.png)
 
 ---
 

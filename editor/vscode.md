@@ -30,7 +30,7 @@ Microsoft에서 [Typescript](https://www.typescriptlang.org/)로 만든 무료 �
 
 ## 터미널 명령어
 
-더 많은 윈도우 터미널 명령어: [windows/powershell](../windows/powershell.md)
+더 많은 윈도우 터미널 명령어: [os/windows/powershell](../os/windows/powershell.md)
 
 ### VSCode로 열기
 

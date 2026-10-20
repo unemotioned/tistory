@@ -10,4 +10,4 @@ Turn off annoying alert sound.
 4. Program Events: > `Default Beep`
 5. **(None)**
 
-![system-sound.png](../assets/system-sound.png)
+![system-sound.png](../../assets/system-sound.png)
