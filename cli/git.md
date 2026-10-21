@@ -10,6 +10,7 @@ Version control system developed by [Linus Torvalds](https://github.com/torvalds
 - [Stop Tracking Ignored](#stop-tracking-ignored)
 - [Worktree](#worktree)
 - [Ignore](#ignore)
+- [Shallow](#shallow)
 
 ---
 
@@ -138,4 +139,23 @@ Can re-include file under it but not directory.
 ```gitignore
 .vscode/**
 !.vscode/settings.json
+```
+
+---
+
+## Shallow
+
+When cloning a super heavy project.
+
+```sh
+git clone --depth 1 <username>/<repository>
+
+# or latest 100
+git clone --depth 100 <username>/<repository>
+```
+
+Fetch rest of the commits.
+
+```sh
+git fetch --unshallow
 ```
