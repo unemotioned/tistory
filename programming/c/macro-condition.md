@@ -1,6 +1,4 @@
-# Preprocessor
-
----
+# Macro Condition
 
 ## Conditionals
 

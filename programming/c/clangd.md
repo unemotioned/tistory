@@ -1,5 +1,9 @@
 # Clangd
 
+LSP to read files as **C** language.
+
+---
+
 ## Troubleshooting
 
 **Warning**: LSP is treating header file as Objective-C++

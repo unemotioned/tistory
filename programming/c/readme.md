@@ -12,7 +12,6 @@ Let's go low level.
 
 - types
   - types size
-  - binary and hex in int
   - unsigned types
   - type conversion
   - how to printf each type
@@ -23,8 +22,6 @@ Let's go low level.
 - return 0
 
 - array overflow preventing compile
-
-- compile optimization
 
 - makefile
 
@@ -38,15 +35,19 @@ Let's go low level.
 
 - enum
 
-- struct
-
-- typedef
-
 - function that can take varying number or arguments
 
 ---
 
 ## Documentations
 
+- [GCC](./gcc.md)
+- [Clangd](./clangd.md)
+- [Non-Decimal](./non-decimal.md)
 - [Float](./float.md)
 - [String](./string.md)
+- [Bool](./bool.md)
+- [Typedef](./typedef.md)
+- [Struct](./struct.md)
+- [Macro Condition](./macro-condition.md)
+- [Macro Assert](./macro-assert.md)

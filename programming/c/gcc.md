@@ -1,8 +1,12 @@
-# Compile
+# GCC
 
-## Command
+## Reference
 
 [gcc(1) - Linux manual page](https://man7.org/linux/man-pages/man1/gcc.1.html)
+
+---
+
+## Command
 
 ```sh
 gcc -std=c23 -Wall -Wextra -pedantic -O2 main.c -o a
