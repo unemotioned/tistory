@@ -4,8 +4,12 @@ Package manager for macOS.
 
 ## Table of Contents
 
-- [Install](#install)
+- [Install Homebrew](#install-homebrew)
 - [Usage](#usage)
+  - [Etc](#etc)
+- [Dependency](#dependency)
+  - [Reverse Dependency](#reverse-dependency)
+  - [Remove Orphaned](#remove-orphaned-packages)
 - [Pin Package Version](#pin-package-version)
   - [Unpin Package](#unpin-package)
 - [Save Installed Packages](#save-installed-packages)
@@ -13,7 +17,7 @@ Package manager for macOS.
 
 ---
 
-## Install
+## Install Homebrew
 
 Execute the following command in the terminal:
 
@@ -41,37 +45,60 @@ brew --version
 ## Usage
 
 ```sh
-# search
-brew search {pkg}
+brew search <pkg>
 
-# list installed
 brew list
-brew list | grep {pkg}
 
-# install package
-brew install {pkg}
+brew install <pkg>
 
-# remove packages
-brew uninstall {pkg}
+brew uninstall <pkg>
 
 # update package index
 brew update
 
 # update outdated packages
 brew upgrade
+```
 
-# remove orphaned packages
-brew autoremove
+### Etc
 
-# show orphaned packages before actually removing
-brew autoremove --dry-run
-
+```sh
 # clear cache
 brew cleanup
 
 # check homebrew health
 brew doctor
 ```
+
+---
+
+## Dependency
+
+Dependencies of package
+
+```sh
+brew deps <pkg>
+
+brew deps --tree <pkg>
+brew deps --recursive <pkg>
+```
+
+### Reverse Dependency
+
+Packages that depends on a package.
+
+```sh
+brew uses <pkg>
+```
+
+### Remove Orphaned Packages
+
+```sh
+brew autoremove --dry-run
+brew autoremove
+```
+
+---
 
 ## Pin Package Version
 
