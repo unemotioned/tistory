@@ -1,5 +1,18 @@
 # Type
 
+## Table of Contents
+
+- [Declarations](#declarations)
+  - [Integers](#integers)
+  - [Floats](#floats)
+  - [Pointer](#pointer)
+  - [Array](#array)
+  - [String](#string)
+  - [size_t](#size_t)
+- [Sizes](#sizes)
+- [Min Max](#min-max)
+- [Signedness](#signedness)
+
 ---
 
 ## Declarations
@@ -18,7 +31,7 @@ short i16 = -2;
 
 Check out [typedef.md](./typedef.md) for using guaranteed size of integers.
 
-### Float
+### Floats
 
 ```c
 float f = 0.0F;
@@ -98,7 +111,7 @@ On a 32-bit architecture, pointers are 32 bits wide.
 
 ---
 
-## Minimum and Maximum Values
+## Min Max
 
 `n`: The number of bits in the data type.
 
