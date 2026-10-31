@@ -72,7 +72,7 @@ a_p2 = &b; // Valid
 
 ## Const Pointer to Const
 
-pointer to const must honor its const-ness
+pointer to const must honor its constness
 
 ```c
 const char x = 'x';
