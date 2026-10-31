@@ -1,5 +1,7 @@
 # GCC
 
+GNU C Compiler
+
 ## Reference
 
 [gcc(1) - Linux manual page](https://man7.org/linux/man-pages/man1/gcc.1.html)

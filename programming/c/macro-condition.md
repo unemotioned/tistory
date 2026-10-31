@@ -1,11 +1,17 @@
 # Macro Condition
 
+`Conditional Compilation Directives`: Preprocessor to include or exclude codes
+before compilation.
+
+---
+
 ## Conditionals
 
-- `__APPLE__`
-- `__linux__`
-- `_WIN32`
-- `_WIN64`
+- OSs and architecture
+  - `__APPLE__`: macOS or iOS
+  - `__linux__`
+  - `_WIN32`: 32 or 64 bit
+  - `_WIN64`
 
 ### ifdef
 
@@ -15,9 +21,9 @@
 #endif
 ```
 
----
-
 ### ifndef
+
+same as `#if !defined(NAME)`
 
 ```c
 #ifndef __APPLE__
@@ -25,14 +31,12 @@
 #endif
 ```
 
----
-
 ### elif
 
 ```c
 #if defined(__APPLE__) || defined(__linux__)
     unix_func();
-#elif defined(_WIN32) && defined(_WIN64)
+#elif defined(_WIN32)
     win_func();
 #endif
 ```
@@ -40,7 +44,7 @@
 ### if not
 
 ```c
-#if !defined(_WIN32) && !defined(_WIN64)
-// just don't use Windows
+#if !defined(_WIN32)
+    unix_func();
 #endif
 ```

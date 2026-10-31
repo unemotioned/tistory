@@ -1,18 +1,17 @@
 # Boolean
 
-`0` equals **false** and anything else equals **true** but uses `1` conventionally
-
 ```c
 #include <stdbool.h>
 ```
 
----
+- false: 0
+- true: anything else then 0, but 1 conventionally
 
 ```c
 #include <stdbool.h>
 #include <stdio.h>
 
-int main() {
+int main(void) {
     if (1) {
         printf("Yay!\n");
     }

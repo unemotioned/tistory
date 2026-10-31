@@ -4,7 +4,26 @@ Let's go low level.
 
 ## Reference
 
-- [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html)
+[Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split/index.html)
+
+---
+
+## Documentations
+
+[GCC](./gcc.md)
+[Clangd](./clangd.md)
+[Type](./type.md)
+[Printf](./printf.md)
+[Float](./float.md)
+[String](./string.md)
+[Non-Decimal](./non-decimal.md)
+[Boolean](./bool.md)
+[Constant and Pointer](./const-pointer.md)
+[Typedef](./typedef.md)
+[Struct](./struct.md)
+[Enum](./enum.md)
+[Macro Assert](./macro-assert.md)
+[Macro Condition](./macro-condition.md)
 
 ---
 
@@ -33,21 +52,4 @@ Let's go low level.
 
 - character in ascii and utf-8
 
-- enum
-
 - function that can take varying number or arguments
-
----
-
-## Documentations
-
-- [GCC](./gcc.md)
-- [Clangd](./clangd.md)
-- [Non-Decimal](./non-decimal.md)
-- [Float](./float.md)
-- [String](./string.md)
-- [Bool](./bool.md)
-- [Typedef](./typedef.md)
-- [Struct](./struct.md)
-- [Macro Condition](./macro-condition.md)
-- [Macro Assert](./macro-assert.md)
