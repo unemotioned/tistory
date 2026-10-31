@@ -61,14 +61,6 @@ printf("%.*f\n", precision, pi);
 | ----------- | ------ |
 | signed char | `%hhd` |
 
-- `char`: normal text
-- `signed char`: raw bytes. image, file contents
-- `unsigned char`: small integers that may be negative
-
-> [!NOTE]
-> `char`'s signed-ness is **implementation dependent**. Don't assumen it can
-> hold both negative or larger then 127.
-
 ---
 
 ## Pointer

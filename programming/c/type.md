@@ -1,91 +1,150 @@
 # Type
 
-min max value it can store
+---
 
-how to print them
+## Declarations
 
-type conversion
+### Integers
 
-binary and hex
+```c
+int i32 = 4;
 
-what is size_t
+long i64 = 8;
 
-sizeof()
+long long i64 = 16;
+
+short i16 = -2;
+```
+
+Check out [typedef.md](./typedef.md) for using guaranteed size of integers.
+
+### Float
+
+```c
+float f = 0.0F;
+double d = 0.0;
+long double ld = 0.0L;
+```
+
+Check out [float.md](./float.md) for more.
+
+### Pointer
+
+```c
+int x = 10;
+
+int *x_p = &x;
+
+int **x_pp = &x_p; // pointer to a pointer
+```
+
+Some formatting styles put `*` next to type keyword.
+
+```c
+int* x_ptr = &x;
+```
+
+### Array
+
+```c
+int arr_1[5] = {0}; // all five elements are initialized to zero
+
+int arr_2[] = {1, 2, 3, 4, 5}; // length is inferred from the initializer
+```
+
+### String
+
+```c
+const char *s1 = "string as pointer";
+
+char s2[] = "string as char arr";
+```
+
+Check out [string.md](./string.md) for more.
+
+### size_t
+
+Result of the `sizeof` operator.
+
+Can be `unsigned int` or `unsigned long` or `unsigned long long`.
+
+```c
+#include <stddef.h>
+
+int arr[5] = {0};
+size_t size = sizeof(arr); // total size of the array in bytes
+```
 
 ---
 
-## Variables
+## Sizes
 
-### Basic
+1 byte = 8 bits
 
-```c
-int a = 0;
+| Type        | Typical size (bytes) |
+| ----------- | -------------------- |
+| char        | `1`                  |
+| short       | `2`                  |
+| int         | `4`                  |
+| long        | `4` or `8`           |
+| long long   | `8`                  |
+| float       | `4`                  |
+| double      | `8`                  |
+| long double | `8` or `12` or `16`  |
+| size_t      | `4` or `8`           |
+| pointer     | `4` or `8`           |
 
-float b = 3.14f;
+On a 32-bit architecture, pointers are 32 bits wide.
 
-double c = 3.14159;
+---
 
-char d = 'c';
+## Minimum and Maximum Values
 
-char e[] = "string literal";
+`n`: The number of bits in the data type.
+
+**Minimum**:
+
+```math
+-1 \times ( 2 ^ { n - 1 } )
 ```
 
-### Size
+**Maximum**:
 
-1 Byte == 8 Bit
-
-| Type        | Size (Byte) |
-| ----------- | ----------- |
-| `char`      | 1           |
-| `short`     | 2           |
-| `int`       | 4           |
-| `long`      | 4 or 8      |
-| `long long` | 8           |
-| `float`     | 4           |
-| `double`    | 8           |
-
-### Min Max
-
-`int` is 4 byte long which is 32 bit and the first bit(leftmost) **Most Significant Bit (MSB)** if not `unsigned`
-
-actual value it can hold is
-
-```text
-2 ^ (16 - 1)
-```
-
-**MSB** 0 means non-negative which includes 0
-1 means negative value
-
-### Unsigned
-
-means for int it uses all 16 bits to
-
-```c
-unsigned int a;
+```math
+2 ^ { n - 1 } - 1
 ```
 
 ---
 
-### Float and Double
+## Signedness
 
----
-
-### Modifier
+The most significant bit (MSB) of a signed integer indicates whether its value
+is negative or non-negative (including zero).
 
 ```c
-short int a
-long int b
-long long int c
+unsigned int ui = 10;
 
-// you can omit int
-short x
-long y
-long long z
+unsigned short us = 20;
 
-unsigned int d
-unsigned long e
+unsigned long ul = 30;
 
-signed char f
-unsigned char g
+unsigned char uc = 'c';
+
+signed char sc = -1;
+```
+
+- `unsigned char`: Raw bytes, such as image data or file contents.
+- `signed char`: Small integers that may be negative.
+
+> [!NOTE]
+> Whether plain `char` is signed or unsigned is **implementation-defined**.
+> Do not assume it can represent negative values or values greater than 127.
+
+Unsigned integer types represent non-negative values.
+
+For the same width, the maximum unsigned value is about twice the maximum signed
+value.
+
+```math
+2 ^ n - 1
 ```

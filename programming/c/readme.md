@@ -30,12 +30,7 @@ Let's go low level.
 
 ## Questions
 
-- types
-  - types size
-  - unsigned types
-  - type conversion
-  - how to printf each type
-  - what is `size_t`
+- type conversion
 
 - void in param
 
@@ -45,8 +40,6 @@ Let's go low level.
 
 - makefile
 
-- how to use conio.h
-
 - memory allocation
 
 - multi-file project
@@ -54,3 +47,5 @@ Let's go low level.
 - character in ascii and utf-8
 
 - function that can take varying number or arguments
+
+- c program to take arguments
