@@ -10,21 +10,21 @@ Let's go low level.
 
 ## Documentations
 
-[GCC](./gcc.md)
-[Clangd](./clangd.md)
-[Type](./type.md)
-[Printf](./printf.md)
-[Field Width](./field-width.md)
-[Float](./float.md)
-[String](./string.md)
-[Non-Decimal](./non-decimal.md)
-[Boolean](./bool.md)
-[Constant and Pointer](./const-pointer.md)
-[Typedef](./typedef.md)
-[Struct](./struct.md)
-[Enum](./enum.md)
-[Macro Assert](./macro-assert.md)
-[Macro Condition](./macro-condition.md)
+- [GCC](./gcc.md)
+- [Clangd](./clangd.md)
+- [Type](./type.md)
+- [Printf](./printf.md)
+- [Field Width](./field-width.md)
+- [Float](./float.md)
+- [String](./string.md)
+- [Non-Decimal](./non-decimal.md)
+- [Boolean](./bool.md)
+- [Constant and Pointer](./const-pointer.md)
+- [Typedef](./typedef.md)
+- [Struct](./struct.md)
+- [Enum](./enum.md)
+- [Macro Assert](./macro-assert.md)
+- [Macro Condition](./macro-condition.md)
 
 ---
 
