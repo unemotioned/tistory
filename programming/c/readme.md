@@ -14,6 +14,7 @@ Let's go low level.
 [Clangd](./clangd.md)
 [Type](./type.md)
 [Printf](./printf.md)
+[Field Width](./field-width.md)
 [Float](./float.md)
 [String](./string.md)
 [Non-Decimal](./non-decimal.md)
