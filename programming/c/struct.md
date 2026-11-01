@@ -1,12 +1,11 @@
 # Struct
 
-something close to class in objective programming
+Something close to **class** in objective programming.
 
 ---
 
-- use `typedef` to later declare struct without the struct keyword
-- don't forget the semi-colon at the end of declaration
-- variable not initialized will automatically be assigned with value of `0`
+- Don't forget the semi-colon at the end of declaration
+- Variable not initialized will automatically be assigned with value of `0`
 
 ```c
 #include <stdio.h>
@@ -16,13 +15,7 @@ struct foo {
     float y;
 };
 
-// with `typedef` name of the struct must come after brace
-typedef struct {
-    int v;
-    int w;
-} bar;
-
-int main() {
+int main(void) {
     struct foo foo = {
         // .x = 1.0f, // 0 by default if not assigned
         .y = 2.0f,
@@ -35,6 +28,26 @@ int main() {
 
     printf("foo = < %f, %f >\n", foo.x, foo.y);
 
+
+    return 0;
+}
+```
+
+## Typedef
+
+Use `typedef` to later declare struct without the struct keyword.
+
+```c
+#include <stdio.h>
+
+// With `typedef`, name of the struct must come after brace.
+// Define anonymous struct and give `bar` alias.
+typedef struct {
+    int v;
+    int w;
+} bar;
+
+int main(void) {
     bar bar = {
         .v = 4,
         .w = 5,
