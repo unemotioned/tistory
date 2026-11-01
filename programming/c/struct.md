@@ -4,6 +4,8 @@ Something close to **class** in objective programming.
 
 ---
 
+## Basic
+
 - Don't forget the semi-colon at the end of declaration
 - Variable not initialized will automatically be assigned with value of `0`
 
@@ -32,6 +34,8 @@ int main(void) {
     return 0;
 }
 ```
+
+---
 
 ## Typedef
 

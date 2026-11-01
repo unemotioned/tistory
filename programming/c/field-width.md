@@ -2,13 +2,17 @@
 
 Minimum width to print including the text. Does not truncate longer text.
 
-- right aligned (padding before text)
+---
+
+## Static
+
+- **Right aligned** (padding before text)
 
 ```c
 printf("%10s\n", "hello");
 ```
 
-- left aligned (padding after text)
+- **Left aligned** (padding after text)
 
 ```c
 printf("%-10s\n", "hello");
@@ -16,9 +20,9 @@ printf("%-10s\n", "hello");
 
 ---
 
-## Dynamic Field Width
+## Dynamic
 
-use `*` to specify field width through args
+Use `*` to specify field width through an argument.
 
 ```c
 int width = 20;

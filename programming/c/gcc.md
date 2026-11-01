@@ -1,6 +1,6 @@
 # GCC
 
-GNU C Compiler
+GNU C Compiler.
 
 ## Reference
 

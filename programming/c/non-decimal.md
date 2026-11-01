@@ -1,6 +1,6 @@
 # Non-Decimal
 
-how to assign integer type with binary, octal and hexadecimal literals
+How to assign integer type with binary, octal and hexadecimal literals.
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@ how to assign integer type with binary, octal and hexadecimal literals
 - [Octal](#octal)
 - [Hexadecimal](#hexadecimal)
 - [How to Count](#how-to-count)
+- [How to Convert](#how-to-convert)
 
 ---
 
@@ -73,4 +74,4 @@ int hex = 0xA; // 10 (16)
 
 ---
 
-how to print in binary, octal or hexadecimal: [printf.md](./printf.md)
+How to print in **Binary**, **Octal** or **Hexadecimal**: [printf.md](./printf.md#non-decimal)

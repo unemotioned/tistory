@@ -3,6 +3,10 @@
 Assert macro to tell assertion has failed from where(file, line) and under what
 condition.
 
+---
+
+## Assert
+
 When the `ASSERT_ENABLED` is true(1). If not enabled, do nothing.
 
 ```c
@@ -31,7 +35,11 @@ int main(void) {
 }
 ```
 
-> assert.c:22: assertion x < 20 failed: x must be under 20
+**Output**:
+
+```txt
+assert.c:22: assertion x < 20 failed: x must be under 20
+```
 
 - `__FILE__`, `__LINE__`: Predefined preprocessor macros.
 

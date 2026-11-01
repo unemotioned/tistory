@@ -17,5 +17,5 @@ CompileFlags:
   Add: [-xc, -std=c11]
 ```
 
-> [!TIP]
+> [!NOTE]
 > `-xc++` for **C++**.

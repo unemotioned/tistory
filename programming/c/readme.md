@@ -18,7 +18,7 @@ Let's go low level.
 - [Float](./float.md)
 - [String](./string.md)
 - [Non-Decimal](./non-decimal.md)
-- [Boolean](./bool.md)
+- [Boolean](./boolean.md)
 - [Constant and Pointer](./const-pointer.md)
 - [Typedef](./typedef.md)
 - [Struct](./struct.md)
