@@ -80,10 +80,18 @@ for i in &mut v {
 ```rust
 let arr = [1, 2, 3];
 
-let v = arr.to_vec();
+let v1 = arr.to_vec(); // Clone
+
 // or
-let v = Vec::from(arr);
+let v2 = Vec::from(arr); // Move
 ```
 
-- **to_vec()**: clone each element into new Vec (which can be expensive)
-- **Vec::from()**: transfer ownership (move)
+- **to_vec()**: Clones each element into new `Vec`, which can be expensive.
+  Original array is still available.
+
+- **Vec::from()**: Move elements into new `Vec`, transferring ownership.
+  Original array becomes unavailable.
+
+> [!IMPORTANT]
+> `i32` data type has **Copy Trait**. Array containing non-copy types becomes
+> unavailable.
