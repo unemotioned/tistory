@@ -1,4 +1,4 @@
-# Compile
+# Java Compiler
 
 Compile and run without build tools.
 
@@ -12,6 +12,8 @@ Compile and run without build tools.
 ```sh
 javac -d out $(find src -name "*.java")
 ```
+
+---
 
 ## Run
 
@@ -32,7 +34,7 @@ javac -d out $(find src -name "*.java") && java -cp out src.main.java.com.unemot
 
 ## JAR
 
-After [compile](#compile).
+After [compilation](#compilation).
 
 Creates `.jar` file at **bin** directory:
 
