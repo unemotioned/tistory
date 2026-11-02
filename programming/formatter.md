@@ -9,7 +9,6 @@ My formatter style:
 ## Table of Contents
 
 - [Editorconfig](#editorconfig)
-- [C / C++](#c--c)
 - [Lua](#lua)
 - [Shell](#shell)
 
@@ -34,32 +33,6 @@ trim_trailing_whitespace = true
 
 [*.{html,css,md}]
 indent_size = 2
-```
-
----
-
-## C / C++
-
-Formatter: [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html)
-
-`.clang-format`:
-
-```yaml
----
-BasedOnStyle: LLVM
-IndentWidth: 4
-UseTab: Never
-BreakTemplateDeclarations: Yes # clang-format@19 +
-```
-
-- `-i` (inplace): format the file directly
-
-```sh
-# format every c files
-clang-format -i *.c
-
-# format using nearest `.clang-format` file
-clang-format -i -style=file *.cpp
 ```
 
 ---
