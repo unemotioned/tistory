@@ -45,12 +45,12 @@ let third = &v[20];
 > [!WARNING]
 > Panic at **runtime** if index is out of bounds.
 
-This won't.
+This one won't:
 
 ```rust
 match v.get(20) {
-    Some(e) => println!("21th element: {}", e),
-    None => println!("There is no 21th element")
+    Some(e) => println!("21st element: {}", e),
+    None => println!("There is no 21st element")
 }
 ```
 
@@ -71,6 +71,7 @@ for i in &mut v {
 ```
 
 - `i`: mutable reference to element
+
 - `*i`: access actual element to change it
 
 ---
@@ -86,10 +87,10 @@ let v1 = arr.to_vec(); // Clone
 let v2 = Vec::from(arr); // Move
 ```
 
-- **to_vec()**: Clones each element into new `Vec`, which can be expensive.
+- `to_vec()`: Clones each element into new `Vec`, which can be expensive.
   Original array is still available.
 
-- **Vec::from()**: Move elements into new `Vec`, transferring ownership.
+- `Vec::from()`: Move elements into new `Vec`, transferring ownership.
   Original array becomes unavailable.
 
 > [!IMPORTANT]
