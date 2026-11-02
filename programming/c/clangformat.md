@@ -52,5 +52,19 @@ clang-format -i *.c
 Format using nearest `.clang-format` file:
 
 ```sh
-clang-format -i -style=file *.cpp
+clang-format -i --style=file *.cpp
 ```
+
+### Recursively
+
+**Fd**:
+
+```sh
+find . -type f \( -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -exec clang-format -i --style=file {} +
+```
+
+- `find .`: recursively search from current dir
+- `-type f`: only matches files
+- `-name`: match by file extensions
+- `-o`: logical **OR**
+- `{} +`: process multiple files per invocation for efficiency
