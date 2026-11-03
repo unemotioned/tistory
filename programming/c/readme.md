@@ -13,14 +13,14 @@ Let's go low level.
 - [GCC](./gcc.md)
 - [Clangd](./clangd.md)
 - [ClangFormat](./clangformat.md)
-- [Type](./type.md)
+- [Data Type](./data-type.md)
+- [Boolean](./boolean.md)
 - [Non-Decimal](./non-decimal.md)
 - [Float](./float.md)
 - [String](./string.md)
+- [Constant and Pointer](./const-pointer.md)
 - [Printf](./printf.md)
 - [Field Width](./field-width.md)
-- [Boolean](./boolean.md)
-- [Constant and Pointer](./const-pointer.md)
 - [Typedef](./typedef.md)
 - [Struct](./struct.md)
 - [Enum](./enum.md)
@@ -31,22 +31,30 @@ Let's go low level.
 
 ## Questions
 
+- utf-8 chars
+
 - type conversion
-
-- void in param
-
-- return 0
-
-- array overflow preventing compile
-
-- makefile
 
 - memory allocation
 
 - multi-file project
 
-- character in ascii and utf-8
+- void in param
+
+- return 0
+
+- makefile
+
+- array overflow preventing compile flag
+
+- c program to take arguments
 
 - function that can take varying number or arguments
 
-- c program to take arguments
+- cpu cache lines
+
+- pointer to array
+
+- array of pointers
+
+- function pointer

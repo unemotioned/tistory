@@ -1,4 +1,4 @@
-# Type
+# Data Type
 
 ## Table of Contents
 
