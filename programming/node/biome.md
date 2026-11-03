@@ -47,13 +47,13 @@ npx @biomejs/biome init
 
 ```sh
 # format
-npx biome format --write .
+npx @biomjsbiome format --write .
 
 # lint and apply safe fix
-npx biome lint --write .
+npx @biomjsbiome lint --write .
 
 # format, organize imports and lint
-npx biome check --write .
+npx @biomejs/biome check --write .
 ```
 
 ---
