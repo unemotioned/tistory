@@ -8,12 +8,18 @@ Faster linting and formatting tool chain.
 - [Init](#init)
 - [Commands](#commands)
 - [Config](#config)
-- [Migration](#migration)
-- [GitHub Action](#github-action)
 
 ---
 
 ## Install
+
+### Globally
+
+```sh
+npm i -g @biomejs/biome
+```
+
+### As Dependency
 
 - `-D`: `--save-dev` - exclude from production
 - `-E`: `--save-exact` - exact version instead of a range
@@ -41,52 +47,63 @@ npx @biomejs/biome init
 
 ```sh
 # format
-npx @biomejs/biome format --write
+npx biome format --write .
 
 # lint and apply safe fix
-npx @biomejs/biome lint --write
+npx biome lint --write .
 
 # format, organize imports and lint
-npx @biomejs/biome check --write
+npx biome check --write .
 ```
 
 ---
 
 ## Config
 
-[Biome formatter options](https://biomejs.dev/formatter/#options)
+[Biome Configuration](https://biomejs.dev/reference/configuration/)
 
-My style:
+**My style**:
 
-- Space as indent.
-- 4-space indent width (only for JS)
-- Prefer single quotes.
-- 100 line-width (only for JS)
+- Indent Style: `Space`
+- Indent Width: `4`
+- Line Width: `100`
+- Line Ending: `LF`
+- Quote Style: `Single`
+- Trailing Comma: `All`
 
 Inside `.biome.jsonc`:
 
 ```jsonc
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.13/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.6.4/schema.json",
   "formatter": {
     "indentStyle": "space",
-    "quoteStyle": "single",
+    "lineEnding": "lf",
   },
   "javascript": {
-    "indentWidth": 4,
-    "lineWidth": 100,
+    "formatter": {
+      "indentWidth": 4,
+      "lineWidth": 100,
+      "quoteStyle": "single",
+      "trailingCommas": "all",
+    },
+  },
+  "json": {
+    "formatter": {
+      "trailingCommas": "all",
+    },
   },
 }
 ```
 
 > [!NOTE]
-> `javascript` in biome includes JSX, TS and TSX.
+> `javascript` in biome includes **JSX**, **TS** and **TSX**.
 
 ---
 
-## Migration
-
 <!-- TODO: finish documenting migration -->
+
+## Migration
 
 ### Prettier
 
@@ -94,6 +111,6 @@ Inside `.biome.jsonc`:
 
 ---
 
-## GitHub Action
-
 <!-- TODO: finish documenting github action -->
+
+## GitHub Action
