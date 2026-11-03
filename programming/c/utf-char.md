@@ -20,17 +20,21 @@ Using normal `char` type.
 #include <string.h>
 
 int main() {
-    char kim = '김'; // Error
+    char foo = '푸'; // Error
+    const char *bar_p = "바";
     const char *kor_p = "동해물과 백두산이";
 
+    printf("%s\n", bar_p);
     printf("%s\n", kor_p);
-    printf("strlen: %zu\n", strlen(kor_p)); // 25 Byte (including space as 1 Byte)
+
+    printf("strlen bar_p: %zu\n", strlen(bar_p)); // 3 Byte
+    printf("strlen kor_p: %zu\n", strlen(kor_p)); // 25 Byte (space as 1 Byte)
 
     return 0;
 }
 ```
 
-`char kim = '김';`:
+`char foo = '푸';`
 
 ```txt
 Character too large for enclosing character literal type
@@ -46,7 +50,7 @@ Character too large for enclosing character literal type
 #include <wchar.h>
 
 int main() {
-    setlocale(LC_ALL, ".UTF-8");
+    setlocale(LC_ALL, "");
 
     wchar_t wch = L'김';
     wchar_t wchars[] = L"동해물과 백두산이";
@@ -85,7 +89,7 @@ Convert normal input of bytes into wide char string and edit them.
 #include <wchar.h>
 
 int main() {
-    setlocale(LC_ALL, ".UTF-8");
+    setlocale(LC_ALL, "");
 
     char input[256];
     wchar_t chars[256];
@@ -96,11 +100,15 @@ int main() {
         return 1;
     }
 
-    //                    dest   src    max num of wchar to write to
     size_t len = mbstowcs(chars, input, sizeof(chars) / sizeof(chars[0]));
 
     // `mbstowcs()` returns (size_t)-1 on fail
     if (len == (size_t)-1) {
+        return 1;
+    }
+    // converted wchar count is same as dest wchar arr size
+    // no room for terminator
+    if (len == 256) {
         return 1;
     }
 
@@ -124,7 +132,8 @@ int main() {
 ```
 
 - `mbstowcs()`: From **Multi-byte String** to **Wide Char String**
-  - Arguments: `dest`, `src`, `max number of wide chars to write`
+  - Arguments: `dest`, `src`, `max number of wchars to write to` dest(which is
+    wchar_t array)
   - Return:
     - **Success**: Number of wide chars converted
     - **Fail**: `(size_t)-1` which is same as `SIZE_MAX`
@@ -153,7 +162,9 @@ int main() {
 #ifdef _WIN32
     SetConsoleCP(CP_UTF8);       // input
     SetConsoleOutputCP(CP_UTF8); // output
+    setlocale(LC_ALL, ".UTF-8");
 #endif
+    setlocale(LC_ALL, "");
 
     printf("%s\n", "창문을 여세요");
 
