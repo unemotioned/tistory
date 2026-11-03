@@ -26,12 +26,11 @@ Let's go low level.
 - [Enum](./enum.md)
 - [Macro Assert](./macro-assert.md)
 - [Macro Condition](./macro-condition.md)
+- [UTF Characters](./utf-char.md)
 
 ---
 
 ## Questions
-
-- utf-8 chars
 
 - type conversion
 
