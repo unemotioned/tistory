@@ -6,7 +6,7 @@ Formatter for C and C++.
 
 - Indent Style: `Space`
 - Indent Width: `4`
-- Column Limit: `100`
+- Column Limit: `80`
 - Opening Brace: `Same Line`
 - Pointer Alignment: `Right`
 
@@ -21,18 +21,24 @@ Inside `.clang-format`:
 BasedOnStyle: LLVM
 UseTab: Never
 IndentWidth: 4
-ColumnLimit: 100
+ColumnLimit: 80
+
+# args and params one per line when exceeds col limit
+AllowAllArgumentsOnNextLine: false
+PackArguments:
+  BinPack: OnePerLine
+AllowAllParametersOfDeclarationOnNextLine: false
+PackParameters:
+  BinPack: OnePerLine
 
 AllowShortFunctionsOnASingleLine: None
 
 BreakAfterAttributes: Always
-BreakBeforeBraces: Attach # opening brace always on same line
+BreakBeforeBraces: Attach # opening braces always on same line
 
-# args and params into one per line if it does not fit
-PackArguments:
-  BinPack: OnePerLine
-PackParameters:
-  BinPack: OnePerLine
+# discourage break after return type
+BreakAfterReturnType: Automatic
+PenaltyReturnTypeOnItsOwnLine: 1048576 # 1024 ^ 2
 
 PointerAlignment: Right
 ```
