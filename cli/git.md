@@ -48,8 +48,18 @@ git push -f origin main   # force push
 
 When two branches have unrelated commit histories.
 
+List remote branches:
+
 ```sh
-git fetch origin               # downloads remote changes without affecting locals
+git branch -r # only show remote branches
+# or
+git branch -a # show local and remote branches
+```
+
+Create and checkout local branch tracking a remote branch:
+
+```sh
+git fetch origin # downloads remote changes without affecting locals
 git checkout -b dev origin/dev # create `dev` branch which tracks `origin/dev` and checkout to `dev`
 ```
 
