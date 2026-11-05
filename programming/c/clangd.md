@@ -14,7 +14,9 @@ Inside `.clangd`:
 
 ```yaml
 CompileFlags:
-  Add: [-xc, -std=c11]
+  Add:
+    - -xc
+    - -std=c11
 ```
 
 > [!NOTE]
