@@ -7,7 +7,9 @@ just about in 2 weeks.
 
 ## Install
 
-[Git Install](https://git-scm.com/install/windows)
+From online :[git-scm.git/install](https://git-scm.com/install/windows)
+
+Or with package managers:
 
 ### macOS
 
@@ -18,19 +20,11 @@ brew install git
 ### Arch
 
 ```sh
-sudo pacman -Syu git
+sudo pacman -S git
 ```
 
 ### Ubuntu
 
 ```sh
 sudo apt install git
-```
-
----
-
-## Confirm
-
-```sh
-git --version
 ```

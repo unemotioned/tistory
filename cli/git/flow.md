@@ -8,7 +8,7 @@ Commit, pull and push workflow using a tracking (main) and local (dev) branch.
 
 Drawn with [Draw.io](https://www.drawio.com/).
 
-![git flow](../../assets/git-flow.png)
+![git-flow.png](../../assets/git-flow.png)
 
 > [!NOTE]
 > Not necessarily have to pull again right after confirming that there was no
@@ -57,7 +57,7 @@ When there is conflict abort rebase:
 git rebase --abort
 ```
 
-After resolving conflict from `dev` branch merge it into `main` instead of
+After resolving conflict from `dev` branch, **merge** it into `main` instead of
 rebase to create new commit after resolving conflict.
 
 ```sh

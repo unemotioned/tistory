@@ -30,3 +30,7 @@ gcc -std=c23 -Wall -Wextra -pedantic -O2 main.c -o a
 
 > [!NOTE]
 > Same flags work exactly the same with `clang`.
+
+---
+
+**Pedantic**: Overly concerned about minor details.
