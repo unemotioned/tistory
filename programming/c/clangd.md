@@ -1,23 +1,26 @@
 # Clangd
 
-LSP to read files as **C** language.
+Configuration to diagnose same as from compile-time while inside an editor.
 
-- Warning:
-
-```txt
-Invalid argument '-std=c11' not allowed with 'Objective-C++'
-```
+---
 
 Inside `.clangd`:
-
-- `-xc`: parse files as `c`
 
 ```yaml
 CompileFlags:
   Add:
     - -xc
     - -std=c11
+    - -Wall
+    - -Wextra
+    - -pedantic
 ```
 
-> [!NOTE]
+- `-xc`: Parse files as `c`.
+
+> [!TIP]
 > `-xc++` for **C++**.
+
+---
+
+Check out [gcc.md](./gcc.md) for more about compile flags.
