@@ -6,6 +6,8 @@ Python linter remote control
 
 ## Suppress Warnings
 
+Inside `.pylintrc`:
+
 ```dosini
 [MESSAGES CONTROL]
 disable =

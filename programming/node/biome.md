@@ -83,7 +83,6 @@ Inside `.biome.jsonc`:
   "javascript": {
     "formatter": {
       "indentWidth": 4,
-      "lineWidth": 100,
       "quoteStyle": "single",
       "trailingCommas": "all",
     },
