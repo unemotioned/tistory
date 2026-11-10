@@ -21,14 +21,14 @@ Using normal `char` type.
 
 int main() {
     char foo = '푸'; // Error
-    const char *bar_p = "바";
-    const char *kor_p = "동해물과 백두산이";
+    const char *bar = "바";
+    const char *kor = "동해물과 백두산이";
 
-    printf("%s\n", bar_p);
-    printf("%s\n", kor_p);
+    printf("%s\n", bar);
+    printf("%s\n", kor);
 
-    printf("strlen bar_p: %zu\n", strlen(bar_p)); // 3 Byte
-    printf("strlen kor_p: %zu\n", strlen(kor_p)); // 25 Byte (space as 1 Byte)
+    printf("strlen bar_p: %zu\n", strlen(bar)); // 3 Byte
+    printf("strlen kor_p: %zu\n", strlen(kor)); // 25 Byte (space as 1 Byte)
 
     return 0;
 }

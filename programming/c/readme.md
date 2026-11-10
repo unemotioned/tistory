@@ -36,8 +36,12 @@ Let's go low level.
 - type conversion
 
 - memory allocation
+  - malloc
+  - realloc
+  - calloc
 
 - multi-file project
+  - pragma once
 
 - void in param
 
@@ -45,16 +49,14 @@ Let's go low level.
 
 - makefile
 
-- array overflow preventing compile flag
+- generic like programming
 
-- c program to take arguments
+- main function arguments
 
 - function that can take varying number or arguments
-
-- cpu cache lines
 
 - pointer to array
 
 - array of pointers
 
-- function pointer
+- function pointer (callback)
