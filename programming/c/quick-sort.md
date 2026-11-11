@@ -2,15 +2,13 @@
 
 How to write compare function for `qsort()`.
 
-```c
-#include <stdlib.h>
-```
-
 ---
 
-## Call QSort
+## Call qsort()
 
 ```c
+#include <stdlib.h>
+
 int compare(const void *a, const void *b);
 
 int main() {
@@ -20,6 +18,8 @@ int main() {
     return 0;
 }
 ```
+
+Arguments in order:
 
 - `Base`: Array to sort.
 - `NumOfElements`: Number of elements in the base array.
