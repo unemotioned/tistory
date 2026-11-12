@@ -1,6 +1,6 @@
-# Arguments
+# Command Line Arguments
 
-How to pass arguments to a Java program.
+How to pass arguments to a Java program from command line.
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@ How to pass arguments to a Java program.
 - [Javac](#javac)
 - [Maven](#maven)
 - [JAR](#jar)
+- [Plugins](#plugins)
 
 ---
 
@@ -23,14 +24,14 @@ public class Main {
 }
 ```
 
-- Main method takes String array as arguments.
+- Main method takes **String array** as an argument.
 
 <p align="center">
   <img src="../../assets/always-have-been.png" alt="always-have-been.png" height="256"/>
 </p>
 
 > [!NOTE]
-> Unlike **C** it does not require `int argc` parameter.
+> Unlike **C**, it does not require `int argc` parameter.
 
 ---
 
@@ -93,3 +94,15 @@ java -jar target/my-app-1.0.jar foo bar 123
 ```
 
 - `package` command will output **JAR** file under `target` directory.
+
+---
+
+## Plugins
+
+Java libraries for parsing command line arguments.
+
+- [Apache Commons](https://mvnrepository.com/artifact/net.sourceforge.argparse4j/argparse4j)
+- [Argparse4j](https://mvnrepository.com/artifact/net.sourceforge.argparse4j/argparse4j)
+- [Args4j](https://mvnrepository.com/artifact/args4j/args4j)
+- [JCommander](https://mvnrepository.com/artifact/org.jcommander/jcommander)
+- [Picocli](https://mvnrepository.com/artifact/info.picocli/picocli)
