@@ -1,18 +1,15 @@
 # Constant and Pointer
 
-<!-- Changing constants is the only constant I know of that can change constantly. -->
-
-_If you change how constantly the constants change constantly then why change
-anything?_
-
-_Because it changes everything._
+> _If you change how constantly the constants change constantly then why change
+> anything?_
+>
+> _Because it changes everything_
 
 <p align="center">
   <img src="../../assets/constant-zach.png" alt="constant-zach.png" width="512px"/>
 </p>
 
-> [The day that addition was invented](https://www.youtube.com/watch?v=SYHEdko6RcI)
-> Zach Start Himeself
+[The day that addition was invented - Zach Star Himself](https://www.youtube.com/watch?v=SYHEdko6RcI)
 
 ---
 
