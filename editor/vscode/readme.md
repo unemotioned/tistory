@@ -21,7 +21,7 @@ code -r hello.js
 
 `-r`: `--reuse-window`
 
-Read [os/windows/powershell.md](../os/windows/powershell.md) for more.
+Read [os/windows/powershell.md](/os/windows/powershell.md) for more.
 
 ---
 
