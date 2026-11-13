@@ -1,4 +1,4 @@
-# Code Formatters
+# Formatters
 
 My formatter style:
 
