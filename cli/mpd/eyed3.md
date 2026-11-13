@@ -49,4 +49,5 @@ eyeD3 --add-image "<cover.jpg:FRONT_COVER>" <file-name>
 Set `cover.jgp` as album art of `<file-name>`.
 
 > [!TIP]
-> Default album art view limit is `1200x1200`. Change image size with [imagemagick.md](../imagemagick.md).
+> Default album art view limit is `1200x1200`. Change image size with
+> [imagemagick.md](../imagemagick.md).

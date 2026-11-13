@@ -34,7 +34,8 @@ sdb      # entire disk
 ```
 
 > [!IMPORTANT]
-> Device names `sdb` / `sdb1` are for example. Confirm the correct device on your system.
+> Device names `sdb` / `sdb1` are for example. Confirm the correct device on
+> your system.
 
 ---
 

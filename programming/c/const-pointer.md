@@ -2,7 +2,8 @@
 
 <!-- Changing constants is the only constant I know of that can change constantly. -->
 
-_If you change how constantly the constants change constantly then why change anything?_
+_If you change how constantly the constants change constantly then why change
+anything?_
 
 _Because it changes everything._
 

@@ -112,5 +112,5 @@ VIA_ENABLE = yes
 1. Select the compiled `.bin` file at `~/qmk_firmware`.
 2. Select `ATmega32U2` for the `Sonnet`.
 3. Go into bootloader mode by pressing the `reset` key.
-4. Click the `Flash` button (or check the `Auto-Flash` checkbox, which will flash
-   automatically when the keyboard goes into bootloader mode).
+4. Click the `Flash` button (or check the `Auto-Flash` checkbox, which will
+   flash automatically when the keyboard goes into bootloader mode).

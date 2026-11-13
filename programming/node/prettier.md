@@ -22,7 +22,8 @@ Inside `.prettierrc`:
 }
 ```
 
-[Overrides](https://prettier.io/docs/configuration#configuration-overrides) for specific files:
+[Overrides](https://prettier.io/docs/configuration#configuration-overrides) for
+specific files:
 
 ```json
 {

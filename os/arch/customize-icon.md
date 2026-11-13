@@ -1,6 +1,7 @@
 # Customize Icon
 
-Customize application's icon by override system-wide desktop entries with user-specific desktop entries.
+Customize application's icon by override system-wide desktop entries with
+user-specific desktop entries.
 
 ---
 

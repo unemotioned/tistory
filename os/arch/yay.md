@@ -41,13 +41,13 @@ yay
 
 ### Clean Build
 
-Delete old build files rebuild from scratch.
-Prevents issues by leftover files or outdated libraries.
+Delete old build files rebuild from scratch. Prevents issues by leftover files
+or outdated libraries.
 
 ### Diffs to Show
 
-Show changes in `PKGBUILD` before building AUR packages.
-For `security` and `transparency`.
+Show changes in `PKGBUILD` before building AUR packages. For `security` and
+`transparency`.
 
 You can review:
 

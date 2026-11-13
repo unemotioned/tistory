@@ -40,6 +40,7 @@ audio_output {
 1. Download music with [yl-dp](./yt-dlp.md)
 
 2. Edit metadata with [eyed3](./eyed3.md)
-   - Set album art for **M4A**(Apple Music) with [atomicparley](./atomicparsley.md)
+   - Set album art for **M4A**(Apple Music) with
+     [atomicparley](./atomicparsley.md)
 
 3. Create playlist and play them with [rmpc](./rmpc.md)

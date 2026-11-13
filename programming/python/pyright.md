@@ -1,7 +1,7 @@
 # Pyright
 
-Fix import autocompletion by the LSP not getting the correct path when the `.git` directory
-and the actual project root do not match.
+Fix import autocompletion by the LSP not getting the correct path when the
+`.git` directory and the actual project root do not match.
 
 ## Reference
 

@@ -24,14 +24,16 @@ ssh-keygen -t ed25519 -C "<your@email.com>"
 
 When prompted:
 
-- `Enter a file in which to save the key`: press `Enter` to use the default path (`~/.ssh/id_ed25519`).
+- `Enter a file in which to save the key`: press `Enter` to use the default path
+  (`~/.ssh/id_ed25519`).
 - `Enter passphrase (empty for no passphrase)`: can be empty
 
 ---
 
 ## 2. Start Agent
 
-SSH agent keeps your key unlocked while you work, so you don’t need to enter the passphrase every time.
+SSH agent keeps your key unlocked while you work, so you don’t need to enter the
+passphrase every time.
 
 ```sh
 eval "$(ssh-agent -s)"

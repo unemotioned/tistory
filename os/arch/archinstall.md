@@ -1,6 +1,7 @@
 # Arch Install
 
-Install [Arch Linux](https://archlinux.org/) with the [archinstall](https://github.com/archlinux/archinstall) script.
+Install [Arch Linux](https://archlinux.org/) with the
+[archinstall](https://github.com/archlinux/archinstall) script.
 
 ## Reference
 
@@ -135,7 +136,8 @@ mkfs.ext4 /dev/nvme0n1p6
 ### Mount Partitions
 
 > [!NOTE]
-> Mount `root` first, then `efi`. Mounting root on `/mnt` after EFI would hide `/mnt/boot`.
+> Mount `root` first, then `efi`. Mounting root on `/mnt` after EFI would hide
+> `/mnt/boot`.
 
 Mount `root` partition to `/mnt` directory:
 
@@ -190,7 +192,8 @@ archinstall
 
 Leave other options as is and select `Install`.
 
-After installation is complete choose: `chroot into installation for post-installation configurations`.
+After installation is complete choose:
+`chroot into installation for post-installation configurations`.
 
 ---
 
@@ -217,7 +220,8 @@ shutdown now # remove the install media
 
 ## Hyprland
 
-From the login window, change the session from `Hyprland (uwsm-managed)` to just `Hyprland`.
+From the login window, change the session from `Hyprland (uwsm-managed)` to just
+`Hyprland`.
 
 ### Wi-Fi with NMCLI
 
@@ -273,4 +277,5 @@ found windows boot manager on /dev/nvme0n1p1@/efi/microsoft/boot/bootmgfw.efi
 
 Check out [post-install](./post-install.md) for more.
 
-To remove Linux, follow the instructions in [remove-linux](../windows/remove-linux.md).
+To remove Linux, follow the instructions in
+[remove-linux](../windows/remove-linux.md).

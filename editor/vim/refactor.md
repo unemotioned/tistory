@@ -28,4 +28,5 @@ Refactoring without plugins.
 
 - `cdo`: inside QFlist
 - `%s/.../.../`: substitute that into this
-- `gc`: **globally** (every occurrence on same line), **confirmation** (requires consent)
+- `gc`: **globally** (every occurrence on same line), **confirmation** (requires
+  consent)

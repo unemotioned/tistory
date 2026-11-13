@@ -18,14 +18,21 @@ gcc -std=c23 -Wall -Wextra -pedantic -O2 main.c -o a
   - `c99`: no need to `return 0;` at then end of main
   - `c11`: portable and modern enough without being too new
   - `c23`: `void` and empty params behaves exactly the same
-- `-Wall`: warnings that some users consider questionable, and that are easy to avoid
+
+- `-Wall`: warnings that some users consider questionable, and that are easy to
+  avoid
+
 - `-Wextra`: extra warnings that are not enabled by -Wall
+
 - `-pedantic`: all warnings demanded by strict ISO C standard
+
 - `-O2`: standard optimization
   - `-O0`: no optimization
   - `-O1`: basic optimization
   - `-O3`: aggressive optimization
+
 - `main.c`: file name to compile
+
 - `-o a`: place output file at file `a`
 
 > [!NOTE]

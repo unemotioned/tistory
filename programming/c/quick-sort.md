@@ -39,7 +39,8 @@ int compare(const void *a, const void *b) {
 }
 ```
 
-- `const void *a`: const generic pointer to not mutate the value from this function.
+- `const void *a`: const generic pointer to not mutate the value from this
+  function.
 - `*(const int *)a`: cast pointer type to int and dereference it.
 - `return`:
   - x is larger: (1) - (0) -> 1 == x should come **after** y

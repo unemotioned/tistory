@@ -9,7 +9,8 @@ Passing a reference of a method without invoking it.
 ---
 
 Pass the method reference to helper method and invoke from lambda function so
-you don't have to write helper methods to check duplication of input for each member.
+you don't have to write helper methods to check duplication of input for each
+member.
 
 - `Foo::getBar`: Reference the getter method of member variable **bar** inside
   class **Foo** without invoking it.

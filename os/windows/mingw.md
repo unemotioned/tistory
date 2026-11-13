@@ -28,7 +28,8 @@ From the `MSYS2 UCRT64` terminal:
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 ```
 
-`toolchain` includes the following packages: [packages.msys2.org](https://packages.msys2.org/groups/mingw-w64-ucrt-x86_64-toolchain)
+`toolchain` includes the following packages:
+[packages.msys2.org](https://packages.msys2.org/groups/mingw-w64-ucrt-x86_64-toolchain)
 
 Check installations:
 
@@ -42,7 +43,8 @@ mingw32-make --version # make for windows
 
 ## Add to PATH
 
-Add the following directory to the `Path` of the **system environment variable**.
+Add the following directory to the `Path` of the **system environment
+variable**.
 
 ```sh
 C:\msys64\ucrt64\bin
@@ -77,11 +79,14 @@ to **powershell**:
 
 ### BASH (MSYS2)
 
-**Optionally** use the MSYS `bash` terminal by default for the current project in VSCode.
+**Optionally** use the MSYS `bash` terminal by default for the current project
+in VSCode.
 
-1. From the command palette, search `Select Default Profile` and choose `bash (MSYS2)`.
-2. Move `terminal.integrated.profiles.windows` and `terminal.integrated.defaultProfile.windows`
-   from user settings to `.vscode/settings.json` to make it project-specific.
+1. From the command palette, search `Select Default Profile` and choose
+   `bash (MSYS2)`.
+2. Move `terminal.integrated.profiles.windows` and
+   `terminal.integrated.defaultProfile.windows` from user settings to
+   `.vscode/settings.json` to make it project-specific.
 3. Install packages to use on the `bash` terminal:
 
 ```sh

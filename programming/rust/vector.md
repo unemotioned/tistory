@@ -90,8 +90,8 @@ let v2 = Vec::from(arr); // Move
 - `to_vec()`: Clones each element into new `Vec`, which can be expensive.
   Original array is still available.
 
-- `Vec::from()`: Move elements into new `Vec`, transferring ownership.
-  Original array becomes unavailable.
+- `Vec::from()`: Move elements into new `Vec`, transferring ownership. Original
+  array becomes unavailable.
 
 > [!IMPORTANT]
 > `i32` data type has **Copy Trait**. Array containing non-copy types becomes

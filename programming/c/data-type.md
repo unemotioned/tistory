@@ -150,8 +150,8 @@ signed char sc = -1;
 - `signed char`: Small integers that may be negative.
 
 > [!NOTE]
-> Whether plain `char` is signed or unsigned is **implementation-defined**.
-> Do not assume it can represent negative values or values greater than 127.
+> Whether plain `char` is signed or unsigned is **implementation-defined**. Do
+> not assume it can represent negative values or values greater than 127.
 
 Unsigned integer types represent non-negative values.
 

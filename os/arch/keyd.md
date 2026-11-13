@@ -1,6 +1,7 @@
 # Keyd
 
-Remap laptop's builtin keyboard and trackball's buttons with [keyd](https://github.com/rvaiya/keyd).
+Remap laptop's builtin keyboard and trackball's buttons with
+[keyd](https://github.com/rvaiya/keyd).
 
 ---
 
@@ -22,7 +23,8 @@ sudo keyd monitor
 ```
 
 > [!IMPORTANT]
-> Get the `device ID` from the same line as `device add:`, **_NOT_** from `keyd virtual keyboard` when you press the keys.
+> Get the `device ID` from the same line as `device add:`, **_NOT_** from
+> `keyd virtual keyboard` when you press the keys.
 
 Keep each conf file per `[ids]`.
 

@@ -47,7 +47,8 @@ npm install --save-dev eslint
 npm init @eslint/config@latest
 ```
 
-> Answer `Where does your code run?` with `node` to not lint `console.log` as an error.
+> Answer `Where does your code run?` with `node` to not lint `console.log` as an
+> error.
 
 ---
 

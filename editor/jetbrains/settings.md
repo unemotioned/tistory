@@ -23,19 +23,22 @@ Open with `Ctrl + Shift + S` on Windows.
 
 ## 1. Tree Indent Guides
 
-Settings > Appearance & Behavior > **Appearance** > _Tree Views_ > enable `Show indent guides`
+Settings > Appearance & Behavior > **Appearance** > _Tree Views_ > enable
+`Show indent guides`
 
 ---
 
 ## 2. Inlay Usage & Code Author
 
-Settings > Editor > **Inlay Hints** > _Code vision_ > disable `Usages`, `Code author`
+Settings > Editor > **Inlay Hints** > _Code vision_ > disable `Usages`,
+`Code author`
 
 ---
 
 ## 3. Fold One-line Methods
 
-Settings > Editor > General > **Code Folding** > Fold by default: > _Languages_ > disable `One-line methods`
+Settings > Editor > General > **Code Folding** > Fold by default: >
+_Languages_ > disable `One-line methods`
 
 ---
 
@@ -47,26 +50,31 @@ Settings > Editor > General > **Appearance** > disable `Caret blinking (ms):`
 
 ## 5. Open New Tab
 
-Settings > Editor > General > **Editor Tabs** > _Tab Order_ > enable `Open new tabs at the end`
+Settings > Editor > General > **Editor Tabs** > _Tab Order_ > enable
+`Open new tabs at the end`
 
 ---
 
 ## 6. Scroll Pass BOF
 
-Settings > Editor > **General** > _Virtual Space_ > enable `Show virtual space at the bottom of the file`
+Settings > Editor > **General** > _Virtual Space_ > enable
+`Show virtual space at the bottom of the file`
 
 ---
 
 ## 7. Smooth Scrolling
 
-- `Scroll wheel`: Settings > Appearance & Behavior > Appearance > _UI Options_ > disable `Smooth scrolling`
-- `Arrow keys`: Settings > Editor > **General** > _Scrolling_ > disable `Enable smooth scrolling`
+- `Scroll wheel`: Settings > Appearance & Behavior > Appearance > _UI Options_ >
+  disable `Smooth scrolling`
+- `Arrow keys`: Settings > Editor > **General** > _Scrolling_ > disable
+  `Enable smooth scrolling`
 
 ---
 
 ## 8. Sticky Lines
 
-Settings > Editor > **General** > _Sticky Lines_ > disable `Show sticky lines while scrolling`
+Settings > Editor > **General** > _Sticky Lines_ > disable
+`Show sticky lines while scrolling`
 
 ---
 
@@ -74,7 +82,8 @@ Settings > Editor > **General** > _Sticky Lines_ > disable `Show sticky lines wh
 
 Autocompleting list item with `dash(-)` on new line.
 
-Settings > Editor > General > **Smart Keys** > Markdown > _Lists_ > disable `Use Smart Enter and Backspace`
+Settings > Editor > General > **Smart Keys** > Markdown > _Lists_ > disable
+`Use Smart Enter and Backspace`
 
 ---
 
@@ -95,13 +104,15 @@ Settings > Editor > General > Code Completion > **Popup**
 
 ## 11. Light Bulb
 
-Settings > Editor > General > Appearance > _Code Assistance_ > disable `Show intension bulb`
+Settings > Editor > General > Appearance > _Code Assistance_ > disable
+`Show intension bulb`
 
 ---
 
 ## 12. Open with Single Click
 
-Project window > 3 dot > Behavior > Open Files with Single Click, Open Directories with Single Click
+Project window > 3 dot > Behavior > Open Files with Single Click, Open
+Directories with Single Click
 
 > [!TIP]
 > Try `Enable Preview Tab` option for VSCode like behavior
@@ -110,7 +121,8 @@ Project window > 3 dot > Behavior > Open Files with Single Click, Open Directori
 
 ## 13. Memory Settings
 
-Search `Change Memory Settings` from Actions (`Ctrl + Shift + A`) and change `Maximum Heap Size` to larger size to make IDE faster.
+Search `Change Memory Settings` from Actions (`Ctrl + Shift + A`) and change
+`Maximum Heap Size` to larger size to make IDE faster.
 
 ---
 

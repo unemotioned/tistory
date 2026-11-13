@@ -1,6 +1,7 @@
 # Fprint
 
-How to register finger prints on Linux with [fprint](https://fprint.freedesktop.org/).
+How to register finger prints on Linux with
+[fprint](https://fprint.freedesktop.org/).
 
 ---
 

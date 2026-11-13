@@ -28,7 +28,8 @@ Section "InputClass"
 EndSection
 ```
 
-- `AccelSpeed -0.13`: Moving 800 DPI mouse 10cm makes the pointer to go from edge to edge on 27-inch QHD monitor.
+- `AccelSpeed -0.13`: Moving 800 DPI mouse 10cm makes the pointer to go from
+  edge to edge on 27-inch QHD monitor.
 
 > [!NOTE]
 > Reboot for config to take effect.

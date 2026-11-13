@@ -31,8 +31,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Install Plugins
 
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k): prompt theme
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): fish like suggestions
-- [fast syntax highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting): faster then zsh-syntax-highlighting
+
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): fish
+  like suggestions
+
+- [fast syntax highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting):
+  faster then zsh-syntax-highlighting
 
 ```sh
 # powerlevel10k

@@ -1,6 +1,7 @@
 # Shortcuts
 
-Followings are [Windows shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
+Followings are
+[Windows shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf).
 
 ---
 

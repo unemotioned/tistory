@@ -49,7 +49,8 @@ gh repo clone <repo>
 
 ## Create Repository
 
-Create GitHub repository from local Git repository with at least one commit history.
+Create GitHub repository from local Git repository with at least one commit
+history.
 
 ```sh
 gh repo create <repo-name> --source=. --public --push

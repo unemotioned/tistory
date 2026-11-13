@@ -25,7 +25,8 @@ How to use cargo with rust project.
 
 ## Download
 
-Download from [rust-lang.org/install-rust](https://rust-lang.org/tools/install/) if using Windows.
+Download from [rust-lang.org/install-rust](https://rust-lang.org/tools/install/)
+if using Windows.
 
 Check installation:
 
@@ -71,7 +72,9 @@ cargo build --release
 ./target/release/<project-name>
 ```
 
-Checkout [unemotioned/guessing-game.rs](https://github.com/unemotioned/guessing-game.rs#guessing-game) for `Compile vs Build`.
+Checkout
+[unemotioned/guessing-game.rs](https://github.com/unemotioned/guessing-game.rs#guessing-game)
+for `Compile vs Build`.
 
 ---
 

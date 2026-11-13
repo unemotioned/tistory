@@ -118,7 +118,8 @@ Ambient mode: `off`
   - Ignore keyboard layout: `on` (to make it compatible with other input source
     then English on macOS)
 - CSS for Vimium UI
-  - Copy one of the theme to it [tokyonight.nvim - vimium](https://github.com/folke/tokyonight.nvim/tree/main/extras/vimium)
+  - Copy one of the theme to it
+    [tokyonight.nvim - vimium](https://github.com/folke/tokyonight.nvim/tree/main/extras/vimium)
 
 ### YouTube Auto HD + FPS
 

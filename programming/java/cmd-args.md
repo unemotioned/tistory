@@ -68,7 +68,8 @@ args 2: 123
 
 ## Maven
 
-Run with [exec-maven-plugin](https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin):
+Run with
+[exec-maven-plugin](https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin):
 
 ```sh
 mvn compile

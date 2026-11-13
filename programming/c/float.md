@@ -1,6 +1,7 @@
 # Float in Binary
 
-C stores floating-point numbers using the [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) standard.
+C stores floating-point numbers using the
+[IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) standard.
 
 ## Reference
 
@@ -22,7 +23,8 @@ C stores floating-point numbers using the [IEEE 754](https://en.wikipedia.org/wi
 
 ## The Equation
 
-Float and double types in memory is separated into parts of **Sign**, **Fraction** and **Exponent**.
+Float and double types in memory is separated into parts of **Sign**,
+**Fraction** and **Exponent**.
 
 ```math
 (-1)^S \times M \times 2^E
@@ -48,9 +50,7 @@ printf("%f", f); // when printing float automatically gets promoted to double
 
 4 Bytes / 32 Bits
 
-Sign: 1 bit
-Exponent: 8 bits
-Fraction: 23 bits
+Sign: 1 bit Exponent: 8 bits Fraction: 23 bits
 
 ```text
 31             30              23 22                 0
@@ -132,8 +132,8 @@ Sign: `0`
 
 Or fraction.
 
-After normalization leftmost bit will always be 1. So **IEEE 754** will not store
-it and just save the last 9 bits.
+After normalization leftmost bit will always be 1. So **IEEE 754** will not
+store it and just save the last 9 bits.
 
 Left over 14 bits will be filled with 0s.
 

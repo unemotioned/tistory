@@ -75,7 +75,9 @@ Complex rules `Karabiner-elements`.
 
 `Right Command` to `F16` to use for switching input source.
 
-`F16` because [F-16](https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon) is cool.
+`F16` because
+[F-16](https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon) is
+cool.
 
 ```json
 {

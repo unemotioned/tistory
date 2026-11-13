@@ -12,7 +12,8 @@ Drawn with [Draw.io](https://www.drawio.com/).
 
 > [!NOTE]
 > Not necessarily have to pull again right after confirming that there was no
-> conflict with the `dev` branch. If there was no conflict, just push it right away.
+> conflict with the `dev` branch. If there was no conflict, just push it right
+> away.
 
 ---
 

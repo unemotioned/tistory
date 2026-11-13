@@ -25,7 +25,8 @@ sudo nvim /etc/pacman.conf
 
 Under `[options]` and `# Misc options`, uncomment `Color`.
 
-Add `ILoveCandy` to make the download progress bar look like the Pac-Man game, then update pacman:
+Add `ILoveCandy` to make the download progress bar look like the Pac-Man game,
+then update pacman:
 
 ```sh
 sudo pacman -Sy

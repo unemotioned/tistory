@@ -38,7 +38,8 @@ And reboot.
 
 ## Usage
 
-Inside `~/.config/hypr/hyprland.conf`, replace `brightnessctl s 10%+` with `brillo`:
+Inside `~/.config/hypr/hyprland.conf`, replace `brightnessctl s 10%+` with
+`brillo`:
 
 ```sh
 brillo -q -u 1000 -A 5  # brightness up

@@ -69,7 +69,8 @@ mvn compile
 
 **_A plugin to allow execution of system and Java programs._**
 
-1. Get it from [Maven Repository](https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin).
+1. Get it from
+   [Maven Repository](https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin).
 2. Add it to **pom.xml** inside `build.plugins` tags.
 3. Inside the **&lt;plugin&gt;** add `configuration.mainClass` tags with path of
    main class.

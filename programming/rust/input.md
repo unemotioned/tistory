@@ -36,8 +36,10 @@ fn get_user_input() {
 
 - `mut` keyword is necessary when taking input
 - `io::stdout().flush().unwrap()` flush stdout to prompt `print!()` immediately
-- `unwrap()` to panic on fail, can be replaced with `expect("Failed to flush stdout")`
-- `&mut input` mutable reference to input variable to borrow and edit without owning it
+- `unwrap()` to panic on fail, can be replaced with
+  `expect("Failed to flush stdout")`
+- `&mut input` mutable reference to input variable to borrow and edit without
+  owning it
 - `trim()` return `&str` slice without leading and trailing whitespaces
 
 ```rust

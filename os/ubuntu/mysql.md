@@ -161,7 +161,8 @@ drop user '<user_name>'@'localhost';
 
 ## MySQL Workbench
 
-Install the `.deb` file from [MySQL downloads](https://dev.mysql.com/downloads/workbench/).
+Install the `.deb` file from
+[MySQL downloads](https://dev.mysql.com/downloads/workbench/).
 
 - Select OS
 - Select version

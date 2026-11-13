@@ -51,7 +51,8 @@ Open HTML files on localhost.
 
 HTML, CSS, JavaScript, Markdown, JSON, etc file formatter.
 
-Read [programming/node/prettier.md](../../programming/node/prettier.md) for more.
+Read [programming/node/prettier.md](../../programming/node/prettier.md) for
+more.
 
 ## Tabout
 

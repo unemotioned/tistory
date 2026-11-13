@@ -59,8 +59,8 @@ Add the tokyonight theme with the Yazi package manager `ya`:
 ya pkg add BennyOe/tokyo-night
 ```
 
-This will create `flavors/` under the Yazi config directory.
-You only need `flavors.toml` and `tmtheme.xml` files.
+This will create `flavors/` under the Yazi config directory. You only need
+`flavors.toml` and `tmtheme.xml` files.
 
 Under `~/.config/yazi`, add a `theme.toml` file, inside:
 

@@ -5,7 +5,8 @@ Cache Line:
 - Smallest unit of data transfer between RAM and CPU cache.
 - 64 bytes on modern x86 machines.
 
-Order member of struct from large data types to small to minimize padding when CPU reads from RAM.
+Order member of struct from large data types to small to minimize padding when
+CPU reads from RAM.
 
 ## Reference
 
@@ -17,9 +18,9 @@ Order member of struct from large data types to small to minimize padding when C
 
 **Struct Padding**:
 
-C compiler may add some padding between members to align data in memory properly.
-Which makes the CPU to read it more efficiently. Eventually making the program
-to run faster.
+C compiler may add some padding between members to align data in memory
+properly. Which makes the CPU to read it more efficiently. Eventually making the
+program to run faster.
 
 ```c
 typedef struct {

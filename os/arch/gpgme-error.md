@@ -1,6 +1,7 @@
 # GPGME Error
 
-Pacman could not find or process valid GPG because of the following possible reasons:
+Pacman could not find or process valid GPG because of the following possible
+reasons:
 
 - corrupted pacman keyring
 - corrupted package database

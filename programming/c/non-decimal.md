@@ -74,4 +74,5 @@ int hex = 0xA; // 10 (16)
 
 ---
 
-How to print in **Binary**, **Octal** or **Hexadecimal**: [printf.md](./printf.md#non-decimal)
+How to print in **Binary**, **Octal** or **Hexadecimal**:
+[printf.md](./printf.md#non-decimal)
