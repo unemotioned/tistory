@@ -1,4 +1,4 @@
-# Korean
+# Fcitx Korean
 
 Korean input method on `Arch` and `Ubuntu` Linux with [fcitx5](https://github.com/fcitx/fcitx5).
 
