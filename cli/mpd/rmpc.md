@@ -80,12 +80,12 @@ Shift + J
 
 - Move up
 
-```txt
+```text
 Shift + K
 ```
 
 - Select Multiple:
 
-```txt
+```text
 Space
 ```

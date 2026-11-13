@@ -36,7 +36,7 @@ int main() {
 
 `char foo = '푸';`
 
-```txt
+```text
 Character too large for enclosing character literal type
 ```
 

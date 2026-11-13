@@ -16,7 +16,7 @@ Configure advanced settings.
 
 Enter the following in the URL field:
 
-```txt
+```text
 about:config
 ```
 
@@ -28,7 +28,7 @@ Middle clicking items in the bookmark while staying in current tab.
 
 Search:
 
-```txt
+```text
 browser.tabs.loadBookmarksInBackground
 ```
 
@@ -40,7 +40,7 @@ Turn off full screen notification.
 
 Search:
 
-```txt
+```text
 full-screen-api.warning.timeout
 ```
 
@@ -52,7 +52,7 @@ Disable the `Alt` key from toggling the menubar.
 
 Search:
 
-```txt
+```text
 ui.key.menuAccessKeyFocuses
 ```
 

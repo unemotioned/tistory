@@ -21,7 +21,7 @@ echo $?
 
 **Result**:
 
-```txt
+```text
 0
 ```
 
@@ -43,7 +43,7 @@ echo $?
 
 **Result**:
 
-```txt
+```text
 127
 ```
 

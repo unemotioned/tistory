@@ -33,7 +33,7 @@ Get JDK home registered with macOS:
 
 Output:
 
-```txt
+```text
 /opt/homebrew/opt/openjdk@25/libexec/openjdk.jdk/Contents/Home
 ```
 

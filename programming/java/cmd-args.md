@@ -55,7 +55,7 @@ java Main foo bar 123
 
 Output:
 
-```txt
+```text
 args 0: foo
 args 1: bar
 args 2: 123

@@ -52,7 +52,7 @@ Sign: 1 bit
 Exponent: 8 bits
 Fraction: 23 bits
 
-```txt
+```text
 31             30              23 22                 0
 +-------------+------------------+-------------------+
 | sign: 1 bit | exponent: 8 bits | fraction: 23 bits |
@@ -77,7 +77,7 @@ printf("%f", d); // used %f specifier even when printing double
 - Exponent: 11 bits
 - Fraction: 52 bits
 
-```txt
+```text
 63             62               52 51                 0
 +-------------+-------------------+-------------------+
 | sign: 1 bit | exponent: 11 bits | fraction: 52 bits |
@@ -88,7 +88,7 @@ printf("%f", d); // used %f specifier even when printing double
 
 ## Decimal to Binary
 
-```txt
+```text
 65.125
 65    (10) = 1000001 (2)
 0.125 (10) = 0.001   (2)
@@ -102,7 +102,7 @@ printf("%f", d); // used %f specifier even when printing double
 In Decimal fraction is `1/10`, `1/10^2`, `1/10^3`, ... so on. Same stuff for the
 binary:
 
-```txt
+```text
 0 . 1   2   5
     |   |   |
    1/2 1/4 1/8
@@ -110,7 +110,7 @@ binary:
 
 To convert it to binary, we multiply it and check the integer part:
 
-```txt
+```text
 0.125 * 2 = 0.250
 Integer part: 0 -> Binary digit: 0
 
@@ -154,7 +154,7 @@ Bias = 2^{k-1}-1
 
 Exponent bit size in float is **8**. And after normalization we got **6**.
 
-```txt
+```text
 
 2 ^ (8 - 1) -1 = 127
 
@@ -173,7 +173,7 @@ Exponent: `10000101`
 
 `65.125` in raw bits as **float type**:
 
-```txt
+```text
 0              10000101           00000100100000000000000
 
 31             30              23 22                    0
