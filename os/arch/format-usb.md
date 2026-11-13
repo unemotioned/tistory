@@ -17,7 +17,7 @@ From install media to normal storage USB on Arch.
 - `exfatprogs`: exFAT utility
 
 ```sh
-sudo pacman -S exfatprogs
+sudo pacman -Syu exfatprogs
 ```
 
 ---
