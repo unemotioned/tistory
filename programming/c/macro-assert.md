@@ -19,13 +19,19 @@ When the `ASSERT_ENABLED` is true(1). If not enabled, do nothing.
 #define ASSERT(c, m)                                                           \
     do {                                                                       \
         if (!(c)) {                                                            \
-            fprintf(stderr, __FILE__ ":%d: assertion %s failed: %s\n",         \
-                    __LINE__, #c, m);                                          \
+            fprintf(stderr,                                                    \
+                    __FILE__ ": %d: assertion %s failed: %s\n",                \
+                    __LINE__,                                                  \
+                    #c,                                                        \
+                    m);                                                        \
             exit(1);                                                           \
         }                                                                      \
     } while (0)
 #else
-#define ASSERT(c, m) do {} while (0) // do nothing if not enabled but keeps the code valid
+// do nothing if disabled while keeping the code valid
+#define ASSERT(c, m)                                                           \
+    do {                                                                       \
+    } while (0)
 #endif
 
 int main(void) {
@@ -42,6 +48,7 @@ assert.c:22: assertion x < 20 failed: x must be under 20
 ```
 
 - `__FILE__`, `__LINE__`: Predefined preprocessor macros.
+  - `__FILE__ " ... \n"` becomes one string
 
 - `do - while (0)`: Group multiple statements into one. Execute only once since
   it's false.
