@@ -19,7 +19,7 @@ CompileFlags:
 - `-xc`: Parse files as `c`.
 
 > [!TIP]
-> `-xc++` for **C++**.
+> `-xc++` for **C++** and `-std=c++14`.
 
 ---
 

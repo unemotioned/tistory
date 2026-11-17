@@ -63,6 +63,8 @@ clang-format -i --style=file *.cpp
 
 ### Recursively
 
+#### Find
+
 ```sh
 find . -type f \( -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -exec clang-format -i --style=file {} +
 ```
@@ -72,3 +74,14 @@ find . -type f \( -name "*.cpp" -o -name "*.h" -o -name "*.hpp" \) -exec clang-f
 - `-name`: match by file extensions
 - `-o`: logical **OR**
 - `{} +`: process multiple files per invocation for efficiency
+
+#### FD
+
+```sh
+fd -t f -e cpp -e h -e hpp -X clang-format -i --style=file
+```
+
+- `fd`: faster than `find`
+- `-t f`: only files
+- `-e cpp -e hpp -e h`: filter extensions
+- `-X`: execute in batch
