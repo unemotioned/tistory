@@ -13,13 +13,13 @@ CompileFlags:
     - -std=c11
     - -Wall
     - -Wextra
-    - -pedantic
+    - -Wpedantic
 ```
 
 - `-xc`: Parse files as `c`.
 
 > [!TIP]
-> `-xc++` for **C++** and `-std=c++14`.
+> `-xc++` and `-std=c++14` for **CPP**.
 
 ---
 

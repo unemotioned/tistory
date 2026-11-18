@@ -24,7 +24,7 @@ gcc -std=c23 -Wall -Wextra -pedantic -O2 main.c -o a
 
 - `-Wextra`: extra warnings that are not enabled by -Wall
 
-- `-pedantic`: all warnings demanded by strict ISO C standard
+- `-Wpedantic`: all warnings demanded by strict ISO C standard
 
 - `-O2`: standard optimization
   - `-O0`: no optimization
