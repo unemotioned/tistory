@@ -70,6 +70,8 @@ set id={copied-id-value}
 
 gpt attributes={copied-attirb-value}
 
+exit
+
 reagentc /enable
 ```
 
