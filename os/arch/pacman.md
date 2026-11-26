@@ -2,6 +2,10 @@
 
 How to use the package manager for Arch.
 
+## Reference
+
+- [ArchWiki](https://wiki.archlinux.org/title/Pacman)
+
 ## Table of Contents
 
 - [Install](#install)
@@ -34,9 +38,6 @@ sudo pacman -S --needed emacs
 ## Update
 
 ```sh
-# refresh package database only
-sudo pacman -Sy
-
 # full upgrade (recommended)
 sudo pacman -Syu
 
@@ -44,10 +45,20 @@ sudo pacman -Syu
 sudo pacman -Syyu
 ```
 
-- Recommended way to install packages:
+> [!TIP]
+> Reboot is recommended for upgrades to upply to the system.
+
+Recommended way to install packages:
 
 ```sh
 sudo pacman -Syu <pkg-name>
+```
+
+> [!WARNING]
+> Partial upgrade is not recommended.
+
+```sh
+sudo pacman -Sy <pkg-name>
 ```
 
 ---
