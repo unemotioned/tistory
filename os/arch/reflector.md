@@ -9,8 +9,9 @@ Mirror list manager.
 ## Table of Contents
 
 - [Install](#install)
-- [Update Mirror Lists](#update-mirror-list)
+- [Update Mirror List](#update-mirror-list)
 - [Timer](#timer)
+  - [Add Schedule](#add-schedule)
   - [Check Schedule](#check-schedule)
   - [Validate Timer](#validate-timer)
   - [Edit Arguments](#edit-arguments)
@@ -41,9 +42,13 @@ sudo reflector \
     --verbose
 ```
 
+- `--sort rate`: sort by download speed
+
 ---
 
 ## Timer
+
+### Add Schedule
 
 ```sh
 sudo systemctl edit reflector.timer
@@ -89,4 +94,5 @@ sudo systemd-analyze verify reflector.timer
 
 Reflecotr arguments to run on scheduled time.
 
-Edit arguments inside `/etc/xdg/reflector/reflector.conf`.
+Edit arguments inside `/etc/xdg/reflector/reflector.conf` to match command from
+[udpate mirror list](#update-mirror-list).
