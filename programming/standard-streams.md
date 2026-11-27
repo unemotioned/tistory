@@ -50,6 +50,7 @@ File descriptor: 3
 | `<`      | stdin from file                                | `cat < input.txt`        |
 | `>`      | stdout to file                                 | `ls > input.txt`         |
 | `2>`     | stderr to file                                 | `ls 2> error.txt`        |
+| `&>`     | stdout and stderr to file                      | `&>/dev/null`            |
 | `>>`     | append stdout to file                          | `echo hi >> log.txt`     |
 | `2>>`    | append stderr to file                          | `ls bad 2>> error.txt`   |
 | `2>&1`   | redirect stderr to where stdout currently goes | `command > all.txt 2>&1` |
