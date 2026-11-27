@@ -10,12 +10,19 @@ A modern application launcher for Wayland.
 ## Table of Contents
 
 - [Install](#install)
+  - [Providers](#providers)
+  - [Restart](#restart)
 - [Autostart](#autostart)
 - [Launch](#launch)
+  - [Module](#module)
+  - [Keybindings](#keybindings)
+- [Prefix](#prefix)
 
 ---
 
 ## Install
+
+Launcher itself:
 
 ```sh
 yay -S walker-bin
@@ -24,32 +31,22 @@ yay -S walker-bin
 > [!WARNING]
 > Do not install `elephant-bin` separately which will cause version mismatch.
 
-### [Providers](https://walkerlauncher.com/docs/providers)
+### Providers
 
-- Arch Linux (AUR)
-- Bluetooth
-- Calculator
-- Clipboard
-- Command Runner
-- Symbols
-- Web Search
-- Windows
+- [GitHub](https://github.com/abenz1267/walker/#features)
 
 ```sh
-yay -S\
-  elephant-archlinuxpkgs\
-  elephant-bluetooth\
-  elephant-calc\
-  elephant-clipboard\
-  elephant-runner\
-  elephant-symbols\
-  elephant-websearch\
-  elephant-windows
+yay -S \
+    elephant-bluetooth \
+    elephant-calc \
+    elephant-clipboard \
+    elephant-symbols \
+    elephant-websearch
 ```
 
 ### Restart
 
-Restart `elephant` after installing providers:
+Restart `elephant` after installing providers
 
 ```sh
 pkill elephant
@@ -77,7 +74,7 @@ end)
 
 By terminal commands or with Hyprland keybinds.
 
-### Module Name
+### Module
 
 The module name is the string after the semicolon.
 
@@ -101,3 +98,15 @@ hl.bind(mainMod .. ' + C', hl.dsp.exec_cmd('walker -m calc'))
 ```
 
 `-m` is an alias of `--providers`.
+
+---
+
+## Prefix
+
+Use provider after launcher default walker.
+
+- **Calculator**: `=`
+- **Clipboard Historyi**: `:`
+- **Symbol Pikceri**: `.`
+- **Provider Listi**: `;`
+- **Websearch**: just search
