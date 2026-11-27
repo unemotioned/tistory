@@ -36,13 +36,7 @@ station wlan0 connect <SSID>
 exit
 ```
 
-When you know everthing already:
-
-```sh
-iwctl --phasspharse <passphrase> station wlan0 connect <SSID>
-```
-
-Test Connection:
+Test connection:
 
 ```sh
 ping -c 4 archlinux.org
@@ -84,6 +78,13 @@ ip -c -br -4 addr
 - `-br`: brief
 - `-4`: IPv4 address
 - `addr`: address show
+
+Output:
+
+```text
+lo          UNKNOWN      127.0.0.1/8
+wlan0       UP           192.168.0.45/24 metric 600
+```
 
 IP address with `UP` status is the one.
 
