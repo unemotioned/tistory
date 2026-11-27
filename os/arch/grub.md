@@ -71,7 +71,7 @@ Uncomment the following lines:
 ```conf
 GRUB_DISABLE_LINUX_UUID=true
 
-GRUB_DISABLE_RECOVERY="true"
+GRUB_DISABLE_RECOVERY=true
 ```
 
 ---
