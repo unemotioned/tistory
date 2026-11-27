@@ -28,7 +28,7 @@ sudo keyd monitor
 
 Keep each conf file per `[ids]`.
 
-- `/etc/keyd/all.conf`
+Remap for all `/etc/keyd/all.conf`:
 
 ```conf
 [ids]
@@ -38,14 +38,29 @@ Keep each conf file per `[ids]`.
 [main]
 
 rightalt = f16
+```
+
+Remap Built-in Thinkpad keyboard `/etc/keyd/kb.conf`:
+
+```conf
+[ids]
+
+# AT Translated Set 2 keyboard
+0001:0001:09b4e68d
+
+[main]
+
+rightalt = f16
 capslock = overload(control, esc)
 esc = capslock
 ```
 
-- `/etc/keyd/ball.conf`
+> [!IMPORTANT]
+> `rightalt = f16` is duplicated but must be set separately.
+
+Remap Trackball `/etc/keyd/ball.conf`:
 
 ```conf
-
 [ids]
 
 # Kensington Slimblade Trackball
