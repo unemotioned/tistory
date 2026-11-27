@@ -13,6 +13,7 @@ How to use the package manager for Arch.
 - [Remove](#remove)
   - [Remove orphaned](#remove-orphaned)
   - [Remove Dependencies](#remove-dependencies)
+  - [Remove Parent Package](#remove-parent-package)
 - [Search](#search)
   - [From Database](#from-database)
   - [From Installed](#from-installed)
@@ -97,19 +98,22 @@ sudo pacman -Rns $(pacman -Qtdq)
 
 ### Remove Dependencies
 
-- List dependent packages:
+List dependent packages:
 
 ```sh
 pacman -Qi <pkg-name>
 ```
 
-- Remove without dependency check.
-  - `-d`: Skip dependency check
-  - `-dd`: Skip all dependency check
+### Remove Parent Package
+
+Remove without dependency check.
 
 ```sh
 sudo pacman -Rdd <pkg-name>
 ```
+
+- `-d`: Skip dependency check
+- `-dd`: Skip all dependency check
 
 ---
 
