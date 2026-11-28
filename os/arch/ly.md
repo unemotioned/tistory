@@ -1,6 +1,10 @@
-# [LY](https://github.com/fairyglade/ly)
+# LY
 
 Minimal display manager.
+
+## Reference
+
+- [GitHub](https://github.com/fairyglade/ly)
 
 ---
 
@@ -28,3 +32,16 @@ Disable previous display manager:
 sudo systemctl disable sddm
 sudo systemctl disable getty@tty1.service
 ```
+
+---
+
+## Configure
+
+Inside `/etc/ly/config.ini`:
+
+```dosini
+# Erase password input on failure
+clear_password = false
+```
+
+Change this to `true`.
