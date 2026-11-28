@@ -97,13 +97,13 @@ From the supported resolutions, select one.
 > [!TIP]
 > Lower resolutions have lower input delay and bigger texts.
 
-Back into the GRUB config file `/etc/default/grub`.
-
-- From auto to the desired option:
+Inside `/etc/default/grub`:
 
 ```conf
 GRUB_GFXMODE=640x480
 ```
+
+- From `auto` to resolution value
 
 ---
 
@@ -114,7 +114,8 @@ Automatically have the last boot method selected on the GRUB menu.
 ```conf
 GRUB_DEFAULT=saved
 
-# add if needed
+# Uncomment to make GRUB remember the last selection. This requires
+# setting 'GRUB_DEFAULT=saved' above.
 GRUB_SAVEDEFAULT=true
 ```
 
